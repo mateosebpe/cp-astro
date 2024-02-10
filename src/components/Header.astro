@@ -1,0 +1,13 @@
+---
+interface Props {
+    header: string,
+    subheader: string;
+}
+
+const {header, subheader} = Astro.props;
+---
+
+<header class="py-32 px-4 mx-auto lg:py-40 lg:px-4">
+    <h1 class="text-4xl md:text-6xl text-center font-bold">{header}</h1>
+    <h2 class="text-l md:text-xl text-center">{subheader}</h2>
+</header>
