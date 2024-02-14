@@ -1,15 +1,50 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Header from '../components/Header.astro';
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+import Header from "../components/Header.astro";
+import Container from "../components/Container.astro";
+import Button from '../components/Button.astro'
 ---
 
 <Layout title="Congreso del Pueblo - Inicio">
 	<main>
-	<Header
-		header='Congreso del Pueblo'
-		subheader='#ConstruyamosIzquierda'
-		bgURL='https://lh5.googleusercontent.com/C68c7nYN_d0NWXu5IOgEgCQWdCEtqc-NznVbDDo0-G5JpiOXZ3KzFKpnXgBzvCWwx4b4trL4Tl2DZX0aqrRqHII=w16383'
+		<Header
+			header="Congreso del Pueblo"
+			subheader="Organización marxista-leninista uruguaya, en la brega por recomponer el movimiento revolucionario."
+			bgURL="../../public/img/banner_afiliate.png"
 		>
+	<Button href="">AFILIATE</Button>
 	</Header>
+		<div class="flex justify-center" style="background-color: #d71920;">
+			<img width="500px" src="../../public/img/banner_afiliate.png" alt="Banner de la Campaña de Afiliación de Congreso del Pueblo">
+		</div>
+		<Container>
+			<h2 class="text-4xl font-bold py-6 text-center">Nuestra prensa</h2>
+			<div class="flex space-x-0 md:space-x-4 px-4 md:px-0 flex-col sm:flex-col md:flex-row ">
+				<div class="basis-1/3">
+					<Card
+						title="En Marcha"
+						body="La opinión de la orga"
+						href="https://prensa.congresodelpueblo.uy/"
+						class:list={"px-2"}
+					>
+					
+				</div>
+				<div class="basis-1/3">
+					<Card
+						title="La Columna del Pueblo"
+						body="La opinión de la orga"
+						href="https://columna.congresodelpueblo.uy/"
+					/>
+				</div>
+				<div class="basis-1/3">
+					<Card
+						title="Revista"
+						body="La opinión de la orga"
+						href="https://columna.congresodelpueblo.uy/"
+					/>
+				</div>
+			</div>
+		</Container>
 	</main>
 </Layout>
