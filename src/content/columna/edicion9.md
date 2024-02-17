@@ -1,0 +1,10 @@
+---
+title: "Welcome to my blog"
+edition: '9'
+date: '12/02/2024'
+picture: "../../public/img/header.webp"
+relatedPosts:
+- edicion9 # references `src/content/blog/about-me.md`
+---
+
+Hola

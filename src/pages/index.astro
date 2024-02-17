@@ -4,6 +4,8 @@ import Card from "../components/Card.astro";
 import Header from "../components/Header.astro";
 import Container from "../components/Container.astro";
 import Button from "../components/Button.astro";
+
+
 ---
 
 <Layout title="Inicio - Congreso del Pueblo">
@@ -11,7 +13,7 @@ import Button from "../components/Button.astro";
 		<Header
 			header="Congreso del Pueblo"
 			subheader="Organización marxista-leninista uruguaya, en la brega por recomponer el movimiento revolucionario."
-			bgURL="../../public/img/banner_afiliate.png"
+			bgURL="../../public/img/header.webp"
 		>
 			<div
 				class="flex flex-col md:flex-row space-x-0 space-y-1 md:space-y-0 md:space-x-2"
@@ -20,7 +22,7 @@ import Button from "../components/Button.astro";
 					stroke="currentColor" class="w-4 h-4">
 					<path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"></path>
 				  </svg></Button>
-				<Button style="1" href="/">Más información</Button>
+				<Button style="1" href="/quienes-somos">Más información</Button>
 			</div>
 		</Header>
 		<a
@@ -34,34 +36,40 @@ import Button from "../components/Button.astro";
 				alt="Banner de la Campaña de Afiliación de Congreso del Pueblo"
 			/>
 		</a>
-		<Container>
-			<h2 class="text-4xl font-bold py-6 text-center">Nuestra prensa</h2>
+		<Container title="Nuestra prensa">
+			
 			<div
-				class="flex space-x-0 md:space-x-4 px-4 md:px-0 flex-col sm:flex-col md:flex-row"
+				class="flex space-x-0 md:space-x-4  md:px-0 flex-col sm:flex-col md:flex-row"
 			>
 				<div class="basis-1/3">
 					<Card
 						title="En Marcha"
-						body="La opinión de la orga"
+						body="Periódico"
 						href="https://prensa.congresodelpueblo.uy/"
 						class:list={"px-2"}
 					/></div>
 					<div class="basis-1/3">
 						<Card
 							title="La Columna del Pueblo"
-							body="La opinión de la orga"
-							href="https://columna.congresodelpueblo.uy/"
+							body="Columna de opinión"
+							href="/columna"
 						/>
 					</div>
 					<div class="basis-1/3">
 						<Card
 							title="Revista"
-							body="La opinión de la orga"
+							body="Revista teórica"
 							href="https://columna.congresodelpueblo.uy/"
 						/>
 					</div>
 				</div>
 			</div>
+		</Container>
+		<Container title="3 años construyendo esperanza">
+			<iframe width="100%" height="400" src="https://www.youtube.com/embed/KwAEujCNDGw?si=Td_pycyYYizHJTqj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		</Container>
+		<Container title="Documentos orgánicos">
+
 		</Container>
 	</main>
 </Layout>

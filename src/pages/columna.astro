@@ -1,0 +1,26 @@
+---
+import Layout from '../layouts/Layout.astro'
+import PostCard from '../components/PostCard.astro';
+import Container from '../components/Container.astro'
+
+import { getCollection, getEntry } from 'astro:content';
+const allColumnPosts = await getCollection('columna');
+---
+
+<Layout title='La Columna del Pueblo'>
+    <Container title="La Columna del Pueblo">
+       <div class="grid grid-cols-3 gap-4">
+        {allColumnPosts.map(post =>{
+            let {title : postTitle, edition: postEdition, date: postDate, picture: postPicture} = post.data
+            return <PostCard title={postTitle}
+                             edition={postEdition}
+                             picture={postPicture}
+                             date={postDate}
+                             slug={post.slug}
+                    >
+                </PostCard>
+        })}
+       </div>
+            
+    </Container>
+</Layout>

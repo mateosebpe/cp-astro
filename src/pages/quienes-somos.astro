@@ -1,0 +1,17 @@
+---
+import Header from "../components/Header.astro";
+import Layout from "../layouts/Layout.astro";
+import Container from "../components/Container.astro";
+import {Content as QS} from '../../public/quienes-somos.md';
+---
+
+<Layout title="Quiénes somos - Congreso del Pueblo">
+    <Header
+        header="Quiénes somos"
+        subheader="Congreso del Pueblo"
+        bgURL="../../public/img/quienes-somos.webp"
+    ></Header>
+    <Container title="Sobre nosotros">
+        <QS/>
+    </Container>    
+</Layout>

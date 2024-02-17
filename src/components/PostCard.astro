@@ -1,0 +1,23 @@
+---
+import { string } from "astro/zod";
+
+interface Props {
+    title: string;
+    edition: string;
+    picture: string;
+    date: string;
+    slug: string;
+}
+const { title, edition, picture, date, slug } = Astro.props;
+---
+
+<a  href={`/columna/${slug}`}
+    class="rounded-lg shadow-lg  hover:shadow bg-clip-border basis-1/3 box-border"
+>
+    <img src={picture} alt=""  class="overflow-hidden"/>
+    <div class="p-4">
+        <h5>Edición N°{edition}</h5>
+        <h3 class="text-2xl font-bold">{title}</h3>
+        <p>{date}</p>
+    </div>
+</a>
