@@ -3,14 +3,19 @@ interface Props {
     header: string,
     subheader: string,
     bgURL: string;
+    anchor: string;
 }
 
-const {header, subheader, bgURL} = Astro.props;
+const {header, subheader, bgURL, anchor} = Astro.props;
 ---
 
 
 
-<section style={`background-image: url(${bgURL});`} class=" bg-center bg-no-repeat bg-cover bg-gray-600 bg-blend-multiply">
+<section style={`background-image: url(${bgURL});`} class:list={[{
+    'bg-top': anchor == 'top',
+    'bg-center': anchor == 'center',
+    'bg-bottom': anchor == 'bottom'
+}]} class="bg-center bg-no-repeat bg-cover bg-gray-600 bg-blend-multiply">
     <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-40">
         <h1 class="mb-4 font-extrabold tracking-tight leading-none text-white text-4xl md:text-5xl lg:text-6xl text-balance">{header}</h1>
         <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48 text-pretty">{subheader}</p>

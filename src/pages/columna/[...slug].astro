@@ -18,9 +18,11 @@ const { Content } = await entry.render();
 
 <Layout title={entry.data.title}>
 
-    <Header header={entry.data.title} subheader="" bgURL="">
+    <Header header={entry.data.title} subheader={['Edición N°', entry.data.edition]} bgURL={entry.data.picture} anchor={entry.data.pictureAnchor}>
     </Header>
     <PostBody title={entry.data.title}>
+        <a href="/columna"> <svg xmlns="http://www.w3.org/2000/svg" class="inline icon icon-tabler icon-tabler-arrow-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /><path d="M5 12l6 6" /><path d="M5 12l6 -6" /></svg> Volver</a>
+        <p>{entry.data.date}</p>
         <Content />
     </PostBody>
 
