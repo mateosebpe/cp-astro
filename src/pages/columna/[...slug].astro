@@ -16,11 +16,13 @@ const { entry } = Astro.props;
 const { Content } = await entry.render();
 ---
 
-<Layout title={entry.data.title}>
+<Layout title={entry.data.title} img={entry.data.picture}>
 
+  <img src="../../../public/img/columna/logo-blanco.webp" class="absolute left-1/2 transform -translate-x-1/2 py-12 sm:py-8 md:py-10 lg:py-16 w-1/2 sm:1/3 md:w-1/3" alt="">
     <Header header={entry.data.title} subheader={'Edición N°' + entry.data.edition} bgURL={entry.data.picture} anchor={entry.data.pictureAnchor}>
     </Header>
     <PostBody title={entry.data.title}>
+      
         <a href="/columna"> <svg xmlns="http://www.w3.org/2000/svg" class="inline icon icon-tabler icon-tabler-arrow-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /><path d="M5 12l6 6" /><path d="M5 12l6 -6" /></svg> Volver</a>
         <p>{entry.data.date}</p>
         <Content />
