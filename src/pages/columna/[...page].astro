@@ -1,17 +1,25 @@
 ---
-import Layout from '../layouts/Layout.astro'
-import PostCard from '../components/PostCard.astro';
-import Container from '../components/Container.astro'
-
+import Layout from '../../layouts/Layout.astro'
+import PostCard from '../../components/PostCard.astro';
+import Container from '../../components/Container.astro'
 import { getCollection, getEntry } from 'astro:content';
+import Pagination from '../../components/Pagination.astro';
+
+export async function getStaticPaths({ paginate }) {
+
 const allColumnPosts = await getCollection('columna');
 allColumnPosts.reverse()
+return paginate(allColumnPosts, { pageSize: 6 });
+}
+
+const { page } = Astro.props;
+ 
 ---
 
 <Layout title='La Columna del Pueblo'>
     <Container title="La Columna del Pueblo">
        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-        {allColumnPosts.map(post =>{
+        {page.data.map(post =>{
             let {title : postTitle, edition: postEdition, date: postDate, picture: postPicture} = post.data
             return <PostCard title={postTitle}
                              edition={postEdition}
@@ -23,6 +31,6 @@ allColumnPosts.reverse()
         })       
         }
        </div>
-            
+            <Pagination currentPage={page.currentPage} nextPage={page.url.next} prevPage={page.url.prev} lastPage={page.lastPage}></Pagination>
     </Container>
 </Layout>
