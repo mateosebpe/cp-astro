@@ -5,6 +5,8 @@ import Container from '../../components/Container.astro'
 import { getCollection, getEntry } from 'astro:content';
 import Pagination from '../../components/Pagination.astro';
 
+
+
 export async function getStaticPaths({ paginate }) {
 
 const allColumnPosts = await getCollection('columna');
@@ -13,13 +15,15 @@ return paginate(allColumnPosts, { pageSize: 6 });
 }
 
 const { page } = Astro.props;
- 
+
+
+let pagination = JSON.parse(JSON.stringify(page));
 ---
 
 <Layout title='La Columna del Pueblo' img='../../../public/img/columna/columna-logo.webp'>
     <Container title="La Columna del Pueblo">
        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-        {page.data.map(post =>{
+        {pagination.data.map(post =>{
             let {title : postTitle, edition: postEdition, date: postDate, picture: postPicture} = post.data
             return <PostCard title={postTitle}
                              edition={postEdition}
@@ -31,6 +35,6 @@ const { page } = Astro.props;
         })       
         }
        </div>
-            <Pagination currentPage={page.currentPage} nextPage={page.url.next} prevPage={page.url.prev} lastPage={page.lastPage}></Pagination>
+            <Pagination currentPage={pagination.currentPage} nextPage={pagination.url.next} prevPage={pagination.url.prev} lastPage={pagination.lastPage}></Pagination>
     </Container>
 </Layout>
