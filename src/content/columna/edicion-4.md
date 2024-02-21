@@ -2,7 +2,7 @@
 title: "Recomponer la esperanza"
 edition: '4'
 date: '3/12/2023'
-picture: "../../public/img/columna/4.webp"
+picture: "../../img/columna/4.webp"
 pictureAnchor: 'bottom'
 relatedPosts:
 - "edicion-7"

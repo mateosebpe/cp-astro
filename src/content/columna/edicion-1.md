@@ -2,7 +2,7 @@
 title: "El capitalismo es barbarie"
 edition: '1'
 date: '3/12/2023'
-picture: "../../public/img/columna/1.webp"
+picture: "../../img/columna/1.webp"
 pictureAnchor: 'bottom'
 relatedPosts:
 - "edicion-7"

@@ -2,7 +2,7 @@
 title: "Narcos y figuritas"
 edition: '2'
 date: '6/11/2023'
-picture: "../../public/img/columna/2.webp"
+picture: "../../img/columna/2.webp"
 pictureAnchor: 'center'
 relatedPosts:
 - "edicion-7"

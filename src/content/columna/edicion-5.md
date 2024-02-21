@@ -2,7 +2,7 @@
 title: "Como en el Pachecato"
 edition: '5'
 date: '3/01/2024'
-picture: "../../public/img/columna/5.webp"
+picture: "../../img/columna/5.webp"
 pictureAnchor: 'bottom'
 relatedPosts:
 - "edicion-7"

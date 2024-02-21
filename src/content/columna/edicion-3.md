@@ -2,7 +2,7 @@
 title: "El fascismo avanza"
 edition: '3'
 date: '20/11/2023'
-picture: "../../public/img/columna/3.webp"
+picture: "../../img/columna/3.webp"
 pictureAnchor: 'center'
 relatedPosts:
 - "edicion-7"

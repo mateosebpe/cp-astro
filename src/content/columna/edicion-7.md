@@ -2,7 +2,7 @@
 title: "Ecuador, el paraíso narco de EEUU"
 edition: '7'
 date: '3/01/2024'
-picture: "../../public/img/columna/7.webp"
+picture: "../../img/columna/7.webp"
 pictureAnchor: 'center'
 relatedPosts:
 - "edicion-7"

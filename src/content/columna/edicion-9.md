@@ -2,7 +2,7 @@
 title: "Contrastando el discurso yanqui"
 edition: '9'
 date: '12/02/2024'
-picture: "../../public/img/columna/9.webp"
+picture: "../../img/columna/9.webp"
 pictureAnchor: 'top'
 relatedPosts:
 - "edicion-7"
