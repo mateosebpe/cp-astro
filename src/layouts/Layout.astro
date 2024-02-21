@@ -14,7 +14,6 @@ const { title, img } = Astro.props;
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="description" content="Astro description" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.png" />
 		<meta name="generator" content={Astro.generator} />
@@ -39,7 +38,7 @@ const { title, img } = Astro.props;
 		/>
 		<meta
 			property="og:image"
-			content={img? img : '../../img/quienes-somos.webp'}
+			content={img? 'https://congresodelpueblo.netlify.app/' +img : 'https://congresodelpueblo.netlify.app/img/quienes-somos.webp'}
 		/>
 
 		<!-- Twitter -->
@@ -55,7 +54,7 @@ const { title, img } = Astro.props;
 		/>
 		<meta
 			property="twitter:image"
-			content={img? img : '../../img/quienes-somos.webp'}
+			content={img? 'https://congresodelpueblo.netlify.app/' +img : 'https://congresodelpueblo.netlify.app/img/quienes-somos.webp'}
 		/>
 
 		<script
