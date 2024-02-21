@@ -1,4 +1,5 @@
 ---
+import type { GetStaticPaths } from "astro";
 import Layout from '../../layouts/Layout.astro'
 import PostCard from '../../components/PostCard.astro';
 import Container from '../../components/Container.astro'
@@ -7,12 +8,12 @@ import Pagination from '../../components/Pagination.astro';
 
 
 
-export async function getStaticPaths({ paginate }) {
+export const getStaticPaths = (async ({ paginate }) =>{
 
 const allColumnPosts = await getCollection('columna');
 allColumnPosts.reverse()
 return paginate(allColumnPosts, { pageSize: 6 });
-}
+}) satisfies GetStaticPaths;
 
 const { page } = Astro.props;
 

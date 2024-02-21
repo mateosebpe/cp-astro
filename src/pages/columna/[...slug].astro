@@ -3,6 +3,8 @@ import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
 import PostBody from '../../components/PostBody.astro';
 import Header from '../../components/Header.astro'
+import RelatedPost from '../../components/RelatedPost.astro'
+import Container from '../../components/Container.astro';
 
 
 // 1. Generate a new path for every collection entry
@@ -28,5 +30,7 @@ const { Content } = await entry.render();
         <p>{entry.data.date}</p>
         <Content />
     </PostBody>
-
+    <Container title="Publicaciones relacionadas">
+      <RelatedPost relatedPost={entry.data.relatedPosts}></RelatedPost>
+    </Container>
 </Layout>

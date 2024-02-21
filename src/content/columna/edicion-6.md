@@ -5,7 +5,9 @@ date: '3/01/2024'
 picture: "../../img/columna/6.webp"
 pictureAnchor: 'center'
 relatedPosts:
-- "edicion-7"
+- "edicion-1"
+- "edicion-5"
+- "edicion-6"
 ---
 
 ## i. Lo que nos dejó 2023 (Primer trimestre)

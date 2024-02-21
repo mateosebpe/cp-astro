@@ -5,7 +5,9 @@ date: '3/12/2023'
 picture: "../../img/columna/4.webp"
 pictureAnchor: 'bottom'
 relatedPosts:
-- "edicion-7"
+- "edicion-5"
+- "edicion-9"
+- "edicion-6"
 ---
 Congreso del Pueblo realizó su segundo Encuentro, donde discutimos cómo seguir construyendo nuestra organización y cómo aportar nuestro esfuerzo a la recomposición del campo popular.
 

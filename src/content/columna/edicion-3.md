@@ -5,7 +5,9 @@ date: '20/11/2023'
 picture: "../../img/columna/3.webp"
 pictureAnchor: 'center'
 relatedPosts:
-- "edicion-7"
+- "edicion-1"
+- "edicion-4"
+- "edicion-2"
 ---
 ## El fascismo avanza
 

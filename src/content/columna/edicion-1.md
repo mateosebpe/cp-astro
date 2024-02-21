@@ -5,7 +5,9 @@ date: '3/12/2023'
 picture: "../../img/columna/1.webp"
 pictureAnchor: 'bottom'
 relatedPosts:
-- "edicion-7"
+- "edicion-4"
+- "edicion-6"
+- "edicion-9"
 ---
 El mundo que pretendían que estuviera finalizado en una “democracia” liberal, se ha convulsionado en estos últimos años. Volviendo a desnudar la injusticia que constituye al capitalismo, y la única forma de financiarse: la guerra y la miseria de las mayorías. En Uruguay el ajuste económico nuevamente recae sobre los trabajadores: este gobierno nos impuso una reforma injusta, que nos hace trabajar más años, para cobrar menos. Pero los trabajadores organizados tenemos una propuesta diferente y dignificadora:
 
