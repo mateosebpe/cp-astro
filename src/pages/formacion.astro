@@ -1,0 +1,36 @@
+---
+import Container from "../components/Container.astro";
+import Header from "../components/Header.astro";
+import Timeline from "../components/Timeline.astro";
+import Layout from "../layouts/Layout.astro";
+
+---
+
+<Layout title="Formación" img="">
+    <Header header="Formación" subheader="Sin teoría revolucionaria, no puede haber tampoco movimiento revolucionario." bgURL="../../img/formacion/fidel-leyendo.webp" anchor="top"></Header>
+    <Container title="Plan 2024">
+        <h3 class="text-3xl mt-16">Marx y Engels</h3>
+    <ol class="relative border-s border-gray-200 my-8">  
+                    
+
+        <Timeline title="Manifiesto Comunista" subtitle="21 de febrero de 1848" description="" span="Abril" url=""></Timeline>
+        <Timeline title="Introducción a la dialéctica de la naturaleza" subtitle="1 de enero de 1883" description="" span="Mayo" url=""></Timeline>
+        <Timeline title="Contribución a la crítica de la economía política" subtitle="1 de enero de 1859" description="" span="Junio" url=""></Timeline>
+    </ol>
+    <h3 class="text-3xl mt-16">Lenin</h3>
+    <ol class="relative border-s border-gray-200 my-8"> 
+        <Timeline title="Tres fuentes y tres partes del marxismo" subtitle="" description="" span="Julio" url=""></Timeline>
+        <Timeline title="¿Qué hacer?" subtitle="" description="" span="Agosto" url=""></Timeline>
+        <Timeline title="El Imperialismo, fase superior del Capitalismo" subtitle="" description="" span="Setiembre" url=""></Timeline>
+    </ol>
+    <h3 class="text-3xl mt-16">Arismendi</h3>
+    <ol class="relative border-s border-gray-200 my-8"> 
+        <Timeline title="Problemas de una revolución continental" subtitle="" description="" span="Octubre" url=""></Timeline>
+        <Timeline title="Encuentros y desencuentros de la Universidad con la revolución" subtitle="" description="" span="Noviembre" url=""></Timeline>
+        <Timeline title="Lenin, la revolución y América Latina" subtitle="" description="" span="Diciembre" url=""></Timeline>
+    </ol>
+
+
+
+    </Container>
+</Layout>
