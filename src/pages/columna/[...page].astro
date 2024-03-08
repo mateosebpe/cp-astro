@@ -11,7 +11,7 @@ import Pagination from '../../components/Pagination.astro';
 export const getStaticPaths = (async ({ paginate }) =>{
 
 const allColumnPosts = await getCollection('columna');
-allColumnPosts.reverse()
+allColumnPosts.sort((a, b) => Date.parse(b.data.edition) - Date.parse(a.data.edition));
 return paginate(allColumnPosts, { pageSize: 6 });
 }) satisfies GetStaticPaths;
 
@@ -22,7 +22,13 @@ let pagination = JSON.parse(JSON.stringify(page));
 ---
 
 <Layout title='La Columna del Pueblo' img='../../../public/img/columna/columna-logo.webp'>
-    <Container title="La Columna del Pueblo">
+ 
+			<img
+				class="lg:px-64 md:px-32 px-4 mt-20"
+				src="../../img/columna/logo-negro.webp"
+				alt="Banner de la Campaña de Afiliación de Congreso del Pueblo"
+			/>
+    <Container title="Últimos artículos">
        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {pagination.data.map(post =>{
             let {title : postTitle, edition: postEdition, date: postDate, picture: postPicture} = post.data

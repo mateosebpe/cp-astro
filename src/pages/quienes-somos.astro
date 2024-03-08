@@ -3,6 +3,7 @@ import Header from "../components/Header.astro";
 import Layout from "../layouts/Layout.astro";
 import Container from "../components/Container.astro";
 import {Content as QS} from '../../public/quienes-somos.md';
+import Card from "../components/Card.astro";
 ---
 
 <Layout title="Quiénes somos - Congreso del Pueblo" img="../../img/logo.png">
@@ -14,5 +15,12 @@ import {Content as QS} from '../../public/quienes-somos.md';
     ></Header>
     <Container title="Sobre nosotros">
         <QS/>
-    </Container>    
+    </Container>
+    <Container title="Documentos orgánicos">
+        <div id="documentos" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            <Card title="Acuerdo de funcionamiento" body="" href=""></Card>
+        <Card title="Programa" body="" href=""></Card>
+        <Card title="Manifiesto" body="" href=""></Card>
+        </div>
+        </Container>   
 </Layout>

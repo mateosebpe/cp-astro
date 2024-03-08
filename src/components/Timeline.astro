@@ -11,12 +11,12 @@ const {title, subtitle, description, span, url} = Astro.props;
 ---
 
 <li class="mb-16 ms-6">            
-    <div class="relative -start-4 text-red-600 text-sm font-medium h-4"><div class="absolute bg-red-600 h-4 w-0.5 -left-2"></div>{span}</div>
+    <div class="relative -start-4 text-primary text-sm font-medium h-4"><div class="absolute bg-primary h-4 w-0.5 -left-2"></div>{span}</div>
 
     <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 text-pretty mt-2">{title} </h3>
     <time class="block mb-2 text-sm font-normal leading-none text-gray-400 text-pretty">{subtitle}</time>
     <p class="mb-4 text-base font-normal text-gray-500 text-pretty">{description}</p>
-    <a href={url} class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-red-600 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700"><svg class="w-3.5 h-3.5 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+    <a target="_blank" href={url} class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-primary focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-primary"><svg class="w-3.5 h-3.5 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
         <path d="M14.707 7.793a1 1 0 0 0-1.414 0L11 10.086V1.5a1 1 0 0 0-2 0v8.586L6.707 7.793a1 1 0 1 0-1.414 1.414l4 4a1 1 0 0 0 1.416 0l4-4a1 1 0 0 0-.002-1.414Z"/>
         <path d="M18 12h-2.55l-2.975 2.975a3.5 3.5 0 0 1-4.95 0L4.55 12H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2Zm-3 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/>
         </svg> Descargar</a>
