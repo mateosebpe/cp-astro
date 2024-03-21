@@ -1,5 +1,5 @@
 ---
-title: "Contrastando el discurso yanqui"
+title: "¿Qué se define en Washington?"
 edition: '8'
 date: '29/01/2024'
 picture: "../../img/columna/8.webp"

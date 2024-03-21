@@ -2,9 +2,10 @@
 import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
 import PostBody from '../../components/PostBody.astro';
-import Header from '../../components/Header.astro'
+import PostHeader from '../../components/PostHeader.astro'
 import RelatedPost from '../../components/RelatedPost.astro'
 import Container from '../../components/Container.astro';
+import Social from '../../components/Social.astro'
 
 
 // 1. Generate a new path for every collection entry
@@ -21,13 +22,14 @@ const { Content } = await entry.render();
 
 <Layout title={entry.data.title} img={entry.data.picture}>
 
-  <img src="../../../img/columna/logo-blanco.webp" class="absolute left-1/2 transform -translate-x-1/2 py-12 sm:py-8 md:py-10 lg:py-16 w-1/2 sm:1/3 md:w-1/3" alt="">
-    <Header header={entry.data.title} subheader={'Edición N°' + entry.data.edition} bgURL={entry.data.picture} anchor={entry.data.pictureAnchor}>
-    </Header>
+    <!-- <img src="../../../img/columna/logo-negro.webp" class="mx-auto pt-16 sm:py-8 md:py-10 lg:pt-32 w-full max-w-4xl lg:px-64 md:px-32 px-4" alt="">-->
+    <PostHeader header={entry.data.title} subheader={'Edición N°' + entry.data.edition} bgURL={entry.data.picture} anchor={entry.data.pictureAnchor} date={entry.data.date}>
+    </PostHeader>
+    <Social socialList={[
+      {platform: 'tiktok', link: 'https://www.tiktok.com/@congresodelpueblo'},
+      {platform: 'twitter', link: 'https://twitter.com/cong_del_pueblo'}]} >
+    </Social>
     <PostBody title={entry.data.title}>
-      
-        <a href="/columna"> <svg xmlns="http://www.w3.org/2000/svg" class="inline icon icon-tabler icon-tabler-arrow-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /><path d="M5 12l6 6" /><path d="M5 12l6 -6" /></svg> Volver</a>
-        <p>{entry.data.date}</p>
         <Content />
     </PostBody>
     <Container title="Publicaciones relacionadas">

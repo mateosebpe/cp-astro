@@ -1,0 +1,23 @@
+---
+interface Props{
+    socialList: Array<any>;
+}
+const {socialList} = Astro.props;
+
+const icons = {
+    twitter: '../../img/icons/twitter.svg',
+    facebook: '../../img/icons/facebook.svg',
+    instagram: '../../img/icons/instagram.svg',
+    telegram: '../../img/icons/telegram.svg',
+    whatsapp: '../../img/icons/whatsapp.svg',
+    tiktok: '../../img/icons/tiktok.svg'
+}
+---
+
+<div class="flex gap-2">
+    {
+        socialList.map(social =>{
+            return <a href={social.link} target="_blank"><img src={icons[social.platform]}></a>
+        })
+    }
+</div>
