@@ -8,7 +8,6 @@ import Container from '../../components/Container.astro';
 import Social from '../../components/Social.astro'
 
 
-// 1. Generate a new path for every collection entry
 export async function getStaticPaths() {
   const blogEntries = await getCollection('columna');
   return blogEntries.map(entry => ({
@@ -25,10 +24,7 @@ const { Content } = await entry.render();
     <!-- <img src="../../../img/columna/logo-negro.webp" class="mx-auto pt-16 sm:py-8 md:py-10 lg:pt-32 w-full max-w-4xl lg:px-64 md:px-32 px-4" alt="">-->
     <PostHeader header={entry.data.title} subheader={'Edición N°' + entry.data.edition} bgURL={entry.data.picture} anchor={entry.data.pictureAnchor} date={entry.data.date}>
     </PostHeader>
-    <Social socialList={[
-      {platform: 'tiktok', link: 'https://www.tiktok.com/@congresodelpueblo'},
-      {platform: 'twitter', link: 'https://twitter.com/cong_del_pueblo'}]} >
-    </Social>
+    
     <PostBody title={entry.data.title}>
         <Content />
     </PostBody>
