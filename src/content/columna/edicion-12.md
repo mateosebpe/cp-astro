@@ -1,8 +1,8 @@
 ---
-title: "Ante el genocidio en Palestina, ¿China intervendrá?"
-edition: '11'
-date: '26/2/2024'
-picture: "../../img/columna/11.webp"
+title: "El imperialismo recurre al terror"
+edition: '12'
+date: '26/3/2024'
+picture: "../../img/columna/12.webp"
 pictureAnchor: 'top'
 relatedPosts:
 - "edicion-1"
@@ -45,11 +45,9 @@ Podés afiliarte en [https://congresodelpueblo.uy/afiliarse/](https://congresode
 Invitamos a todos y a todas a hacer realidad la consigna **El Pueblo al Frente, con Carolina Cosse.**
 
 
-## Derrota estratégica de Occidente en Ucrania.
+## Continúa el genocidio en Palestina
 
-Dos sucesos marcaron esta semana, **el atentado perpetrado en la sala de conciertos Crocus City Hall,** ubicada en la provincia de Moscú, Rusia. Unas 137 personas perdieron la vida en el atentado y 182 resultaron heridas. Más adelante desarrollaremos un análisis sobre el marco y las consecuencias de dicho atentado ucranazi.
-
-Lo segundo es **el genocidio en transcurso en Gaza** que sigue aumentando el número de víctimas después de 178 días. 39.226 palestinos entre asesinados y desaparecidos. 2.848 masacres cometidas por el ejército sionista de ocupación. 32.226 asesinados que llegaron a los hospitales. 14.280 niños asesinados. 27 niños muertos por hambre en los últimos días. 17.000 niños viven sin sus padres o uno de ellos. 9.340 mujeres asesinadas y la violación por parte de tropa sionista como arma de guerra. 7.000 desaparecidos, el 73% de los cuales son niños y mujeres. 364 asesinados del personal médico. 48 asesinados pertenecientes a la Defensa Civil Palestina. 136 periodistas asesinados, 74.519 heridos. 11.000 heridos necesitan ser trasladados a otros países para recibir tratamiento. 11.000 heridos con necesidad de viajar para recibir tratamiento. 10.000 pacientes con cáncer enfrentan el riesgo de muerte. 700.000 pacientes con enfermedades infecciosas. 8.000 casos de infección por hepatitis viral. 60.000 mujeres embarazadas en riesgo. 350.000 pacientes con enfermedades crónicas sin control y tratamiento adecuado. 269 secuestrados de personal de salud. 12 periodistas secuestrados. 2 millones de desplazados. 100 escuelas y universidades quedaron completamente destruidas. 305 escuelas y universidades parcialmente destruidas. 224 mezquitas completamente destruidas. 290 mezquitas parcialmente destruidas. 3 Iglesias atacadas y destruidas. 70.000 viviendas quedaron completamente destruidas. 290.000 viviendas parcialmente destruidas. 70.000 toneladas de explosivos arrojados por Israel. 32 Hospitales fuera de servicio. 53 centros de salud fuera de servicio. 155 instituciones de salud fueron parcialmente atacadas. 126 ambulancias destruidas. 200 sitios arqueológicos y patrimoniales destruidos.
+**El genocidio en transcurso en Gaza** sigue aumentando el número de víctimas después de 178 días. 39.226 palestinos entre asesinados y desaparecidos. 2.848 masacres cometidas por el ejército sionista de ocupación. 32.226 asesinados que llegaron a los hospitales. 14.280 niños asesinados. 27 niños muertos por hambre en los últimos días. 17.000 niños viven sin sus padres o uno de ellos. 9.340 mujeres asesinadas y la violación por parte de tropa sionista como arma de guerra. 7.000 desaparecidos, el 73% de los cuales son niños y mujeres. 364 asesinados del personal médico. 48 asesinados pertenecientes a la Defensa Civil Palestina. 136 periodistas asesinados, 74.519 heridos. 11.000 heridos necesitan ser trasladados a otros países para recibir tratamiento. 11.000 heridos con necesidad de viajar para recibir tratamiento. 10.000 pacientes con cáncer enfrentan el riesgo de muerte. 700.000 pacientes con enfermedades infecciosas. 8.000 casos de infección por hepatitis viral. 60.000 mujeres embarazadas en riesgo. 350.000 pacientes con enfermedades crónicas sin control y tratamiento adecuado. 269 secuestrados de personal de salud. 12 periodistas secuestrados. 2 millones de desplazados. 100 escuelas y universidades quedaron completamente destruidas. 305 escuelas y universidades parcialmente destruidas. 224 mezquitas completamente destruidas. 290 mezquitas parcialmente destruidas. 3 Iglesias atacadas y destruidas. 70.000 viviendas quedaron completamente destruidas. 290.000 viviendas parcialmente destruidas. 70.000 toneladas de explosivos arrojados por Israel. 32 Hospitales fuera de servicio. 53 centros de salud fuera de servicio. 155 instituciones de salud fueron parcialmente atacadas. 126 ambulancias destruidas. 200 sitios arqueológicos y patrimoniales destruidos.
 
 Del lado de Israel los negocios siguen su curso. Tel Aviv el viernes pasado aprobó la apropiación de unos 8 kilómetros cuadrados de terreno en Cisjordania, declarándolos como tierra estatal, lo que permitirá la construcción de nuevos asentamientos israelíes en el territorio palestino ocupado, según lo informa The Times of Israel.
 
@@ -59,12 +57,18 @@ De acuerdo con el ministro de Finanzas israelí, Bezalel Smotrich, la declaraci�
 
 China en la Corte Internacional de Justicia, en la voz de Ma Xinmin, en su intervención durante las sesiones en el proceso contra Israel, hizo un recordatorio internacional de que el pueblo palestino tiene derecho a la lucha armada y que no es terrorismo. NO ERA GUERRA CONTRA HAMAS, ES UN GENOCIDIO.
 
+ \
+ \
 
-## Ucrania la nueva punta de lanza de occidente en 75 años de expansión de la OTAN, ha llevado a sus sponsors, los anglosajones y la UE a una derrota estratégica.
 
-Las élites de los países occidentales se dan cuenta de que ni las acciones de la OTAN ni las millonarias inversiones en armamento, han podido doblegar a Rusia que lleva firmemente la iniciativa militar en el campo de batalla, y que crece en el aspecto económico (a pesar de las sanciones), y que sigue interconectada a nivel mundial aunque hayan intentado aislada. Rusia ha desarrollado una política de relaciones en Eurasia y es uno de los pilares fundamentales del nuevo orden multipolar.
+
+## Ucrania, la nueva punta de lanza de occidente en 75 años de expansión de la OTAN, ha llevado a sus sponsors, los anglosajones y la UE a una derrota estratégica.
+
+Las élites de los países occidentales se dan cuenta de que ni las acciones de la OTAN ni las millonarias inversiones en armamento, han podido doblegar a Rusia que lleva firmemente la iniciativa militar en el campo de batalla, y que crece en el aspecto económico (a pesar de las sanciones), y que sigue interconectada a nivel mundial aunque hayan intentado aislarla. Rusia ha desarrollado una política de relaciones en Eurasia y es uno de los pilares fundamentales del nuevo orden multipolar.
 
 ¿Por qué el Occidente colectivo no admite la derrota y responde al llamado al diálogo que ha hecho el presidente ruso?
+
+**En el atentado perpetrado en la sala de conciertos Crocus City Hall,** ubicada en la provincia de Moscú, Rusia. Unas 137 personas perdieron la vida en el atentado y 182 resultaron heridas.
 
 Los intentos de Washington de señalar a ISIS como responsable por el ataque terrorista del viernes 22 de marzo en Moscú, no coincide con el comportamiento que tuvieron los perpetradores, después de ser apresados, reconoció el exoficial de inteligencia del Cuerpo de Marines de Estados Unidos, Scott Ritter.
 
