@@ -57,10 +57,6 @@ De acuerdo con el ministro de Finanzas israelí, Bezalel Smotrich, la declaraci�
 
 China en la Corte Internacional de Justicia, en la voz de Ma Xinmin, en su intervención durante las sesiones en el proceso contra Israel, hizo un recordatorio internacional de que el pueblo palestino tiene derecho a la lucha armada y que no es terrorismo. NO ERA GUERRA CONTRA HAMAS, ES UN GENOCIDIO.
 
- \
- \
-
-
 
 ## Ucrania, la nueva punta de lanza de occidente en 75 años de expansión de la OTAN, ha llevado a sus sponsors, los anglosajones y la UE a una derrota estratégica.
 
