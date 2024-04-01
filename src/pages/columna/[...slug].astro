@@ -20,7 +20,9 @@ const { Content } = await entry.render();
 
 <Layout title={entry.data.title} img={entry.data.picture}>
 
-    <!-- <img src="../../../img/columna/logo-negro.webp" class="mx-auto pt-16 sm:py-8 md:py-10 lg:pt-32 w-full max-w-4xl lg:px-64 md:px-32 px-4" alt="">-->
+  <div class="bg-gradient-to-b from-black to-white w-full p-16">
+    <img src="../../../img/columna/logo-blanco.webp" class="mx-auto w-full lg:w-1/2 drop-shadow-lg">
+  </div>
     <PostHeader header={entry.data.title} subheader={'Edición N°' + entry.data.edition} bgURL={entry.data.picture} anchor={entry.data.pictureAnchor} date={entry.data.date}>
     </PostHeader>
     

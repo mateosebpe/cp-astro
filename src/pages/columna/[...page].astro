@@ -23,11 +23,9 @@ let pagination = JSON.parse(JSON.stringify(page));
 
 <Layout title='La Columna del Pueblo' img='../../../public/img/columna/columna-logo.webp'>
  
-			<img
-				class="lg:px-64 md:px-32 px-4 mt-20"
-				src="../../img/columna/logo-negro.webp"
-				alt="Banner de la Campaña de Afiliación de Congreso del Pueblo"
-			/>
+    <div class="bg-gradient-to-b from-black to-white w-full p-16">
+        <img src="../../../img/columna/logo-blanco.webp" class="mx-auto w-full lg:w-1/2 drop-shadow-lg">
+      </div>
     <Container title="Últimos artículos">
        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {pagination.data.map(post =>{
