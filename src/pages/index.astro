@@ -5,6 +5,7 @@ import Header from "../components/Header.astro";
 import Container from "../components/Container.astro";
 import Button from "../components/Button.astro";
 import LastPost from "../components/LastPost.astro";
+import BigTitle from '../components/BigTitle.astro'
 
 
 ---
@@ -39,15 +40,13 @@ import LastPost from "../components/LastPost.astro";
 			/>
 		</a>
 
-		<Container title="3 años construyendo esperanza">
-			<iframe width="100%" height="400" src="https://www.youtube.com/embed/KwAEujCNDGw?si=Td_pycyYYizHJTqj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-		</Container>
-		
+
+		<BigTitle>Nuestra prensa</BigTitle>
 		<Container title="La Columna del Pueblo">
 			<LastPost entries={'columna'} count={3}></LastPost>
 		</Container>
 
-		<Container title="Más prensa">
+		<Container title="Otras publicaciones">
 			
 			<div
 				class="flex space-x-0 md:space-x-4  md:px-0 flex-col sm:flex-col md:flex-row"
@@ -70,7 +69,7 @@ import LastPost from "../components/LastPost.astro";
 				</div>
 			</div>
 		</Container>
-
+		<BigTitle>La organización</BigTitle>
 		<Container title="Carácter de la organización">
 			
 			<section class="bg-white">

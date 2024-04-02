@@ -8,9 +8,7 @@ interface Props {
 const {title} = Astro.props;
 ---
 
-<div class="py-16 lg:px-64 md:px-32 px-4">
-    <Title>
-        {title}
-    </Title>
+<div class="mb-16 lg:px-64 md:px-32 px-4">
+    {title? <Title>{title}</Title> : ''}
 <slot/>
 </div>
