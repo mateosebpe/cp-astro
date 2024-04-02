@@ -8,7 +8,6 @@ const columna = defineCollection({
       date: z.string(),
       picture: z.string(),
       pictureAnchor: z.string(),
-      relatedPosts: z.array(reference('columna')),
     })
   });
 
