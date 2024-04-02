@@ -11,4 +11,14 @@ const columna = defineCollection({
     })
   });
 
-  export const collections = { columna };
+  const documentos = defineCollection({
+    type: 'content',
+    schema: z.object({
+      title: z.string(),
+      category: z.string(),
+      org: z.string(),
+      date: z.string(),
+    })
+  });
+
+  export const collections = {documentos, columna };

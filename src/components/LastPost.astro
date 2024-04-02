@@ -17,7 +17,7 @@ const sortedPosts = lastPost.sort((a: any, b: any) => Date.parse(b.data.edition)
 ---
 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
 {sortedPosts.map((p: any) => (
-    <PostCard title={p.data.title} edition={p.data.edition} date={p.data.date} picture={p.data.picture} slug={p.slug}></PostCard>
+    <PostCard title={p.data.title} edition={p.data.edition} date={p.data.date} picture={p.data.picture} slug={p.slug} collection={p.collection}></PostCard>
   ))}
    
   </div>

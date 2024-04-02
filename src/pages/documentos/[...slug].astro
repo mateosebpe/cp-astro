@@ -1,0 +1,28 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import PostBody from '../../components/PostBody.astro';
+import PostHeader from '../../components/PostHeader.astro'
+import LastPost from '../../components/LastPost.astro'
+import Container from '../../components/Container.astro';
+
+
+export async function getStaticPaths() {
+  const blogEntries = await getCollection('documentos');
+  return blogEntries.map(entry => ({
+    params: { slug: entry.slug }, props: { entry },
+  })); 
+}
+// 2. For your template, you can get the entry directly from the prop
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+---
+
+<Layout title={entry.data.title} img={entry.data.picture}>
+    <PostHeader header={entry.data.title} subheader={entry.data.category} bgURL={''} anchor={entry.data.pictureAnchor} date={entry.data.date}>
+    </PostHeader>
+    
+    <PostBody title={entry.data.title}>
+        <Content />
+    </PostBody>
+</Layout>
