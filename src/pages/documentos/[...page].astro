@@ -1,17 +1,19 @@
 ---
 import type { GetStaticPaths } from "astro";
 import Layout from '../../layouts/Layout.astro'
-import PostCard from '../../components/PostCard.astro';
+import PostCard from '../../components/Cards/PostCard.astro';
 import Container from '../../components/Container.astro'
 import { getCollection, getEntry } from 'astro:content';
 import Pagination from '../../components/Pagination.astro';
+import BigTitle from "../../components/BigTitle.astro";
+import DocCard from "../../components/Cards/DocCard.astro";
 
 
 
 export const getStaticPaths = (async ({ paginate }) =>{
 
 const allColumnPosts = await getCollection('documentos');
-allColumnPosts.sort((a, b) => Date.parse(b.data.edition) - Date.parse(a.data.edition));
+allColumnPosts.sort((a, b) => Date.parse(b.data.category) - Date.parse(a.data.category));
 return paginate(allColumnPosts, { pageSize: 6 });
 }) satisfies GetStaticPaths;
 
@@ -22,22 +24,12 @@ let pagination = JSON.parse(JSON.stringify(page));
 ---
 
 <Layout title='La Columna del Pueblo' img='../../../public/img/columna/columna-logo.webp'>
- 
-    <div class="bg-gradient-to-b from-black to-white w-full h-32 flex items-center">
-        <img src="../../../img/columna/logo-blanco.webp" class="mx-auto drop-shadow-md h-12 lg:h-16 px-4 lg:p-0 ">
-      </div>
-    <Container title="Últimos artículos">
+    <BigTitle>Documentos</BigTitle>
+    <Container title="Declaraciones, resoluciones, etc.">
        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {pagination.data.map(post =>{
-            let {title : postTitle, edition: postEdition, date: postDate, picture: postPicture} = post.data
-            return <PostCard title={postTitle}
-                             edition={postEdition}
-                             picture={postPicture}
-                             date={postDate}
-                             slug={post.slug}
-                             collection={post.collection}
-                    >
-                </PostCard>
+
+            return <DocCard post={post}></DocCard>
         })       
         }
        </div>

@@ -1,6 +1,8 @@
 ---
 import { getCollection, getEntry, getEntries } from "astro:content";
-import PostCard from "./PostCard.astro";
+import PostCard from "./Cards/PostCard.astro";
+import DocCard from "./Cards/DocCard.astro";
+import Link from "./Link.astro";
 
 interface Props {
     entries: any;
@@ -16,11 +18,19 @@ const sortedPosts = lastPost.sort((a: any, b: any) => Date.parse(b.data.edition)
 
 ---
 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-{sortedPosts.map((p: any) => (
-    <PostCard title={p.data.title} edition={p.data.edition} date={p.data.date} picture={p.data.picture} slug={p.slug} collection={p.collection}></PostCard>
-  ))}
+{sortedPosts.map((p: any) => {
+  
+  if (entries == 'columna'){
+  return (
+
+ <PostCard title={p.data.title} edition={'Edición N°'+ p.data.edition} date={p.data.date} picture={p.data.picture} slug={p.slug} collection={p.collection}></PostCard> 
+ )}
+  if (entries == 'documentos'){
+    return (<DocCard post={p}></DocCard>)
+  }
+})}
    
   </div>
   <div class="flex justify-center mt-4">
-    <a class="text-primary font-bold text-md" href=`/${entries}`>Ver todas las publicaciones...</a>
+    <Link  href=`/${entries}`>Ver todas las publicaciones...</Link>
   </div>
