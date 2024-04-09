@@ -4,7 +4,6 @@ import Layout from "../layouts/Layout.astro";
 import Container from "../components/Container.astro";
 import {Content as QS} from '../../public/quienes-somos.md';
 import Card from "../components/Cards/Card.astro";
-import Social from '../components/Social.astro'
 ---
 
 <Layout title="Quiénes somos - Congreso del Pueblo" img="../../img/logo.png">
@@ -17,10 +16,7 @@ import Social from '../components/Social.astro'
     <Container title="Sobre nosotros">
         <QS/>
      
-        <Social socialList={[
-      {platform: 'tiktok', link: 'https://www.tiktok.com/@congresodelpueblo'},
-      {platform: 'twitter', link: 'https://twitter.com/cong_del_pueblo'}]} >
-    </Social>
+        
     </Container>
     <Container title="3 años construyendo esperanza">
         <iframe width="100%" height="400" src="https://www.youtube.com/embed/KwAEujCNDGw?si=Td_pycyYYizHJTqj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
