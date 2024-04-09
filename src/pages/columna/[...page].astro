@@ -11,7 +11,7 @@ import Pagination from '../../components/Pagination.astro';
 export const getStaticPaths = (async ({ paginate }) =>{
 
 const allColumnPosts = await getCollection('columna');
-allColumnPosts.sort((a, b) => b.data.edition - a.data.edition);
+allColumnPosts.sort((a, b) => Date.parse(b.data.date) - Date.parse(a.data.date));
 return paginate(allColumnPosts, { pageSize: 6 });
 }) satisfies GetStaticPaths;
 
