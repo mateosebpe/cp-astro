@@ -1,7 +1,7 @@
 ---
 title: "A las juventudes"
 edition: '12 (SUPLEMENTO)'
-date: '04/01/2024'
+date: '01/04/2024'
 picture: "../../img/columna/12s.webp"
 pictureAnchor: 'center'
 relatedPosts:
