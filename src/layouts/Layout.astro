@@ -61,6 +61,15 @@ const { title, img } = Astro.props;
 			is:inline
 			src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"
 		></script>
+		
+<script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-V10PXPJ7NK"></script>
+<script is:inline>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-V10PXPJ7NK');
+</script>
 	</head>
 	<body>
 		<Navbar />
