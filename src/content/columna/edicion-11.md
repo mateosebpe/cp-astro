@@ -3,11 +3,6 @@ title: "Ante el genocidio en Palestina, ¿China intervendrá?"
 edition: '11'
 date: '26/2/2024'
 picture: "../../img/columna/11.webp"
-pictureAnchor: 'top'
-relatedPosts:
-- "edicion-1"
-- "edicion-5"
-- "edicion-7"
 ---
 ## Les queda menos, pero ya hicieron lo que querían
 

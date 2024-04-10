@@ -3,11 +3,6 @@ title: "¿Qué se define en Washington?"
 edition: '8'
 date: '29/01/2024'
 picture: "../../img/columna/8.webp"
-pictureAnchor: 'top'
-relatedPosts:
-- "edicion-1"
-- "edicion-5"
-- "edicion-7"
 ---
 ## 1. Lo que nos dejó 2023 (Tercer trimestre)
 

@@ -3,11 +3,6 @@ title: "Contrastando el discurso yanqui"
 edition: '9'
 date: '12/02/2024'
 picture: "../../img/columna/9.webp"
-pictureAnchor: 'top'
-relatedPosts:
-- "edicion-1"
-- "edicion-5"
-- "edicion-7"
 ---
 ## 1. Lo que nos dejó 2023 (Cuarto trimestre)
 

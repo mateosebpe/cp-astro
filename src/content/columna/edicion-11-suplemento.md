@@ -3,11 +3,6 @@ title: "Son mercenarios y operan contra Cuba desde Europa"
 edition: '11 (SUPLEMENTO)'
 date: '18/03/2024'
 picture: "../../img/columna/11s.webp"
-pictureAnchor: 'center'
-relatedPosts:
-- "edicion-1"
-- "edicion-5"
-- "edicion-7"
 ---
 
 

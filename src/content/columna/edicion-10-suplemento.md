@@ -3,11 +3,6 @@ title: "Mujeres comprometidas con su tiempo y con su historia"
 edition: '10 (SUPLEMENTO)'
 date: '4/03/2024'
 picture: "../../img/columna/10s.webp"
-pictureAnchor: 'center'
-relatedPosts:
-- "edicion-1"
-- "edicion-5"
-- "edicion-7"
 ---
 En cada 8 de Marzo "Día Internacional de la Mujer", conmemoramos a aquellas más de cien obreras mártires, que en 1857, fueron a la huelga, ocupando una fábrica textil de N.York, dónde fueron encerradas e  incineradas, reclamando la reducción de las  jornadas de 14 y 16 horas de trabajo, a 10 horas.
 

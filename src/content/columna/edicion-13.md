@@ -3,11 +3,6 @@ title: "Daniel Noboa: ofensa internacional"
 edition: '13'
 date: '9/04/2024'
 picture: "../../img/columna/13.webp"
-pictureAnchor: 'center'
-relatedPosts:
-- "edicion-1"
-- "edicion-5"
-- "edicion-7"
 ---
 
 ## 1. Por un tema de clase

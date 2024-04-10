@@ -3,11 +3,6 @@ title: "A las juventudes"
 edition: '12 (SUPLEMENTO)'
 date: '01/04/2024'
 picture: "../../img/columna/12s.webp"
-pictureAnchor: 'center'
-relatedPosts:
-- "edicion-1"
-- "edicion-5"
-- "edicion-7"
 ---
 Junto a Congreso del Pueblo nace la esperanza de la reconstrucción del movimiento popular con carácter revolucionario, movimiento que los obreros y los estudiantes fueron protagonistas de su forja, puestos a prueba en la dictadura y en cada movilización donde la represión no se ausentó.
 

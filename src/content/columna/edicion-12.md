@@ -3,11 +3,6 @@ title: "El imperialismo recurre al terror"
 edition: '12'
 date: '26/3/2024'
 picture: "../../img/columna/12.webp"
-pictureAnchor: 'top'
-relatedPosts:
-- "edicion-1"
-- "edicion-5"
-- "edicion-7"
 ---
 ## Primer acto del Frente Amplio, un hito para la izquierda uruguaya
 
