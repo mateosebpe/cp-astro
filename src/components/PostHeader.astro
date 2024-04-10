@@ -6,13 +6,12 @@ interface Props {
     header: string,
     subheader: string,
     bgURL: string;
-    anchor: string;
     date: string;
     collection: string;
     slug: string;
 }
 
-const {header, subheader, bgURL, anchor,date, collection, slug} = Astro.props;
+const {header, subheader, bgURL,date, collection, slug} = Astro.props;
 ---
 <section class="lg:px-64 md:px-32 px-4 text-pretty text-gray-700 hyphens-auto mt-16">
     <p class="text-center mb-1"><span class="bg-primary text-sm font-bold  p-1 text-white ">{subheader}</span></p>

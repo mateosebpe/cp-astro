@@ -14,7 +14,15 @@ const { entries, count } = Astro.props;
 
 const lastPost = await getCollection(entries);
 
-const sortedPosts = lastPost.sort((a: any, b: any) => Date.parse(b.data.edition) - Date.parse(a.data.edition)).slice(0,count)
+const sortedPosts = lastPost.sort((a: any, b: any) =>{ 
+    const convertToDate = (dateString: string)=> {
+      //  Convert a "dd/MM/yyyy" string into a Date object
+      let d = dateString.split("/");
+      let dat = new Date(d[2] + '/' + d[1] + '/' + d[0]);
+      return dat.toDateString();     
+  }
+    return Date.parse(convertToDate(b.data.date)) - Date.parse(convertToDate(a.data.date))
+}).slice(0,count)
 
 ---
 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">

@@ -12,8 +12,17 @@ import DocCard from "../../components/Cards/DocCard.astro";
 
 export const getStaticPaths = (async ({ paginate }) =>{
 
-const allColumnPosts = await getCollection('documentos');
-allColumnPosts.sort((a, b) => Date.parse(b.data.category) - Date.parse(a.data.category));
+    const allColumnPosts = await getCollection('documentos');
+allColumnPosts.sort((a, b) =>{ 
+    const convertToDate = (dateString: string)=> {
+      //  Convert a "dd/MM/yyyy" string into a Date object
+      let d = dateString.split("/");
+      let dat = new Date(d[2] + '/' + d[1] + '/' + d[0]);
+      return dat.toDateString();     
+  }
+    
+    return Date.parse(convertToDate(b.data.date)) - Date.parse(convertToDate(a.data.date))
+});
 return paginate(allColumnPosts, { pageSize: 6 });
 }) satisfies GetStaticPaths;
 
