@@ -1,18 +1,21 @@
 ---
+
 ---
 
-<div class="post pt-8 pb-16 lg:px-64 md:px-32 px-4 text-pretty text-gray-800 hyphens-auto">
-    <slot/>
+<div
+    class="post pt-8 pb-16 lg:px-64 md:px-32 px-4 text-pretty text-gray-800 hyphens-auto"
+>
+    <slot />
 </div>
 
 <style is:global>
     .post > h2 {
-        font-size:x-large;
+        font-size: x-large;
         font-weight: bolder;
         margin-bottom: 0.1em;
         margin-top: 2em;
         text-align: start;
-        font-size:xx-large;
+        font-size: xx-large;
     }
     .post > h3 {
         font-weight: bolder;
@@ -26,15 +29,17 @@
     .post > p > a {
         color: #d71920 !important;
         hyphens: auto;
+        text-overflow: ellipsis;
+        white-space: nowrap;
         overflow: hidden;
     }
-    .post ul{
+    .post ul {
         list-style-type: square;
         padding-left: 2em;
         margin-bottom: 1.3rem;
         font-size: large;
     }
-    .post ol{
+    .post ol {
         list-style-type: lower-roman;
         padding-left: 2em;
         margin-bottom: 1.3rem;
