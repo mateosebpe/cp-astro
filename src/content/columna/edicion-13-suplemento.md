@@ -1,5 +1,5 @@
 ---
-title: "La guerra contra Irán: escenario de la Tercera Guerra Mundial"
+title: "La guerra contra Irán: ¿escenario de la Tercera Guerra Mundial?"
 edition: '13 (SUPLEMENTO)'
 date: '15/04/2024'
 picture: "../../img/columna/13s.webp"
