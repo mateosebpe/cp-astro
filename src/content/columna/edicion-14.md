@@ -7,7 +7,7 @@ picture: "../../img/columna/14.webp"
 
 ## El Programa frenteamplista
 
-En el (día) se presentó, en la Huella de Seregni, las bases programáticas para un próximo gobierno en 2025-2030. Titulado «Tiempos de esperanza, tiempos de la gente», aborda los siguientes ejes temáticos: _1) Un país de capacidades, desarrollo sostenible y solidaridad. 2) Un país de bienestar para todas y todos. 3) Un país de cultura: pilar del sentido de la vida y de la fuerza constructora de la sociedad. 4) Un país que asume la perspectiva interseccional de género como transversal e integradora. 5) Un país que profundiza la democracia y construye ciudadanías. 6) Un país integrado: la riqueza de la diversidad territorial. 7) Un país soberano en una nueva situación mundial._
+El 14 de abril se presentó, en la Huella de Seregni, las bases programáticas para un próximo gobierno en 2025-2030. Titulado «Tiempos de esperanza, tiempos de la gente», aborda los siguientes ejes temáticos: _1) Un país de capacidades, desarrollo sostenible y solidaridad. 2) Un país de bienestar para todas y todos. 3) Un país de cultura: pilar del sentido de la vida y de la fuerza constructora de la sociedad. 4) Un país que asume la perspectiva interseccional de género como transversal e integradora. 5) Un país que profundiza la democracia y construye ciudadanías. 6) Un país integrado: la riqueza de la diversidad territorial. 7) Un país soberano en una nueva situación mundial._
 
 
 ### Algunos puntos
