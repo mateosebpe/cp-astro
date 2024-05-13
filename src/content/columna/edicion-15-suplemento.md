@@ -6,6 +6,8 @@ picture: "../../img/columna/15s.webp"
 ---
 **Obras escogidas en tres tomos de V.I. Lenin del C.C. del Partido Comunista de la URSS**
 
+Este texto de gran actualidad que Lenin escribió en septiembre de 1917. En aquel momento un gobierno reformista había desplazado al gobierno reaccionario del Zar. Pese a la fraseología revolucionaria de Kerensky, su gobierno mostró una descarada pasividad frente a la conspiración capitalista y la eminente catástrofe. Como siempre Lenin planteó el que hacer…
+
 ## La catástrofe que nos amenaza y como combatirla
 
 Una catástrofe inevitable se cierne sobre Rusia. El transporte ferroviario se halla en un estado de increíble desorganización, que crece sin cesar. Los ferrocarriles quedarán parados. Cesará la afluencia de materias primas y de carbón de las fábricas. Cesará el suministro de cereales. Los capitalistas saborean (dañan, interrumpen, minan, frenan), deliberadamente y tenazmente la producción, confiando en que una catástrofe inaudita originará la bancarrota de la república y de ¡la democracia, de los Soviets y, en general, de las asociaciones proletarias y campesinas, facilitando así el retorno a la monarquía y la restauración de la omnipotencia de la burguesía y de los terratenientes.
