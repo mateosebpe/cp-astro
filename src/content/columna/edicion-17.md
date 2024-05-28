@@ -1,5 +1,5 @@
 ---
-title: "Cuando el silencio grita"
+title: "Blancos pillos"
 edition: '17'
 date: '28/05/2024'
 picture: "../../img/columna/17.webp"
