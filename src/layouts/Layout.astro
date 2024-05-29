@@ -5,9 +5,10 @@ import Footer from "../components/Footer.astro";
 interface Props {
 	title: string;
 	img: string;
+	description: string;
 }
 
-const { title, img } = Astro.props;
+const { title, img, description } = Astro.props;
 ---
 
 <!doctype html>
@@ -27,7 +28,7 @@ const { title, img } = Astro.props;
 		<meta name="title" content={title} />
 		<meta
 			name="description"
-			content="Sitio web de Congreso del Pueblo, organización marxista-leninista uruguaya."
+			content={description? description : "Sitio web de Congreso del Pueblo, organización marxista-leninista uruguaya."}
 		/>
 
 		<!-- Open Graph / Facebook -->
@@ -36,7 +37,7 @@ const { title, img } = Astro.props;
 		<meta property="og:title" content={title}
 		/>
 		<meta
-			property="og:description" content="Sitio web de Congreso del Pueblo, organización marxista-leninista uruguaya."
+			property="og:description" content={description? description : "Sitio web de Congreso del Pueblo, organización marxista-leninista uruguaya."}
 		/>
 		<meta
 			property="og:image"
@@ -52,7 +53,7 @@ const { title, img } = Astro.props;
 		/>
 		<meta
 			property="twitter:description"
-			content="Sitio web de Congreso del Pueblo, organización marxista-leninista uruguaya."
+			content={description? description : "Sitio web de Congreso del Pueblo, organización marxista-leninista uruguaya."}
 		/>
 		<meta
 			property="twitter:image"

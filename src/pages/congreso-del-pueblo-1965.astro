@@ -1,0 +1,19 @@
+---
+import Container from "../components/Container.astro";
+import Header from "../components/Header.astro";
+import Layout from "../layouts/Layout.astro";
+import {Content as CP} from '../../public/congreso-del-pueblo-1965.md';
+import PostBody from "../components/PostBody.astro";
+
+---
+<Layout title="¿Qué fue el Congreso del Pueblo de 1965?" img="" description="">
+    <Header
+        header="¿Qué fue el Congreso del Pueblo de 1965?"
+        subheader="y por qué lo homenajeamos en nuestro nombre..."
+        bgURL="../../img/congreso-del-pueblo-1965.webp"
+        anchor="middle"
+    ></Header>
+    <PostBody>
+        <CP/>
+    </PostBody>
+</Layout>

@@ -4,20 +4,26 @@ import Layout from "../layouts/Layout.astro";
 import Container from "../components/Container.astro";
 import {Content as QS} from '../../public/quienes-somos.md';
 import Card from "../components/Cards/Card.astro";
+import PostBody from "../components/PostBody.astro";
+import Link from "../components/Link.astro";
+import BigTitle from "../components/BigTitle.astro";
+import Title from "../components/Title.astro";
 ---
 
-<Layout title="Quiénes somos - Congreso del Pueblo" img="../../img/logo.png">
+<Layout title="Quiénes somos - Congreso del Pueblo" img="../../img/quienes-somos.webp" description="Congreso del Pueblo nace para forjar ese protagonismo revolucionario de nuestro pueblo, somos obreros, campesinos, estudiantes, docentes, intelectuales, pequeños productores y comerciantes, jubilados, somos el changador y el zafrero, el que pone el puesto en la feria para sobrevivir, somos parte de los sencillos que hablara Pablo Neruda.">
     <Header
         header="Quiénes somos"
         subheader="Congreso del Pueblo"
         bgURL="../../img/quienes-somos.webp"
         anchor="top"
     ></Header>
-    <Container title="Sobre nosotros">
+    
+    <PostBody>
         <QS/>
-     
+        <Link href="/congreso-del-pueblo-1965"><p class="text-center">¿Qué fue el Congreso del Pueblo de 1965? Haz click aquí.</p></Link>
+
+    </PostBody>
         
-    </Container>
     <Container title="3 años construyendo esperanza">
         <iframe width="100%" height="400" src="https://www.youtube.com/embed/KwAEujCNDGw?si=Td_pycyYYizHJTqj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </Container>
