@@ -18,7 +18,7 @@ const { entry } = Astro.props;
 const { Content } = await entry.render();
 ---
 
-<Layout title={entry.data.title} img={'../../img/logo.png'}>
+<Layout title={entry.data.title} img={'../../img/logo.png'} description='Documento de Congreso del Pueblo.'>
     <PostHeader header={entry.data.title} subheader={entry.data.category} bgURL='' date={entry.data.date} collection={entry.collection} slug={entry.slug}>
     </PostHeader>
     
