@@ -29,6 +29,6 @@ const {header, subheader, bgURL,date, collection, slug, tags} = Astro.props;
     </div>
     </div>
     
-    {bgURL? <img src={bgURL} alt="Imagen destacada del artículo" class="w-full aspect-video object-cover mt-12"> : ''}
+    {bgURL? <img src={bgURL} alt={"Imagen destacada del artículo" + header} class="w-full aspect-video object-cover mt-12"> : ''}
     <Share collection={collection} slug={slug}></Share> 
 </section>

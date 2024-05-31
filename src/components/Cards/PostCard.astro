@@ -14,7 +14,7 @@ const { title, edition, picture, date, slug, collection, tags } = Astro.props;
 <a  href={`/${collection}/${slug}`}
     class="rounded-lg shadow-lg hover:shadow bg-clip-border basis-1/3 box-border"
 >
-    <img src={picture} alt=""  class="aspect-video overflow-hidden object-cover transition-all duration-300" loading="lazy"/>
+    <img src={picture} alt={"Imagen de publicación titulada " + title}  class="aspect-video overflow-hidden object-cover transition-all duration-300" loading="lazy"/>
     
     <div class="relative p-4">
         <h5 class="bg-primary font-bold p-1 text-white inline p-1 text-xs absolute -top-6">{edition}</h5>
