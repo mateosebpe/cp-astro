@@ -41,13 +41,14 @@ let pagination = JSON.parse(JSON.stringify(page));
     <Container title="Últimos artículos">
        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {pagination.data.map(post =>{
-            let {title : postTitle, edition: postEdition, date: postDate, picture: postPicture} = post.data
+            let {title : postTitle, edition: postEdition, date: postDate, picture: postPicture, tags} = post.data
             return <PostCard title={postTitle}
                              edition={'Edición N°' + postEdition}
                              picture={postPicture}
                              date={postDate}
                              slug={post.slug}
                              collection={post.collection}
+                             tags={tags? tags : null}
                     >
                 </PostCard>
         })       

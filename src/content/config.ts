@@ -7,6 +7,7 @@ const columna = defineCollection({
       edition: z.string(),
       date: z.string(),
       picture: z.string(),
+      tags: z.string().optional()
     })
   });
 

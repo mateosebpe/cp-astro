@@ -5,10 +5,15 @@ import Footer from "../components/Footer.astro";
 interface Props {
 	title: string;
 	img: string;
-	description: string;
+	description?: string;
+	keywords?: string;
 }
 
-const { title, img, description } = Astro.props;
+const {
+	title,
+	img,
+	description = "Sitio web de Congreso del Pueblo, organización marxista-leninista uruguaya.",
+	keywords = "Congreso del Pueblo, Comunismo, Frente Amplio, revolución, trabajadores"} = Astro.props;
 ---
 
 <!doctype html>
@@ -23,12 +28,12 @@ const { title, img, description } = Astro.props;
 		
 		<meta name="author" content="Mateo Peña" />
 		<meta name="copyright" content="Congreso del Pueblo" />
-		<meta name="keywords" content="Congreso del Pueblo, Comunismo, Frente Amplio, revolución, trabajadores"/>
+		<meta name="keywords" content={keywords}/>
 		<title>{title}</title>
 		<meta name="title" content={title} />
 		<meta
 			name="description"
-			content={description? description : "Sitio web de Congreso del Pueblo, organización marxista-leninista uruguaya."}
+			content={description}
 		/>
 
 		<!-- Open Graph / Facebook -->
@@ -37,7 +42,7 @@ const { title, img, description } = Astro.props;
 		<meta property="og:title" content={title}
 		/>
 		<meta
-			property="og:description" content={description? description : "Sitio web de Congreso del Pueblo, organización marxista-leninista uruguaya."}
+			property="og:description" content={description}
 		/>
 		<meta
 			property="og:image"
@@ -53,7 +58,7 @@ const { title, img, description } = Astro.props;
 		/>
 		<meta
 			property="twitter:description"
-			content={description? description : "Sitio web de Congreso del Pueblo, organización marxista-leninista uruguaya."}
+			content={description}
 		/>
 		<meta
 			property="twitter:image"

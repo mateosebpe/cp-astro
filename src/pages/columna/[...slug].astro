@@ -18,12 +18,12 @@ const { entry } = Astro.props;
 const { Content } = await entry.render();
 ---
 
-<Layout title={entry.data.title} img={entry.data.picture} description={'Edición N°' + entry.data.edition + ' de La Columna del Pueblo.'}>
+<Layout title={entry.data.title} img={entry.data.picture} description={'Edición N°' + entry.data.edition + ' de La Columna del Pueblo.'} keywords={entry.data.tags? entry.data.tags : ""}>
 
   <div class="bg-gradient-to-b from-black to-white w-full h-32 flex items-center">
     <img src="../../../img/columna/logo-blanco.webp" class="mx-auto drop-shadow-lg h-auto md:h-12 lg:h-16 px-4 lg:p-0 ">
   </div>
-    <PostHeader header={entry.data.title} subheader={'Edición N°' + entry.data.edition} bgURL={entry.data.picture} date={entry.data.date} collection={entry.collection} slug={entry.slug}>
+    <PostHeader header={entry.data.title} subheader={'Edición N°' + entry.data.edition} bgURL={entry.data.picture} date={entry.data.date} collection={entry.collection} slug={entry.slug} tags={entry.data.tags? entry.data.tags : ""}>
     </PostHeader>
     
     <PostBody title={entry.data.title}>
