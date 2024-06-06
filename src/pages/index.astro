@@ -28,9 +28,10 @@ import BigTitle from '../components/BigTitle.astro'
 				<Button style="1" href="/quienes-somos">Más información</Button>
 			</div>
 		</Header>
-		<a
+		<div class="flex space-x-0 md:space-x-0  md:px-0 flex-col sm:flex-col md:flex-row">
+			<a
 			href="/afiliarse"
-			class="flex justify-center"
+			class="basis-1/2 flex justify-center"
 			style="background-color: #d71920;"
 		>
 			<img
@@ -39,6 +40,18 @@ import BigTitle from '../components/BigTitle.astro'
 				alt="Banner de la Campaña de Afiliación de Congreso del Pueblo"
 			/>
 		</a>
+		<a
+			href="https://link.mercadopago.com.uy/congresodelpueblo"
+			class="basis-1/2 flex justify-center"
+			style="background-color: #174DA2"
+		>
+			<img
+				width="500px"
+				src="../../img/banner_colabora.png"
+				alt="Banner de la Campaña Financiera de Congreso del Pueblo"
+			/>
+		</a>
+		</div>
 
 
 		<BigTitle>Nuestra prensa</BigTitle>
