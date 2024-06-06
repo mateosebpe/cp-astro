@@ -4,14 +4,14 @@ import Footer from "../components/Footer.astro";
 
 interface Props {
 	title: string;
-	img: string;
+	img?: string;
 	description?: string;
 	keywords?: string;
 }
 
 const {
 	title,
-	img,
+	img = "img/quienes-somos.webp",
 	description = "Sitio web de Congreso del Pueblo, organización marxista-leninista uruguaya.",
 	keywords = "Congreso del Pueblo, Comunismo, Frente Amplio, revolución, trabajadores"} = Astro.props;
 ---
@@ -46,7 +46,7 @@ const {
 		/>
 		<meta
 			property="og:image"
-			content={img? 'https://congresodelpueblo.uy/' +img : 'https://www.congresodelpueblo.uy/img/quienes-somos.webp'}
+			content={'https://congresodelpueblo.uy/' + img}
 		/>
 
 		<!-- Twitter -->
@@ -62,7 +62,7 @@ const {
 		/>
 		<meta
 			property="twitter:image"
-			content={img? 'https://www.congresodelpueblo.uy/' +img : 'https://www.congresodelpueblo.uy/img/quienes-somos.webp'}
+			content={'https://congresodelpueblo.uy/' + img}
 		/>
 
 		<script

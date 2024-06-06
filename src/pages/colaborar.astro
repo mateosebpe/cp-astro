@@ -1,0 +1,41 @@
+---
+import Header from "../components/Header.astro";
+import Layout from "../layouts/Layout.astro";
+import {Content as C} from '../../public/colabora.md';
+import PostBody from "../components/PostBody.astro";
+import BigTitle from "../components/BigTitle.astro";
+import Container from "../components/Container.astro";
+
+---
+<Layout title="¿Qué fue el Congreso del Pueblo de 1965?" img="../../img/banners/banner_colabora.png" description="El Congreso del Pueblo es un hecho histórico que definió el transcurso de la historia del movimiento obrero del Uruguay, pero que no necesariamente es conocido por todos. Por eso, hoy nos proponemos explicar… ¿Qué fue el Congreso del Pueblo? ¿Y que es Congreso del Pueblo?">
+    <BigTitle>Colaborar</BigTitle>
+    <Container title="Elegir monto">
+        <div class="grid grid-cols-3 md:grid-cols-6 gap-4 mb-4">
+            <a href="https://mpago.la/15JPrRR">
+                <img src="../../img/banners/aportes/1.jpg" alt="" class="w-full">
+            </a>
+            <a href="https://mpago.la/2LjQaCG">
+                <img src="../../img/banners/aportes/2.jpg" alt="" class="w-full">
+            </a>
+            <a href="https://mpago.la/31F8jMj">
+                <img src="../../img/banners/aportes/3.jpg" alt="" class="w-full">
+            </a>
+            <a href="https://mpago.la/1ynqMyC">
+                <img src="../../img/banners/aportes/4.jpg" alt="" class="w-full">
+            </a>
+            <a href="https://mpago.la/2vDCDAN">
+                <img src="../../img/banners/aportes/5.jpg" alt="" class="w-full">
+            </a>
+            <a href="https://mpago.la/1jNhqqi">
+                <img src="../../img/banners/aportes/6.jpg" alt="" class="w-full">
+            </a>
+        </div>
+        
+        <a href="https://link.mercadopago.com.uy/congresodelpueblo">
+            <img src="../../img/banners/banner2_colabora.png" alt="" class="w-full">
+        </a>
+    </Container>
+    <PostBody>
+        <C/>
+    </PostBody>
+</Layout>
