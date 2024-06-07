@@ -3,7 +3,7 @@ title: "Blancos pillos"
 edition: '17'
 date: '28/05/2024'
 picture: "../../img/columna/17.webp"
-tags: "Coalición, Corrupción, Palestina, Estudiantes"
+tags: "Corrupción, Coalición, Palestina, Estudiantes"
 ---
 ## Iturralde y la corrupción
 

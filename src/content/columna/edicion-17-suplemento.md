@@ -1,9 +1,9 @@
 ---
-title: " ¿Qué dijo Claudia Sheinbaum, la primera Presidenta mujer de México, tras ganar las elecciones?"
+title: "¿Qué dijo Claudia Sheinbaum, la primera Presidenta mujer de México, tras ganar las elecciones?"
 edition: '17 (SUPLEMENTO)'
 date: '03/06/2024'
 picture: "../../img/columna/17s.webp"
-tags: "Elecciones, México, Morena, Claudia Sheinbaum"
+tags: "México, Elecciones, Morena, Claudia Sheinbaum"
 ---
 
 Por primera vez en 200 años, una mujer se convierte en presidenta de México, Claudia Sheinbaum Pardo, quien dijo que ya recibió llamadas de Xóchitl Gálvez y de Jorge Álvarez Máynez, sus contendientes en este proceso, reconocimiento su triunfo, y que también habló con el presidente Andrés Manuel López Obrador, quien la felicitó.

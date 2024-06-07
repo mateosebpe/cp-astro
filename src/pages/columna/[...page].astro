@@ -38,7 +38,7 @@ let pagination = JSON.parse(JSON.stringify(page));
     <div class="bg-gradient-to-b from-black to-white w-full h-64 flex items-center">
         <img src="../../../img/columna/logo-blanco.webp" class="mx-auto drop-shadow-md h-12 lg:h-16 px-4 lg:p-0 ">
       </div>
-    <Container title="Últimos artículos">
+    <Container title="Todas las columnas">
        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {pagination.data.map(post =>{
             let {title : postTitle, edition: postEdition, date: postDate, picture: postPicture, tags} = post.data
