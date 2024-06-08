@@ -1,5 +1,13 @@
 ---
+interface Props {
+    white? : boolean;
+}
+
+const {white = false} = Astro.props;
 ---
-<section class="lg:px-64 md:px-32 px-4 text-pretty text-gray-900 hyphens-auto mt-32 mb-6">
-<h2 class="font-extrabold tracking-tight leading-none text-gray-800 text-5xl md:text-5xl lg:text-6xl text-balance text-center mt-16"><slot/></h2>
+<section class="lg:px-64 md:px-32 px-4 text-pretty hyphens-auto mt-32 mb-6" class:list={[{
+    'text-white': white,
+    'text-gray-800': !white
+}]}>
+<h2 class="font-extrabold tracking-tight leading-none  text-5xl md:text-5xl lg:text-6xl text-balance text-center mt-16"><slot/></h2>
 </section>
