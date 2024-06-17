@@ -27,10 +27,16 @@ Pedimos que respaldes nuestra lista en Canelones, la 1205, y votala junto a la 1
 
 **Pedí tu lista**
 
-099497688 LAS PIEDRAS
+[099497688 Las Piedras](tel:099497688)
 
-098719391 COSTA 2
+.
 
-093967041 LA COSTA
+[098719391 Costa 2](tel:098719391)
 
-093749138 PANDO
+.
+
+[093967041 La Costa](tel:093967041)
+
+.
+
+[093749138 Pando](tel:093749138)
