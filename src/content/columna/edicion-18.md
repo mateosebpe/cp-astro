@@ -24,3 +24,13 @@ No nos presentamos para hacer carrera política, no definimos tener una expresi�
 En definitiva, pretendemos aportar nuestro granito de arena en la recomposición del campo popular. Sabemos que esta tarea conlleva mucho desgaste, poner al colectivo por encima de la individualidad que nos tiene acostumbrado este sistema. Pero no hay tarea más noble que la de asumir la responsabilidad, como parte del pueblo, de defender los intereses de las mayorías, construyendo una organización que sea resuelta en el cumplimiento de dicha tarea.
 
 Pedimos que respaldes nuestra lista en Canelones, la 1205, y votala junto a la 1808 a nivel nacional. Pero las tareas seguirán después de las elecciones, por eso también te convocamos a sumarte a las filas de Congreso del Pueblo, porque es momento de dar el paso y empezar a transformar la realidad para hacerla más digna de ser vivida.
+
+**Pedí tu lista**
+
+099497688 LAS PIEDRAS
+
+098719391 COSTA 2
+
+093967041 LA COSTA
+
+093749138 PANDO
