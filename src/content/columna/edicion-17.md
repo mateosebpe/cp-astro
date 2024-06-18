@@ -1,5 +1,5 @@
 ---
-title: "Blancos pillos"
+title: "La corrupción de los blancos pillos continúa, ¿quién sale beneficiado?"
 edition: '17'
 date: '28/05/2024'
 picture: "../../img/columna/17.webp"
