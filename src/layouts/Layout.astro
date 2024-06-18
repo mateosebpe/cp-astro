@@ -76,35 +76,22 @@ const {
 		/>
 
 		<!-- Open Graph / Facebook -->
+		<meta content={title} property='og:site_name'/>
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content="https://www.congresodelpueblo.uy/" />
-		<meta property="og:title" content={title}
-		/>
-		<meta
-			property="og:description" content={description}
-		/>
-		<meta
-			property="og:image"
-			content={'https://congresodelpueblo.uy/' + img}
-		/>
+		<meta property="og:title" content={title}/>
+		<meta property="og:description" content={description}/>
+		<meta property="og:image" content={'https://congresodelpueblo.uy/' + img}/>
 		<meta property="og:type" content={article? "article" : "website"} />
-		<meta property="og:locale" content="es_ES" />
+		<meta property="og:locale" content="es_UY" />
 
 		<!-- Twitter -->
 		<meta property="twitter:card" content="summary_large_image" />
+		<meta content='https://www.congresodelpueblo.uy/' name='twitter:domain'/>
 		<meta property="twitter:url" content="https://www.congresodelpueblo.uy/" />
-		<meta
-			property="twitter:title"
-			content={title}
-		/>
-		<meta
-			property="twitter:description"
-			content={description}
-		/>
-		<meta
-			property="twitter:image"
-			content={'https://congresodelpueblo.uy/' + img}
-		/>
+		<meta property="twitter:title" content={title}/>
+		<meta property="twitter:description" content={description}/>
+		<meta property="twitter:image" content={'https://congresodelpueblo.uy/' + img}/>
 
 		<script
 			is:inline
