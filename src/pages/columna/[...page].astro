@@ -35,9 +35,9 @@ let pagination = JSON.parse(JSON.stringify(page));
 
 <Layout title='La Columna del Pueblo' img='../../../public/img/columna/columna-logo.webp' description="Todas las ediciones de La Columna del Pueblo">
  
-    <div class="bg-gradient-to-b from-black to-white w-full h-64 flex items-center">
-        <img src="../../../img/columna/logo-blanco.webp" class="mx-auto drop-shadow-md h-12 lg:h-16 px-4 lg:p-0 ">
-      </div>
+  <div class="w-full h-32 flex items-center">
+    <img src="../../../img/columna/logo-negro.webp" class="mx-auto drop-shadow-lg h-auto md:h-12 lg:h-16 px-4 lg:p-0 ">
+  </div>
     <Container title="Todas las columnas">
        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {pagination.data.map(post =>{
