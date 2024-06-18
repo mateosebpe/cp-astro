@@ -7,13 +7,15 @@ interface Props {
 	img?: string;
 	description?: string;
 	keywords?: string;
+	article?: boolean;
 }
 
 const {
 	title,
 	img = "img/quienes-somos.webp",
 	description = "Sitio web de Congreso del Pueblo, organización marxista-leninista uruguaya.",
-	keywords = "Congreso del Pueblo, Comunismo, Frente Amplio, revolución, trabajadores"} = Astro.props;
+	keywords = "Congreso del Pueblo, Comunismo, Frente Amplio, revolución, trabajadores",
+	article = false} = Astro.props;
 ---
 
 <!doctype html>
@@ -24,8 +26,8 @@ const {
 		<link rel="icon" type="image/png" href="/favicon.png" />
 		<link rel="sitemap" href="/sitemap-index.xml" />
 		<link rel="canonical" href="https://congresodelpueblo.uy/" />
+
 		<!-- Primary Meta Tags -->
-		
 		<meta name="author" content="Mateo Peña" />
 		<meta name="copyright" content="Congreso del Pueblo" />
 		<meta name="keywords" content={keywords}/>
@@ -48,6 +50,8 @@ const {
 			property="og:image"
 			content={'https://congresodelpueblo.uy/' + img}
 		/>
+		<meta property="og:type" content={article? "article" : "website"} />
+		<meta property="og:locale" content="es_ES" />
 
 		<!-- Twitter -->
 		<meta property="twitter:card" content="summary_large_image" />
