@@ -28,8 +28,8 @@ const {header, subheader, bgURL,date, collection, slug, tags} = Astro.props;
         <p>{subheader}</p>
         
     </div>
-    <div class="flex gap-4 justify-center">
-        {tags? tags.split(",").map(tag => <span class="inline-block bg-gray-200 rounded-full px-2 py-1/2 text-xs font-semibold text-gray-700 mr-1">{tag}</span>) : ''}
+    <div class="mt-4 flex gap-1 justify-center">
+        {tags? tags.split(",").map(tag => <span class="inline-block bg-gray-200 rounded-full px-2 py-1/2 text-xs font-semibold text-gray-700">{tag}</span>) : ''}
        </div>
 
     {bgURL? <img src={bgURL} alt={"Imagen destacada del artículo" + header} class="w-full aspect-video object-cover mt-12"> : ''}
