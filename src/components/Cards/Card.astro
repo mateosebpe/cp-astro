@@ -1,36 +1,29 @@
 ---
 import Link from '../Link.astro';
+import TitleCard from './TitleCard.astro';
 
 interface Props {
 	title: string;
 	body: string;
 	href: string;
+  img?: string;
 }
 
-const { href, title, body} = Astro.props;
+const { href, title, body, img} = Astro.props;
 ---
 
-<div class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-100">
-    <div class="p-6">
+<section class="relative flex flex-col mt-6 text-gray-700 bg-white shadow hover:shadow-lg bg-clip-border rounded-xl w-100">
+  {img? <img src={img} alt="Miniatura de la tarjeta" class="w-full"> : ''}
+  <a href={href}>
+  <div class="p-6">
         <slot/>
-      <a href={href}>
-        <h5 class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-            {title}
-          </h5>
-      </a>
+        <TitleCard>{title}</TitleCard>
+      
       <p class="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
         {body}
       </p>
     </div>
-    <div class="p-6 pt-0">
-      <Link href={href}>
-        Leer más
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-          stroke="currentColor" class="w-4 h-4">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"></path>
-        </svg>
-      </Link>
-    </div>
-  </div> 
+  </a>
+  </section> 
 
   

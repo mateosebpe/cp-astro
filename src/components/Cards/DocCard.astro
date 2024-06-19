@@ -1,5 +1,6 @@
 ---
 import Link from '../Link.astro'
+import TitleCard from './TitleCard.astro';
 
 interface Props {
   post: any;
@@ -17,9 +18,7 @@ const {title, category, date} = post.data
   <div class="p-6">
         <slot/>
       
-        <h5 class="text-2xl text-gray-800 font-bold leading-7 mb-2">
-            {title}
-          </h5>
+        <TitleCard>{title}</TitleCard>
       </a>
       <span class="inline-block font-sans text-base  font-light leading-relaxed">
         {date}
