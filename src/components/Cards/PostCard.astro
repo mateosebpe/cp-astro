@@ -13,9 +13,9 @@ interface Props {
 const { title, edition, picture, date, slug, collection, tags } = Astro.props;
 ---
 
-<section>
+<section class="rounded-lg  bg-clip-border basis-1/3 box-border hover:shadow-lg shadow">
     <a  href={`/${collection}/${slug}`}
-    class="rounded-lg hover:shadow-lg shadow bg-clip-border basis-1/3 box-border"
+    
 >
     <img src={picture} alt={"Imagen de publicación titulada " + title}  class="aspect-video overflow-hidden object-cover transition-all duration-300" loading="lazy"/>
     
