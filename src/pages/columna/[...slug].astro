@@ -20,9 +20,9 @@ const { Content } = await entry.render();
 
 <Layout article title={entry.data.title} img={entry.data.picture} description={'Edición N°' + entry.data.edition + ' de La Columna del Pueblo.'} keywords={entry.data.tags? entry.data.tags : ""}>
 <article itemscope itemtype="https://schema.org/NewsArticle">
-  <div class="w-full h-32 flex items-center">
-    <img src="../../../img/columna/logo-negro.webp" class="mx-auto drop-shadow-lg h-auto md:h-12 lg:h-16 px-4 lg:p-0 ">
-  </div>
+  <a class="w-full my-16 flex items-center" href="/columna">
+    <img src="../../../img/columna/logo-negro.webp" class="mx-auto h-auto md:h-12 lg:h-16 px-4 lg:p-0">
+  </a>
     <PostHeader header={entry.data.title} subheader={'Edición N°' + entry.data.edition} bgURL={entry.data.picture} date={entry.data.date} collection={entry.collection} slug={entry.slug} tags={entry.data.tags? entry.data.tags : ""}>
     </PostHeader>
     

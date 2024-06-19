@@ -23,7 +23,7 @@ La CNT resume todo un proceso de luchas, de acciones solidarias, de plenarios, d
 
 La primera gran expresión del papel que iba a jugar la CNT, lo es el paro general del 6 de abril de 1965. Su significación los podemos expresar en los siguientes puntos:
 
-1) Ya no se trató de un paro solidario, sino que levantó una plataforma de lucha incluyendo elementos programáticos tales como:** contra la crisis, la inflación, la carestía y la bancarrota nacional.**
+1) Ya no se trató de un paro solidario, sino que levantó una plataforma de lucha incluyendo elementos programáticos tales como: **contra la crisis, la inflación, la carestía y la bancarrota nacional.**
 
 2) fue precedido por grandes asambleas donde los trabajadores discutieron en profundidad los objetivos de esta acción de lucha.
 
@@ -42,10 +42,10 @@ Es así que luego de dos asambleas preparatorias, un conjunto de organizaciones 
 Participaron de este Congreso del Pueblo 1.376 delegados en representación de 707 organizaciones obreras y populares, que agrupan a más de 800.000 personas.
 
 
-# CONGRESO DEL PUEBLO - FRENTE AMPLIO
+## CONGRESO DEL PUEBLO - FRENTE AMPLIO
 
 
-## Actualidad
+### Actualidad
 
 58 años después, en la cruz de los caminos, para que la crisis no la pague el pueblo hay que organizar la lucha reivindicativa, política, e ideológica, elevar los niveles de conciencia y de unidad de las grandes masas, sin vacilaciones.
 
