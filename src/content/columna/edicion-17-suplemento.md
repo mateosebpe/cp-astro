@@ -1,6 +1,6 @@
 ---
 title: "¿Qué dijo Claudia Sheinbaum, la primera Presidenta mujer de México, tras ganar las elecciones?"
-edition: '17 (SUPLEMENTO)'
+edition: 'Internacional'
 date: '03/06/2024'
 picture: "../../img/columna/17s.webp"
 tags: "México, Elecciones, Morena, Claudia Sheinbaum"

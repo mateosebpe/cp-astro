@@ -1,6 +1,6 @@
 ---
 title: "Cuando el silencio grita"
-edition: '16'
+edition: 'Nacional'
 date: '21/05/2024'
 picture: "../../img/columna/16.webp"
 tags: "20 de mayo, Desaparecidos, Madres y Familiares"

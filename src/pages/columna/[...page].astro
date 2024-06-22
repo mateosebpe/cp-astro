@@ -36,14 +36,14 @@ let pagination = JSON.parse(JSON.stringify(page));
 <Layout title='La Columna del Pueblo' img='../../../public/img/columna/columna-logo.webp' description="Todas las ediciones de La Columna del Pueblo">
  
   <a class="w-full my-16 flex items-center" href="/columna">
-    <img src="../../../img/columna/logo-negro.webp" class="mx-auto h-auto md:h-12 lg:h-16 px-4 lg:p-0">
+    <img src="../../../img/columna/logo-negro.webp" class="mx-auto h-auto md:h-12 lg:h-16 px-4 lg:p-0" alt="Logo de La Columna del Pueblo, órgano de prensa de la Dirección Política de Congreso del Pueblo">
   </a>
     <Container title="Todas las columnas">
        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {pagination.data.map(post =>{
             let {title : postTitle, edition: postEdition, date: postDate, picture: postPicture, tags} = post.data
             return <PostCard title={postTitle}
-                             edition={'Edición N°' + postEdition}
+                             edition={postEdition}
                              picture={postPicture}
                              date={postDate}
                              slug={post.slug}

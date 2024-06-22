@@ -31,7 +31,7 @@ const sortedPosts = lastPost.sort((a: any, b: any) =>{
   if (entries == 'columna'){
   return (
 
- <PostCard title={p.data.title} edition={'Edición N°'+ p.data.edition} date={p.data.date} picture={p.data.picture} slug={p.slug} collection={p.collection} tags={p.data.tags? p.data.tags : ""}></PostCard> 
+ <PostCard title={p.data.title} edition={p.data.edition} date={p.data.date} picture={p.data.picture} slug={p.slug} collection={p.collection} tags={p.data.tags? p.data.tags : ""}></PostCard> 
  )}
   if (entries == 'documentos'){
     return (<DocCard post={p}></DocCard>)

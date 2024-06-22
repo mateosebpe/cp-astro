@@ -1,9 +1,9 @@
 ---
 title: "Carolina Cosse y su compromiso con la clase obrera"
-edition: '18 (SUPLEMENTO)'
+edition: 'Nacional'
 date: '21/06/2024'
 picture: "../../img/columna/18s.webp"
-tags: "Elecciones Internas, Carolina Cosse, Frente Amplio, Suplemento"
+tags: "Carolina Cosse, Plan País, Frente Amplio, Trabajadores"
 ---
 Carolina Cosse convocó a una charla abierta, a los trabajadores y trabajadoras uruguayas, sobre  “Desarrollo productivo y trabajo de calidad”. Les dejamos a continuación las palabras enunciadas por la precandidata del Frente Amplio a la Presidencia:
 

@@ -1,6 +1,6 @@
 ---
 title: "“Miente, miente”... y algo quedó"
-edition: '15'
+edition: 'Nacional'
 date: '06/05/2024'
 picture: "../../img/columna/15.webp"
 ---
