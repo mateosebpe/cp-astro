@@ -5,12 +5,15 @@ import {Content as C} from '../../public/colabora.md';
 import PostBody from "../components/PostBody.astro";
 import BigTitle from "../components/BigTitle.astro";
 import Container from "../components/Container.astro";
+import Title from "../components/Title.astro";
 
 ---
 <Layout title="Colaborar - Congreso del Pueblo" img="../../img/banners/banner_colabora.png" description="Elegí un monto y aportá a la campaña financiera de Congreso del Pueblo.">
-    <BigTitle>Colaborar</BigTitle>
     
-    <Container title="Elegir monto">
+    
+    <Container>
+        <BigTitle>Colaborar</BigTitle>
+        <Title>Elegir monto</Title>
         <div class="grid grid-cols-3 md:grid-cols-6 gap-4 mb-4">
             <a href="https://mpago.la/15JPrRR">
                 <img src="../../img/banners/aportes/1.jpg" alt="Imagen de botón para donación de $100" class="w-full">
