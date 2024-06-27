@@ -27,17 +27,20 @@ import Social from "../components/Social.astro";
 
     </PostBody>
 
-    <Container title="Nuestras redes">
+    
+    <Container>
+        <Title>Documentos orgánicos</Title>
+        <div id="documentos" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            <Card title="Acuerdo de funcionamiento" body="" href="https://drive.google.com/file/d/11lZObbPV79j18L7_hyY8cxbKzYaNT7J3/view?usp=sharing"></Card>
+            <Card title="Programa" body="" href=""></Card>
+            <Card title="Manifiesto" body="" href=""></Card>
+        </div>
+    </Container>
+    
+    <Container>
+        <Title>Nuestras redes</Title>
         <div class="flex justify-center">
             <Social></Social>
         </div>
     </Container>
-        
-    <Container title="Documentos orgánicos">
-        <div id="documentos" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-            <Card title="Acuerdo de funcionamiento" body="" href="https://drive.google.com/file/d/11lZObbPV79j18L7_hyY8cxbKzYaNT7J3/view?usp=sharing"></Card>
-        <Card title="Programa" body="" href=""></Card>
-        <Card title="Manifiesto" body="" href=""></Card>
-        </div>
-        </Container>   
 </Layout>

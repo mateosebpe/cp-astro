@@ -7,7 +7,7 @@ import Button from "../components/Button.astro";
 import LastPost from "../components/LastPost.astro";
 import BigTitle from '../components/BigTitle.astro'
 import Social from "../components/Social.astro";
-import Hr from "../components/Hr.astro";
+import Title from "../components/Title.astro";
 
 
 ---
@@ -72,16 +72,14 @@ import Hr from "../components/Hr.astro";
  
 				
 
-		<BigTitle>Nuestra prensa</BigTitle>
-		<Container title="La Columna del Pueblo">
+		
+		<Container>
+			<BigTitle>Nuestra prensa</BigTitle>
+			<Title>La Columna del Pueblo</Title>
 			<LastPost entries={'columna'} count={3}></LastPost>
-		</Container>
 
-		<Container title="Otras publicaciones">
-			
-			<div
-				class="flex space-x-0 md:space-x-4  md:px-0 flex-col sm:flex-col md:flex-row"
-			>
+			<Title>Otras publicaciones</Title>
+			<div class="flex space-x-0 md:space-x-4  md:px-0 flex-col sm:flex-col md:flex-row">
 				<div class="basis-1/2">
 					<Card
 						title="En Marcha"
@@ -100,10 +98,13 @@ import Hr from "../components/Hr.astro";
 				</div>
 			</div>
 		</Container>
-
-		<BigTitle>La organización</BigTitle>
-		<Container title="Carácter de la organización">
+		<Container>
 			
+		</Container>
+
+		<Container>
+			<BigTitle>La organización</BigTitle>
+			<Title>Carácter de la organización</Title>
 			<section class="bg-white">
 				<div class="py-4  max-w-screen-xl lg:py-4 ">
 					<blockquote class="p-4 my-4 border-s-4 border-gray-300 bg-gray-50">
@@ -121,9 +122,9 @@ import Hr from "../components/Hr.astro";
 					
 				</div>
 			  </section>
-		</Container>
-		<Container title="Documentos">
-			<LastPost entries={'documentos'} count={3}></LastPost>
+			  <Title>Documentos</Title>
+			  <LastPost entries={'documentos'} count={3}></LastPost>
+
 		</Container>
 
 	</main>

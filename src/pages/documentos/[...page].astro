@@ -7,6 +7,7 @@ import { getCollection, getEntry } from 'astro:content';
 import Pagination from '../../components/Pagination.astro';
 import BigTitle from "../../components/BigTitle.astro";
 import DocCard from "../../components/Cards/DocCard.astro";
+import Title from "../../components/Title.astro";
 
 
 
@@ -34,7 +35,8 @@ let pagination = JSON.parse(JSON.stringify(page));
 
 <Layout title='La Columna del Pueblo' img='../../../public/img/columna/columna-logo.webp' description="Todos los documentos de Congreso del Pueblo. Declaraciones, resoluciones, etc.">
     <BigTitle>Documentos</BigTitle>
-    <Container title="Declaraciones, resoluciones, etc.">
+    <Container>
+        <Title>Declaraciones, resoluciones, etc.</Title>
        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {pagination.data.map(post =>{
 

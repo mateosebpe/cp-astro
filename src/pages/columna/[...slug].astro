@@ -5,6 +5,7 @@ import PostBody from '../../components/PostBody.astro';
 import PostHeader from '../../components/PostHeader.astro'
 import LastPost from '../../components/LastPost.astro'
 import Container from '../../components/Container.astro';
+import Title from '../../components/Title.astro';
 
 
 export async function getStaticPaths() {
@@ -30,13 +31,15 @@ const { Content } = await entry.render();
         <Content />
     </PostBody>
     <section itemscope itemtype="https://schema.org/Comment">
-    <Container title='Comentarios'>
+    <Container>
+      <Title>Comentarios</Titulo>
       <div id="fb-root"></div>
       <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v19.0&appId=771812687817011" nonce="ESeSDpG3"></script>
       <div class="fb-comments" data-href=`https://congresodelpueblo.uy/columna/${entry.slug}/` data-width="100%" data-numposts="5" data-lazy="true"></div>  
     </Container>
   </section>
-    <Container title="Últimas columnas">
+    <Container>
+      <Title>Últimas columnas</Titulo>
       <LastPost entries={entry.collection} count={3}></LastPost>
     </Container>
 </article>
