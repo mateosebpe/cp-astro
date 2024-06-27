@@ -18,6 +18,7 @@ const columna = defineCollection({
       category: z.string(),
       org: z.string(),
       date: z.string(),
+      picture: z.string().optional()
     })
   });
 

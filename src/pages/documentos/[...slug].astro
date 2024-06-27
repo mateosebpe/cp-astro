@@ -18,8 +18,8 @@ const { entry } = Astro.props;
 const { Content } = await entry.render();
 ---
 
-<Layout article title={entry.data.title} img={'../../img/logo.png'} description='Documento de Congreso del Pueblo.'>
-    <PostHeader header={entry.data.title} subheader={entry.data.category} date={entry.data.date} collection={entry.collection} slug={entry.slug}>
+<Layout article title={entry.data.title} img={entry.data.picture? entry.data.picture : ''} description='Documento de Congreso del Pueblo.'>
+    <PostHeader header={entry.data.title} subheader={entry.data.category} date={entry.data.date} collection={entry.collection} slug={entry.slug} bgURL={entry.data.picture? entry.data.picture : ''}>
     </PostHeader>
     
     <PostBody title={entry.data.title}>
