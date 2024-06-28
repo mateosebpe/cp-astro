@@ -1,11 +1,11 @@
 ---
-title: "Daniel Jadue: la lucha por la causa palestina es una motivación ideológica para buscar su encarcelamiento e inhabilitación"
+title: "Daniel Jadue, un comunista que incomoda"
 edition: 'Suplemento'
 date: '28/06/2024'
 picture: "../../img/columna/daniel-jadue.webp"
 tags: "Chile, Daniel Jadue, Persecusión política, Comunista"
 ---
-## Jadue, un comunista que incomoda
+## La lucha por la causa palestina es una motivación ideológica para buscar su encarcelamiento e inhabilitación
 
 **POR CÉSAR NAVARRO MIRANDA* / 20 de junio de 2024 / La Razón Bolivia**
 
