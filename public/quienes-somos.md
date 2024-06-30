@@ -1,15 +1,12 @@
 ---
 ---
+**Congreso del Pueblo es una organización política uruguaya, marxista-leninista**, que lucha por la unidad de la clase obrera y el pueblo, para llevar a cabo el proyecto histórico de Liberación Nacional y la revolución socialista, como transición
+al Comunismo.. Se fundó en 2021 e inicialmente abarcaba el departamento de Canelones, hoy tiene presencia en la zona metropolitana y aspira a convertirse en una organización nacional.
 
-**Para que la crisis no la pague el pueblo hay que organizar la lucha reivindicativa, política, e ideológica, elevar los niveles de conciencia y de unidad de las grandes masas, sin vacilaciones.**  
+**Se rige en base al centralismo democrático**, para garantizar la libre discusión de los temas por todos los afiliados y la unidad de acción sobre lo resuelto. Se organiza en torno a agrupaciones territoriales o funcionales, una Dirección Política y organismos intermedios.
 
-Reivindicamos la necesidad de forjar una organización revolucionaria, que por su firmeza, amplitud y profundidad pueda contribuir a unir social y políticamente a nuestro pueblo, en particular a la clase obrera, que incida en los frentes de masas, en el decir de Rodney Arismendi; que desarrolle las fuerzas motrices de la revolución.
+**Afirmamos la vigencia del proyecto histórico del Frente Amplio** y reivindicamos su carácter antiimperialista y antioligárquico.
 
-**Congreso del Pueblo nace para forjar ese protagonismo revolucionario de nuestro pueblo**, somos obreros, campesinos, estudiantes, docentes, intelectuales, pequeños productores y comerciantes, jubilados, somos el changador y el zafrero, el que pone el puesto en la feria para sobrevivir, somos parte de los sencillos que hablara Pablo Neruda.
+Hace suya, y se integra, a la rica historia combativa de nuestro pueblo. **Hace suyo el ideario artiguista** por su contenido anticolonial americanista y popular.
 
-*Nos definimos arismendistas*, porque adherimos a su legado histórico, la teoría de la revolución uruguaya.
-
-*Somos profundamente artiguistas*, antiimperialistas y antioligárquicos, reivindicamos la reforma agraria como un acto de justicia social.
-
-
-Estamos convencidos que un día, la unidad de nuestro pueblo, tras la idea, la construcción y la concreción de una sociedad libre de la opresión de la oligarquía y el imperialismo, libre para decidir sobre que producir, como distribuir, como educarnos, como ser, “el libre desenvolvimiento de cada uno como condición del libre desenvolvimiento de todos” dejará de ser un sueño para transformarse en una realidad.
+**Es internacionalista y antiimperialista**. Apoya solidariamente a todos los pueblos que luchan, alrededor del mundo, por finalizar el sádico sistema de explotación del hombre por el hombre, y los pueblos que resisten el yugo del imperialismo yanqui.
