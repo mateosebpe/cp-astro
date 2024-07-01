@@ -1,4 +1,12 @@
 ---
+interface Props {
+    white? : boolean;
+}
+
+const {white = false} = Astro.props;
 ---
 
-<h3 class="relative text-4xl font-semibold pt-4 pb-6 text-pretty text-gray-800 hyphens-auto text-center"></div><slot/></h3>
+<h3 class="relative text-4xl font-semibold pt-4 pb-6 text-pretty text-gray-800 hyphens-auto text-center"
+class:list={[{
+    "text-white": white
+}]}></div><slot/></h3>

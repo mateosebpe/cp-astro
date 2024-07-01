@@ -6,6 +6,8 @@ import Container from '../../components/Container.astro'
 import { getCollection, getEntry } from 'astro:content';
 import Pagination from '../../components/Pagination.astro';
 import SuscribeCTA from "../../components/SuscribeCTA.astro";
+import Title from "../../components/Title.astro";
+import Social from "../../components/Social.astro";
 
 
 
@@ -32,6 +34,7 @@ const { page } = Astro.props;
 
 
 let pagination = JSON.parse(JSON.stringify(page));
+const firstPost = pagination.currentPage == 1? pagination.data.shift() : null;
 ---
 
 <Layout title='La Columna del Pueblo' img='../../../public/img/columna/columna-logo.webp' description="Todas las ediciones de La Columna del Pueblo">
@@ -41,7 +44,16 @@ let pagination = JSON.parse(JSON.stringify(page));
   </a>
     
     <Container>
-       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+      {firstPost !== null? <PostCard title={firstPost.data.title}
+      edition={firstPost.data.edition}
+      picture={firstPost.data.picture}
+      date={firstPost.data.date}
+      slug={firstPost.slug}
+      collection={firstPost.collection}
+      tags={firstPost.data.tags? firstPost.data.tags : null}
+      horizontal
+></PostCard> : ''}
+       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4">
         {pagination.data.map(post =>{
             let {title : postTitle, edition: postEdition, date: postDate, picture: postPicture, tags} = post.data
             return <PostCard title={postTitle}
@@ -55,7 +67,11 @@ let pagination = JSON.parse(JSON.stringify(page));
                 </PostCard>
         })       
         }
-       </div>
+        {firstPost !== null? <div class="shadow bg-gray-300 basis-1/3 flex flex-col justify-center items-center p-4">
+          <Title>Nuestras redes</Title>
+          <Social></Social>
+          </div>: ''}
+       </div> 
             <Pagination currentPage={pagination.currentPage} nextPage={pagination.url.next} prevPage={pagination.url.prev} lastPage={pagination.lastPage}></Pagination>
     </Container>
 </Layout>

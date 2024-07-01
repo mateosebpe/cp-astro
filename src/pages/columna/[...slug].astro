@@ -9,17 +9,16 @@ import Title from '../../components/Title.astro';
 import SuscribeCTA from '../../components/SuscribeCTA.astro';
 
 
+
 export async function getStaticPaths() {
   const blogEntries = await getCollection('columna');
   return blogEntries.map(entry => ({
     params: { slug: entry.slug }, props: { entry },
   }));
 }
-// 2. For your template, you can get the entry directly from the prop
 const { entry } = Astro.props;
 const { Content } = await entry.render();
 ---
-
 <Layout article title={entry.data.title} img={entry.data.picture} description={'Edición N°' + entry.data.edition + ' de La Columna del Pueblo.'} keywords={entry.data.tags? entry.data.tags : ""}>
 <article itemscope itemtype="https://schema.org/NewsArticle">
   <a class="w-full my-16 flex items-center" href="/columna">
