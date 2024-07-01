@@ -41,8 +41,6 @@ let pagination = JSON.parse(JSON.stringify(page));
   </a>
     
     <Container>
-     <SuscribeCTA></SuscribeCTA>
-
        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {pagination.data.map(post =>{
             let {title : postTitle, edition: postEdition, date: postDate, picture: postPicture, tags} = post.data
