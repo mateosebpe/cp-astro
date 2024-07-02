@@ -22,11 +22,14 @@ const { title, edition, picture, date, slug, collection, tags,  horizontal = fal
     ]}
 >
     <img class:list={[{
-        'w-full md:w-1/2': horizontal
+        'basis-1/2': horizontal
     }
     ]} src={picture} alt={"Imagen de publicación titulada " + title}  class="aspect-video overflow-hidden object-cover transition-all duration-300" loading="lazy"/>
     
-    <div class="relative p-4">
+    <div class="relative p-4" class:list={[{
+        'basis-1/2': horizontal
+    }
+    ]}>
         <div class="  absolute -top-3"
         class:list={[{
             'absolute -top-3 md:relative md:top-0': horizontal
