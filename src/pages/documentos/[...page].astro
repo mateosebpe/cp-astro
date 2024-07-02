@@ -33,9 +33,9 @@ const { page } = Astro.props;
 let pagination = JSON.parse(JSON.stringify(page));
 ---
 
-<Layout title='La Columna del Pueblo' img='../../../public/img/columna/columna-logo.webp' description="Todos los documentos de Congreso del Pueblo. Declaraciones, resoluciones, etc.">
-    <BigTitle>Documentos</BigTitle>
+<Layout title='Documentos - Congreso del Pueblo' img='../../../img/logo.png' description="Todos los documentos de Congreso del Pueblo. Declaraciones, resoluciones, etc.">
     <Container>
+        <BigTitle>Documentos</BigTitle>
         <Title>Declaraciones, resoluciones, etc.</Title>
        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {pagination.data.map(post =>{

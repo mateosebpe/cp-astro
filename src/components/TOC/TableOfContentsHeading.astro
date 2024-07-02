@@ -1,0 +1,21 @@
+---
+import Link from "../Link.astro";
+
+// TableOfContentsHeading.astro
+const { heading } = Astro.props;
+---
+
+<li itemprop="tocEntry" itemscope itemtype="https://schema.org/TableOfContents">
+  <Link  href={'#' + heading.slug}>
+    <span itemprop="name">{heading.text}</span>
+  </Link> 
+  {
+    heading.subheadings.length > 0 && (
+      <ul>
+        {heading.subheadings.map((subheading) => (
+          <Astro.self heading={subheading} />
+        ))}
+      </ul>
+    )
+  }
+</li>

@@ -1,0 +1,33 @@
+---
+import TableOfContentsHeading from "./TableOfContentsHeading.astro";
+
+// TableOfContents.astro
+const { headings } = Astro.props;
+const toc = buildToc(headings);
+
+function buildToc(headings) {
+  const toc: any = [];
+  let currentParent = { subheadings: toc };
+
+  headings.forEach((heading) => {
+    const newHeading = { ...heading, subheadings: [] };
+
+    if (heading.depth === 2) {
+      toc.push(newHeading);
+      currentParent = newHeading;
+    } else if (heading.depth === 3) {
+      currentParent.subheadings.push(newHeading);
+    }
+  });
+
+  return toc;
+}
+
+---
+
+<nav class="toc mb-4 inline-block" itemprop="hasPart" itemscope itemtype="https://schema.org/TableOfContents">
+    <h2 itemprop="name" class="text-2xl font-bold">Tabla de contenidos</h2>
+  <ul >
+    {toc.map((heading) => <TableOfContentsHeading heading={heading} />)}
+  </ul>
+</nav>
