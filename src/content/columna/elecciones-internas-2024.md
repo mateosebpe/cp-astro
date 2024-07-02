@@ -28,6 +28,6 @@ Nos esperan grandes desafíos de cara a octubre. Lo primero: no confiarse con lo
 Nuestra campaña, no puede olvidarse de una tarea impostergable: militar el plebiscito en defensa de la Seguridad Social, porque en esto se nos va el futuro. Tenemos la oportunidad histórica de mejorar las miserables jubilaciones al nivel de un salario mínimo, que aún sigue siendo baja, pero hoy están peor; tenemos la oportunidad de bajar la edad mínima jubilatoria, porque si vivimos más años, no llegamos con juvialidad para seguir trabajando, sino que merecemos descansar los últimos años de nuestra vida, después de 35 o 40 años de trabajar 8, 9 o 10hs, todos los días. Como cantaban Los Olimareños: Que acabe la caridad
 y que empiece la justicia.
 
-Congreso del Pueblo se compromete a hacer todos sus esfuerzos que están a su alcance por reconquistar el gobierno del Frente Amplio, militar incansablemente por el plebiscito de la seguridad social y defender siempre los intereses de la clase obrera y el pueblo. Que el trabajo desde el pie potencie el objetivo político por reconquistar el gobierno.
+**Congreso del Pueblo se compromete a hacer todos sus esfuerzos que están a su alcance por reconquistar el gobierno del Frente Amplio, militar incansablemente por el plebiscito de la seguridad social y defender siempre los intereses de la clase obrera y el pueblo. Que el trabajo desde el pie potencie el objetivo político por reconquistar el gobierno.**
 
 Gracias a todas y todos los que nos votaron en la lista 1808 en lo nacional y en la 1205 en Canelones.
