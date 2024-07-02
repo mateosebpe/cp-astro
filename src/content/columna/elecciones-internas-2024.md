@@ -24,6 +24,7 @@ Es sabido que nuestra organización, Congreso del Pueblo, respaldó a la compañ
 ## Rumbo a la victoria del Frente Amplio en unidad
 
 Nos esperan grandes desafíos de cara a octubre. Lo primero: no confiarse con los resultados de las Internas. En 2019 la diferencia entre el FA y el PN en las Internas fue muy grande, dándole ventaja al PN, pero hacia el balotaje de las Elecciones Nacionales la diferencia se acortó a 30 mil votos solamente. Otro desafío: lograr entusiasmar al electorado sin caer en la dilución programática. Las elecciones de 2019 demostraron que generar concesiones discursivas, programáticas o conceptuales a la derecha no conquistan al electorado de derecha, y, en todo caso, desalientan al frenteamplista; será necesario trabajar la comunicación, la pedagogía política, para convencer a los uruguayos de la justeza de nuestro Programa.
+
 Nuestra campaña, no puede olvidarse de una tarea impostergable: militar el plebiscito en defensa de la Seguridad Social, porque en esto se nos va el futuro. Tenemos la oportunidad histórica de mejorar las miserables jubilaciones al nivel de un salario mínimo, que aún sigue siendo baja, pero hoy están peor; tenemos la oportunidad de bajar la edad mínima jubilatoria, porque si vivimos más años, no llegamos con juvialidad para seguir trabajando, sino que merecemos descansar los últimos años de nuestra vida, después de 35 o 40 años de trabajar 8, 9 o 10hs, todos los días. Como cantaban Los Olimareños: Que acabe la caridad
 y que empiece la justicia.
 
