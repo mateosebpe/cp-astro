@@ -1,5 +1,5 @@
 ---
-title: "El capital financiero que pretende imponerse con la guerra y el fascismo."
+title: "El capital financiero pretende imponerse con la guerra y el fascismo."
 edition: 'Internacional'
 date: '04/07/2024'
 picture: "../../img/columna/ciudad-bombardeada-palestina.webp"
