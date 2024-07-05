@@ -7,7 +7,7 @@ interface Props {
 }
 
 const {post} = Astro.props;
-const {title, category, date} = post.data
+const {title, category, publishDate} = post.data
 ---
 
 <section class="relative flex flex-col mt-6 bg-white shadow-md bg-clip-border rounded-xl w-100" class:list={[{
@@ -21,7 +21,7 @@ const {title, category, date} = post.data
         <TitleCard>{title}</TitleCard>
       </a>
       <span class="inline-block font-sans text-base  font-light leading-relaxed">
-        {date}
+        {new Date(publishDate).toLocaleDateString()}
       </span>
       <span class="inline-block font-sans text-base text-red-600 leading-relaxed ms-2" class:list={[{
         'text-primary': category == 'Declaración',

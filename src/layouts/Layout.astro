@@ -8,6 +8,7 @@ import Footer from "../components/Footer.astro";
 	description?: string;
 	keywords?: string;
 	article?: boolean;
+	pubDate?: Date;
 }
 
 	const {
@@ -15,7 +16,8 @@ import Footer from "../components/Footer.astro";
 	img = "img/quienes-somos.webp",
 	description = "Sitio web de Congreso del Pueblo, organización marxista-leninista uruguaya.",
 	keywords = "Congreso del Pueblo, Comunismo, Frente Amplio, revolución, trabajadores",
-	article = false} = Astro.props;
+	article = false,
+	pubDate = new Date("2024-01-01")} = Astro.props;
 
 	const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
@@ -28,6 +30,7 @@ import Footer from "../components/Footer.astro";
 		<link rel="icon" type="image/png" href="/favicon.png" />
 		<link rel="sitemap" href="/sitemap-index.xml" />
 		<link rel="canonical" href={canonicalURL} />
+		<meta itemprop="datePublished" content={pubDate.toISOString()}>
 
 		<script type="application/ld+json">
 			{

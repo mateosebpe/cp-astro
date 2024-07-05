@@ -34,7 +34,7 @@ const firstPost = pagination.currentPage == 1? pagination.data.shift() : null;
       {firstPost !== null? <PostCard title={firstPost.data.title}
       edition={firstPost.data.edition}
       picture={firstPost.data.picture}
-      date={firstPost.data.date}
+      date={ new Date(firstPost.data.publishDate).toLocaleDateString()}
       slug={firstPost.slug}
       collection={firstPost.collection}
       tags={firstPost.data.tags? firstPost.data.tags : null}
@@ -46,7 +46,7 @@ const firstPost = pagination.currentPage == 1? pagination.data.shift() : null;
             return <PostCard title={postTitle}
                              edition={postEdition}
                              picture={postPicture}
-                             date={postDate}
+                             date={new Date(postDate).toLocaleDateString()}
                              slug={post.slug}
                              collection={post.collection}
                              tags={tags? tags : null}
