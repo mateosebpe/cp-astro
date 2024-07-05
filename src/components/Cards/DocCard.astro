@@ -10,7 +10,7 @@ const {post} = Astro.props;
 const {title, category, publishDate} = post.data
 ---
 
-<section class="relative flex flex-col mt-6 bg-white shadow-md bg-clip-border rounded-xl w-100" class:list={[{
+<section class="relative flex flex-col mt-6 bg-white shadow-md bg-clip-border rounded-xl w-100 shadow hover:shadow-lg" class:list={[{
   'border-solid border-2 border-primary': category == 'Declaración',
   'border-solid border-2 border-blue-900': category == 'Documento',
 }]}>

@@ -7,6 +7,7 @@ import { getCollection, getEntry } from 'astro:content';
 import Pagination from '../../components/Pagination.astro';
 import Title from "../../components/Title.astro";
 import Social from "../../components/Social.astro";
+import ButtonGroup from "../../components/ButtonGroup.astro";
 
 
 export const getStaticPaths = (async ({ paginate }) =>{
@@ -26,11 +27,22 @@ const firstPost = pagination.currentPage == 1? pagination.data.shift() : null;
 
 <Layout title='La Columna del Pueblo' img='../../../public/img/columna/columna-logo.webp' description="Todas las ediciones de La Columna del Pueblo">
  
-  <a class="w-full my-16 flex items-center" href="/columna">
-    <img src="../../../img/columna/logo-negro.webp" class="mx-auto h-auto md:h-12 lg:h-16 px-4 lg:p-0" alt="Logo de La Columna del Pueblo, órgano de prensa de la Dirección Política de Congreso del Pueblo">
-  </a>
-    
-    <Container>
+ 
+  
+  <Container withoutMarginTop>
+    <a class="flex items-center justify-center p-4 my-16" href="/columna">
+      <img src="../../../img/columna/logo-negro.webp" class="w-full max-w-[800px]" alt="Logo de La Columna del Pueblo, órgano de prensa de la Dirección Política de Congreso del Pueblo">
+    </a>
+    <div class="flex justify-center">
+      <ButtonGroup buttons={[
+        {name: 'Inicio', href: '/columna'},
+        {name: 'Nacional', href: '/columna/categoria/nacional'},
+        {name: 'Internacional', href: '/columna/categoria/internacional'},
+        {name: 'Análisis', href: '/columna/categoria/analisis'},
+        {name: 'Suplemento', href: '/columna/categoria/suplemento'}]}>
+    </ButtonGroup>
+    </div>
+
       {firstPost !== null? <PostCard title={firstPost.data.title}
       edition={firstPost.data.edition}
       picture={firstPost.data.picture}
@@ -40,7 +52,7 @@ const firstPost = pagination.currentPage == 1? pagination.data.shift() : null;
       tags={firstPost.data.tags? firstPost.data.tags : null}
       horizontal
 ></PostCard> : ''}
-       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4">
+       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
         {pagination.data.map(post =>{
             let {title : postTitle, edition: postEdition, publishDate: postDate, picture: postPicture, tags} = post.data
             return <PostCard title={postTitle}

@@ -1,0 +1,73 @@
+---
+import type { GetStaticPaths } from "astro";
+import Layout from '../../../layouts/Layout.astro'
+import PostCard from '../../../components/Cards/PostCard.astro';
+import Container from '../../../components/Container.astro'
+import { getCollection, getEntry } from 'astro:content';
+import Pagination from '../../../components/Pagination.astro';
+import Title from "../../../components/Title.astro";
+import Social from "../../../components/Social.astro";
+import ButtonGroup from "../../../components/ButtonGroup.astro";
+
+
+export async function getStaticPaths() {
+  // Obtener todas las publicaciones
+  const allPosts = await getCollection('columna');
+
+  // Obtener una lista única de categorías
+  const categories = [...new Set(allPosts.map(post => post.data.edition.toLocaleLowerCase()))];
+
+  // Generar rutas para cada categoría
+  return categories.map(category => ({
+    params: { category }
+  }));
+}
+
+// Obtener la categoría de la URL
+const { category } = Astro.params;
+
+// Obtener la colección completa de artículos
+const allPosts = await getCollection('columna');
+
+// Filtrar la colección por la categoría especificada en la URL
+const filteredPosts = allPosts.filter(post => post.data.edition.toLocaleLowerCase() === category.toLocaleLowerCase());
+
+---
+
+<Layout title={'La Columna del Pueblo: ' + category} img='../../../public/img/columna/columna-logo.webp' description="Todas las ediciones de La Columna del Pueblo">
+ 
+    <Container withoutMarginTop>
+        <a class="flex items-center justify-center p-4 my-16" href="/columna">
+          <img src="../../../img/columna/logo-negro.webp" class="w-full max-w-[800px]" alt="Logo de La Columna del Pueblo, órgano de prensa de la Dirección Política de Congreso del Pueblo">
+        </a>
+        <div class="flex justify-center">
+          <ButtonGroup buttons={[
+            {name: 'Inicio', href: '/columna'},
+            {name: 'Nacional', href: '/columna/categoria/nacional'},
+            {name: 'Internacional', href: '/columna/categoria/internacional'},
+            {name: 'Análisis', href: '/columna/categoria/analisis'},
+            {name: 'Suplemento', href: '/columna/categoria/suplemento'}]}>
+        </ButtonGroup>
+        </div>
+
+       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4">
+        {filteredPosts.map(post =>{
+            let {title : postTitle, edition: postEdition, publishDate: postDate, picture: postPicture, tags} = post.data
+            return <PostCard title={postTitle}
+                             edition={postEdition}
+                             picture={postPicture}
+                             date={new Date(postDate).toLocaleDateString()}
+                             slug={post.slug}
+                             collection={post.collection}
+                             tags={tags? tags : undefined}
+                    >
+                </PostCard>
+        })       
+        }
+        {filteredPosts !== null? <div class="shadow bg-gray-300 basis-1/3 flex flex-col justify-center items-center p-4">
+          <Title>Nuestras redes</Title>
+          <Social></Social>
+          </div>: ''}
+       </div> 
+    </Container>
+</Layout>

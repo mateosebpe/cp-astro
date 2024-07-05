@@ -1,7 +1,13 @@
 ---
-
+interface Props {
+    withoutMarginTop?: boolean;
+}
+const {withoutMarginTop = false} = Astro.props;
 ---
-
-<div class="my-32 lg:px-64 md:px-32 px-4">
+<section class="lg:px-64 md:px-32 px-4"
+class:list={[{
+    'mt-0 mb-32': withoutMarginTop,
+    'my-32 md:my-44': !withoutMarginTop
+}]}>
 <slot/>
-</div>
+</section>
