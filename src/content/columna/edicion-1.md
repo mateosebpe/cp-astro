@@ -1,7 +1,7 @@
 ---
 title: "El capitalismo es barbarie"
 edition: '1'
-date: '23/10/2023'
+publishDate: 2023-10-23
 picture: "../../img/columna/1.webp"
 ---
 El mundo que pretendían que estuviera finalizado en una “democracia” liberal, se ha convulsionado en estos últimos años. Volviendo a desnudar la injusticia que constituye al capitalismo, y la única forma de financiarse: la guerra y la miseria de las mayorías. En Uruguay el ajuste económico nuevamente recae sobre los trabajadores: este gobierno nos impuso una reforma injusta, que nos hace trabajar más años, para cobrar menos. Pero los trabajadores organizados tenemos una propuesta diferente y dignificadora:

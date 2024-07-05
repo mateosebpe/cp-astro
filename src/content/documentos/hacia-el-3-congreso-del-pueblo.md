@@ -2,7 +2,7 @@
 title: Hacia el III Congreso del Pueblo, CONSTRUYAMOS IZQUIERDA
 category: Documento
 org: Propaganda de Congreso del Pueblo
-date: 16/08/2023
+publishDate: 2023-08-16
 ---
 **Si se desarrolla el III Congreso del Pueblo, convocado por el PIT-CNT y la Intersocial, con métodos apropiados, si se trabaja para la más amplia participación, las definiciones no serán un mero acto declarativo, sino otro hito en la construcción de la unidad, solidaridad y lucha de nuestro pueblo.**
 

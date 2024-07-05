@@ -1,7 +1,7 @@
 ---
 title: "Discurso de Marcelo Abdala por el Pit Cnt en el 1º de Mayo de 2024"
 edition: '14 (SUPLEMENTO)'
-date: '04/05/2024'
+publishDate: 2024-05-04
 picture: "../../img/columna/14s.webp"
 ---
 ## Habla Marcelo Abdala

@@ -1,7 +1,7 @@
 ---
 title: "El capital financiero pretende imponerse con la guerra y el fascismo."
 edition: 'Internacional'
-date: '04/07/2024'
+publishDate: 2024-07-04
 picture: "../../img/columna/ciudad-bombardeada-palestina.webp"
 tags: "Imperialismo, EEUU, Israel, Guerra, Genocidio"
 ---

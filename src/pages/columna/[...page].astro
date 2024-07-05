@@ -5,7 +5,6 @@ import PostCard from '../../components/Cards/PostCard.astro';
 import Container from '../../components/Container.astro'
 import { getCollection, getEntry } from 'astro:content';
 import Pagination from '../../components/Pagination.astro';
-import SuscribeCTA from "../../components/SuscribeCTA.astro";
 import Title from "../../components/Title.astro";
 import Social from "../../components/Social.astro";
 
@@ -14,14 +13,7 @@ export const getStaticPaths = (async ({ paginate }) =>{
 
 const allColumnPosts = await getCollection('columna');
 allColumnPosts.sort((a, b) =>{ 
-    const convertToDate = (dateString: string)=> {
-      //  Convert a "dd/MM/yyyy" string into a Date object
-      let d = dateString.split("/");
-      let dat = new Date(d[2] + '/' + d[1] + '/' + d[0]);
-      return dat.toDateString();     
-  }
-    
-    return Date.parse(convertToDate(b.data.date)) - Date.parse(convertToDate(a.data.date))
+  return b.data.publishDate.getTime() - a.data.publishDate.getTime(); // Ascending order
 });
 return paginate(allColumnPosts, { pageSize: 6 });
 }) satisfies GetStaticPaths;
@@ -54,7 +46,7 @@ const firstPost = pagination.currentPage == 1? pagination.data.shift() : null;
 ></PostCard> : ''}
        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4">
         {pagination.data.map(post =>{
-            let {title : postTitle, edition: postEdition, date: postDate, picture: postPicture, tags} = post.data
+            let {title : postTitle, edition: postEdition, publishDate: postDate, picture: postPicture, tags} = post.data
             return <PostCard title={postTitle}
                              edition={postEdition}
                              picture={postPicture}

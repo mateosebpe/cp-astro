@@ -1,7 +1,7 @@
 ---
 title: "La guerra contra Irán: ¿escenario de la Tercera Guerra Mundial?"
 edition: '13 (SUPLEMENTO)'
-date: '15/04/2024'
+publishDate: 2024-04-15
 picture: "../../img/columna/13s.webp"
 ---
 ## Conquista imperial: la “larga guerra” de Estados Unidos contra la humanidad. Militarización mundial.

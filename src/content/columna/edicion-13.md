@@ -1,7 +1,7 @@
 ---
 title: "Daniel Noboa: ofensa internacional"
 edition: '13'
-date: '9/04/2024'
+publishDate: 2024-04-09
 picture: "../../img/columna/13.webp"
 ---
 

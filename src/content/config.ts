@@ -5,9 +5,9 @@ const columna = defineCollection({
     schema: z.object({
       title: z.string(),
       edition: z.string(),
-      date: z.string(),
       picture: z.string(),
-      tags: z.string().optional()
+      tags: z.string().optional(),
+      publishDate: z.date()
     })
   });
 
@@ -17,7 +17,7 @@ const columna = defineCollection({
       title: z.string(),
       category: z.string(),
       org: z.string(),
-      date: z.string(),
+      publishDate: z.date(),
       picture: z.string().optional()
     })
   });

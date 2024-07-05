@@ -1,7 +1,7 @@
 ---
 title: "Recomponer la esperanza"
 edition: '4'
-date: '3/12/2023'
+publishDate: 2023-12-03
 picture: "../../img/columna/4.webp"
 ---
 Congreso del Pueblo realizó su segundo Encuentro, donde discutimos cómo seguir construyendo nuestra organización y cómo aportar nuestro esfuerzo a la recomposición del campo popular.

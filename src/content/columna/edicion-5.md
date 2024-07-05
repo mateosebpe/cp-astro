@@ -1,7 +1,7 @@
 ---
 title: "Como en el Pachecato"
 edition: '5'
-date: '3/01/2024'
+publishDate: 2024-01-03
 picture: "../../img/columna/5.webp"
 ---
 ## i. SUMARIO EN HUMANIDADES

@@ -1,7 +1,7 @@
 ---
 title: "Narcos y figuritas"
 edition: '2'
-date: '6/11/2023'
+publishDate: 2023-11-06
 picture: "../../img/columna/2.webp"
 ---
 ## La corrupción "multicolor"

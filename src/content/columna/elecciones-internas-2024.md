@@ -1,7 +1,7 @@
 ---
 title: "El Frente Amplio arrasó en las Elecciones Internas y Yamandú Orsi es el candidato a la Presidencia. Carolina Cosse completa la fórmula."
 edition: 'Nacional'
-date: '01/07/2024'
+publishDate: 2024-07-01
 picture: "../../img/columna/cosse-orsi-abrazados.webp"
 tags: "Elecciones Internas, Yamandú Orsi, Frente Amplio"
 ---

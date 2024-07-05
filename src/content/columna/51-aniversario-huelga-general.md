@@ -1,7 +1,7 @@
 ---
 title: "Los señoritos invocan la patria y la venden; el pueblo no la nombra siquiera, pero la compra con su sangre y la salva."
 edition: 'Nacional'
-date: '24/06/2024'
+publishDate: 2024-06-24
 picture: "../../img/columna/51-aniversario-huelga-general.webp"
 tags: "Huelga General, CNT, Clase Obrera, Dictadura, 1973"
 ---

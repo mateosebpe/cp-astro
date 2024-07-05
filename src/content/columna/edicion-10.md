@@ -1,7 +1,7 @@
 ---
 title: "Vamos a volver, pero... ¿cómo?"
 edition: '10'
-date: '26/2/2024'
+publishDate: 2024-02-26
 picture: "../../img/columna/10.webp"
 ---
 
