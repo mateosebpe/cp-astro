@@ -18,11 +18,7 @@ allColumnPosts.sort((a, b) =>{
 return paginate(allColumnPosts, { pageSize: 6 });
 }) satisfies GetStaticPaths;
 
-
-
-
 const { page } = Astro.props;
-
 
 let pagination = JSON.parse(JSON.stringify(page));
 const firstPost = pagination.currentPage == 1? pagination.data.shift() : null;
