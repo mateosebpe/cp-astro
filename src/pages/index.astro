@@ -24,11 +24,11 @@ import Title from "../components/Title.astro";
 				<div
 				class="flex flex-col md:flex-row space-x-0 space-y-1 md:space-y-0 md:space-x-2"
 			>
-				<Button style="0" href="/afiliarse">AFILIATE<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+				<Button href="/afiliarse">AFILIATE<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
 					stroke="currentColor" class="w-4 h-4">
 					<path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"></path>
 				  </svg></Button>
-				<Button style="1" href="/quienes-somos">Más información</Button>
+				<Button white outlined href="/quienes-somos">Más información</Button>
 
 				
 			</div>
@@ -78,7 +78,7 @@ import Title from "../components/Title.astro";
 			<a href="/columna"><Title>La Columna del Pueblo</Title></a>
 			<LastPost entries={'columna'} count={3}></LastPost>
 
-			<Title>Otras publicaciones</Title>
+			<Title mt>Otras publicaciones</Title>
 			<div class="flex space-x-0 md:space-x-4  md:px-0 flex-col sm:flex-col md:flex-row">
 				<div class="basis-1/2">
 					<Card
@@ -122,7 +122,7 @@ import Title from "../components/Title.astro";
 					
 				</div>
 			  </section>
-			  <Title>Documentos</Title>
+			  <Title mt>Documentos</Title>
 			  <LastPost entries={'documentos'} count={3}></LastPost>
 
 		</Container>
