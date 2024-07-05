@@ -1,13 +1,13 @@
 ---
 import type { GetStaticPaths } from "astro";
-import Layout from '../../../layouts/Layout.astro'
-import PostCard from '../../../components/Cards/PostCard.astro';
-import Container from '../../../components/Container.astro'
+import Layout from '../../layouts/Layout.astro'
+import PostCard from '../../components/Cards/PostCard.astro';
+import Container from '../../components/Container.astro'
 import { getCollection, getEntry } from 'astro:content';
-import Pagination from '../../../components/Pagination.astro';
-import Title from "../../../components/Title.astro";
-import Social from "../../../components/Social.astro";
-import ButtonGroup from "../../../components/ButtonGroup.astro";
+import Pagination from '../../components/Pagination.astro';
+import Title from "../../components/Title.astro";
+import Social from "../../components/Social.astro";
+import ButtonGroup from "../../components/ButtonGroup.astro";
 
 
 export async function getStaticPaths() {
@@ -44,10 +44,10 @@ const filteredPosts = allPosts.filter(post => post.data.edition.toLocaleLowerCas
         <div class="flex justify-center">
           <ButtonGroup buttons={[
             {name: 'Inicio', href: '/columna'},
-            {name: 'Nacional', href: '/columna/categoria/nacional'},
-            {name: 'Internacional', href: '/columna/categoria/internacional'},
-            {name: 'Análisis', href: '/columna/categoria/analisis'},
-            {name: 'Suplemento', href: '/columna/categoria/suplemento'}]}>
+            {name: 'Nacional', href: '/columna/nacional'},
+            {name: 'Internacional', href: '/columna/internacional'},
+            {name: 'Análisis', href: '/columna/analisis'},
+            {name: 'Suplemento', href: '/columna/suplemento'}]}>
         </ButtonGroup>
         </div>
 
