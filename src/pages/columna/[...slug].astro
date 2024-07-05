@@ -25,7 +25,7 @@ const { Content, headings } = await entry.render();
   <a class="w-full my-16 flex items-center" href="/columna">
     <img src="../../../img/columna/logo-negro.webp" class="mx-auto h-auto md:h-12 lg:h-16 px-4 lg:p-0" alt="Logo de La Columna del Pueblo, órgano de prensa de la Dirección Política de Congreso del Pueblo">
   </a>
-    <PostHeader header={entry.data.title} subheader={entry.data.edition} bgURL={entry.data.picture} date={entry.data.publishDate.toLocaleDateString()} collection={entry.collection} slug={entry.slug} tags={entry.data.tags? entry.data.tags : ""}>
+    <PostHeader header={entry.data.title} subheader={entry.data.edition} bgURL={entry.data.picture} date={entry.data.publishDate.toISOString()} collection={entry.collection} slug={entry.slug} tags={entry.data.tags? entry.data.tags : ""}>
     </PostHeader>
     
     <PostBody title={entry.data.title}>
