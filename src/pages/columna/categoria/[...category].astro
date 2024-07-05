@@ -22,7 +22,6 @@ export async function getStaticPaths() {
     params: { category }
   }));
 }
-
 // Obtener la categoría de la URL
 const { category } = Astro.params;
 
@@ -30,7 +29,9 @@ const { category } = Astro.params;
 const allPosts = await getCollection('columna');
 
 // Filtrar la colección por la categoría especificada en la URL
-const filteredPosts = allPosts.filter(post => post.data.edition.toLocaleLowerCase() === category.toLocaleLowerCase());
+const filteredPosts = allPosts.filter(post => post.data.edition.toLocaleLowerCase() === category.toLocaleLowerCase()).sort((a, b) =>{ 
+  return b.data.publishDate.getTime() - a.data.publishDate.getTime(); // Ascending order
+});
 
 ---
 
