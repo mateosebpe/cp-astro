@@ -20,7 +20,7 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content, headings } = await entry.render();
 ---
-<Layout article title={entry.data.title} img={entry.data.picture} description={'Columna' + entry.data.edition + ': ' + entry.data.title} keywords={entry.data.tags? entry.data.tags : ""} pubDate={entry.data.publishDate}>
+<Layout article title={entry.data.title} img={entry.data.picture} description={'Columna ' + entry.data.edition + ': ' + entry.data.title} keywords={entry.data.tags? entry.data.tags : ""} pubDate={new Date(entry.data.publishDate)}>
   <article itemscope itemtype="https://schema.org/NewsArticle">
   <a class="w-full my-16 flex items-center" href="/columna">
     <img src="../../../img/columna/logo-negro.webp" class="mx-auto h-auto md:h-12 lg:h-16 px-4 lg:p-0" alt="Logo de La Columna del Pueblo, órgano de prensa de la Dirección Política de Congreso del Pueblo">
