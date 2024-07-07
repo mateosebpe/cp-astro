@@ -50,7 +50,7 @@ const filteredPosts = allPosts.filter(post => post.data.edition.toLocaleLowerCas
             {name: 'Suplemento', href: '/columna/categoria/suplemento'}]}>
         </ButtonGroup>
         </div>
-
+        <Title>{category}</Title>
        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4">
         {filteredPosts.map(post =>{
             let {title : postTitle, edition: postEdition, publishDate: postDate, picture: postPicture, tags} = post.data
