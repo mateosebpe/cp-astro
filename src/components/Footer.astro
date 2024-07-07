@@ -3,27 +3,75 @@ import Social from "./Social.astro";
 
 ---
 
-
-<footer class="bg-white rounded-lg shadow m-4">
-    <div class="w-full mx-auto max-w-screen-xl p-4 flex flex-col items-center flex-col-reverse gap-2 md:flex-row md:justify-between ">
-      <span class="text-sm text-gray-500 sm:text-center">© 2024 <a href="/" class="hover:underline">Congreso del Pueblo</a>.
-    </span>
-    
-    <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 sm:mt-0">
-        <li>
-            <a href="/quienes-somos" class="hover:underline me-4 md:me-6">Quiénes somos</a>
-            
-        </li>
-        <li>
-            <a href="/columna" class="hover:underline me-4 md:me-6">La Columna del Pueblo</a>
-        </li>
-        <li>
-            <a href="/colaborar" class="hover:underline me-4 md:me-6">Colaborar</a>
-        </li>
-        <li>
-            <a href="/afiliarse" class="hover:underline">Afiliarse</a>
-        </li>
-    </ul>
-    <Social small></Social>
+<footer class="bg-gray-100 lg:grid lg:grid-cols-3 text-center lg:text-start">
+  
+    <div class="px-4 py-16 lg:col-span-3 lg:px-64 md:px-32 px-4">
+      <div class="grid grid-cols-1 gap-8 sm:grid-cols-2">
+        <div class="col-span-1">
+          <p>
+              
+              <a href="/" class="block  text-gray-900 hover:opacity-75 flex flex-col items-center lg:items-start">
+                <img src="/img/logo.png" class="h-10  ">
+                <span class="text-xs  uppercase tracking-wide text-gray-500"> Congreso del Pueblo </span>
+            </a>
+        </p>
+  
+          <div class="mt-8 space-y-1 text-sm text-gray-700">
+            <Social small></Social>
+          </div>
+        </div>
+  
+        <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 col-span-1">
+          <div>
+            <p class="font-medium text-gray-900">Organización</p>
+  
+            <ul class="mt-6 space-y-4 text-sm">
+              <li>
+                <a href="/quienes-somos" class="text-gray-700 transition hover:opacity-75"> Quiénes somos </a>
+              </li>
+  
+              <li>
+                <a href="/documentos" class="text-gray-700 transition hover:opacity-75"> Documentos </a>
+              </li>
+  
+              <li>
+                <a href="/formacion" class="text-gray-700 transition hover:opacity-75"> Formación </a>
+              </li>
+  
+              <li>
+                <a href="/colaborar" class="text-gray-700 transition hover:opacity-75"> Colaborar </a>
+              </li>
+  
+              <li>
+                <a href="/afiliarse" class="text-gray-700 transition hover:opacity-75"> Afiliarse </a>
+              </li>
+            </ul>
+          </div>
+  
+          <div class="col-span-1 mt-8 lg:mt-0">
+            <p class="font-medium text-gray-900">Columna</p>
+  
+            <ul class="mt-6 space-y-4 text-sm">
+              <li>
+                <a href="/columna" class="text-gray-700 transition hover:opacity-75"> Inicio </a>
+              </li>
+  
+              <li>
+                <a href="/columna/categoria/nacional" class="text-gray-700 transition hover:opacity-75"> Nacional </a>
+              </li>
+  
+              <li>
+                <a href="/columna/categoria/internacional" class="text-gray-700 transition hover:opacity-75"> Internacional </a>
+              </li>
+              <li>
+                <a href="/columna/categoria/analisis" class="text-gray-700 transition hover:opacity-75"> Análisis </a>
+              </li>
+              <li>
+                <a href="/columna/categoria/suplemento" class="text-gray-700 transition hover:opacity-75"> Suplemento </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
-</footer>
+  </footer>
