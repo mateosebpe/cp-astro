@@ -40,7 +40,7 @@ import Title from "../components/Title.astro";
 			<div class="flex space-x-0 md:space-x-0  md:px-0 flex-col sm:flex-col md:flex-row">
 				<a
 				href="/afiliarse"
-				class="basis-1/4 flex justify-center bg-primary"
+				class="basis-1/2 flex justify-center bg-primary"
 			>
 				<img
 					width="350px"
@@ -50,7 +50,7 @@ import Title from "../components/Title.astro";
 			</a>
 			<a
 				href="/colaborar"
-				class="basis-1/4 flex justify-center bg-secondary"
+				class="basis-1/2 flex justify-center bg-secondary"
 			>
 				<img
 					width="350px"
@@ -58,21 +58,22 @@ import Title from "../components/Title.astro";
 					alt="Banner de la Campaña Financiera de Congreso del Pueblo"
 				/>
 			</a>
-			<a
-				href="/colaborar"
-				class="basis-1/2 flex justify-center bg-secondary"
-			>
-				<img
-					
-					src="../../img/banners/banner_1205.gif"
-					alt="Banner promocional de la lista 1205"
-				/>
-			</a>
-			</div>
+		</div>
+		
  
 				
 
 		
+		<a
+		href="/colaborar"
+		class="flex  justify-center md:mt-16 "
+	>
+		<img
+			class="shadow-lg"
+			src="../../img/banners/banner_1205.gif"
+			alt="Banner promocional de la lista 1205"
+		/>
+	</a>
 		<Container>
 			<BigTitle>Nuestra prensa</BigTitle>
 			<a href="/columna"><Title>La Columna del Pueblo</Title></a>
@@ -98,9 +99,17 @@ import Title from "../components/Title.astro";
 				</div>
 			</div>
 		</Container>
-		<Container>
-			
-		</Container>
+
+			<div class="grid grid-cols-1 md:grid-cols-4 gap-8 bg-secondary px-6 py-16 md:px-16 ">
+				<div>
+					<Title white>Videos</Title>
+					<Button href="https://www.youtube.com/@congresodelpueblo3615" outlined white>Canal de Youtube</Button>
+				</div>
+					<iframe src="https://www.youtube.com/embed?list=UUyciH6AnKFHuQJquTvcjR1w" class="w-full aspect-video"></iframe>
+					<iframe src="https://www.youtube.com/embed?list=UUyciH6AnKFHuQJquTvcjR1w&index=2" class="w-full aspect-video"></iframe>
+					<iframe src="https://www.youtube.com/embed?list=UUyciH6AnKFHuQJquTvcjR1w&index=3" class="w-full aspect-video"></iframe>
+				</div>
+			</div>
 
 		<Container>
 			<BigTitle>La organización</BigTitle>
