@@ -44,9 +44,7 @@ _«En síntesis, se puede afirmar que en la década del sesenta “…la real fu
 
 Ya en 1965, en el [Congreso del Pueblo](https://congresodelpueblo.uy/congreso-del-pueblo-1965/), se plantean como “soluciones de fondo”, un proceso escalonado de centralización del sistema de seguridad social. En una primera etapa, se crearía, para los beneficios de la vida pre-activa y activa, un Instituto de Seguridad Social, sobre la base del régimen vigente de Asignaciones Familiares que ya funcionaba como organismo tripartito. Para los beneficios de los pasivos, se unificarían las Cajas de Jubilaciones y Pensiones existentes en un solo instituto, con representación de activos y pasivos. Más a 
 
-largo plazo, se fusionarían ambos institutos, conformando un solo servicio de Seguridad 
-
-Social.
+largo plazo, se fusionarían ambos institutos, conformando un solo servicio de Seguridad Social.
 
 Este planteo avanzado no se dió, porque planteaba ser parte de la base que transformaría el sistema de raíz. Pero dos años después podremos ver un avance más sobrio.
 
