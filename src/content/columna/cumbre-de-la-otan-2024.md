@@ -3,7 +3,7 @@ title: "Cumbre de la OTAN cambia el rol de alianza para la defensa en Europa par
 edition: 'Suplemento'
 publishDate: 2024-07-18
 picture: "/img/columna/otan-2024.webp"
-tags: "Avances y retrocesos, BPS, Seguridad Social, Plebiscito, Uruguay"
+tags: "Unipolaridad, OTAN, Cumbre, EEUU"
 ---
 ## La OTAN llega al Indopacífico
 
