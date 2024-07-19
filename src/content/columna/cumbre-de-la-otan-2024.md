@@ -34,7 +34,7 @@ Hace tres años se inició la denominada Operación Militar Especial, decidida p
 
 El fascismo en Ucrania se consolidó con el golpe de Estado de 2014, que proscribió a los partidos políticos rusohablantes. Victoria J. Nuland diplomática de carrera yanqui, pero más que nada una lobista de las principales empresas armamentísticas de EEUU, entre las que se encuentra General Dynamics, Northrop Grumman, estuvo “repartiendo dulces” cuando los sucesos de la Plaza de Maidan, extralimitándose en sus atribuciones, participó personalmente en las manifestaciones que la extrema derecha escenificaba en Kiev a finales de diciembre del 2013. Junto con Geoffrey Pyatt, el embajador de Estados Unidos en Ucrania, se encargaron de seleccionar quién, entre los líderes opositores, debía tomar las riendas del gobierno. La situación se ahondó con la masacre de la [Casa de los Sindicatos](https://www.lavanguardia.com/sucesos/20140503/54407508295/hallan-36-cadaveres-en-casa-de-los-sindicatos-en-ciudad-ucraniana-de-odessa.html) el 2 de mayo de 2014, en Odesa, donde fueron quemados vivos medio centenar de manifestantes que recordaban la victoria del Ejército Rojo. 
 
-**La vieja socialdemocracia europea creada con el Plan Marshall llega a su fin.**
+## La vieja socialdemocracia europea creada con el Plan Marshall llega a su fin.
 
 Señalar el fascismo (que los mismos yanquis apoyan) para lograr la alternacia democrática de los gobiernos de centro derecha y de centro izquierda en Europa, sirve para que siempre se mantenga el statu quo de las políticas neoliberales.
 
