@@ -2,7 +2,7 @@
 title: "Ecuador, el paraíso narco de EEUU"
 edition: '7'
 publishDate: 2024-01-17
-picture: "../../img/columna/7.webp"
+picture: "/img/columna/7.webp"
 ---
 ## 1. Lo que nos dejó 2023 (Segundo trimestre)
 

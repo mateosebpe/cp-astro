@@ -2,7 +2,7 @@
 title: "Cuando el silencio grita"
 edition: 'Nacional'
 publishDate: 2024-05-21
-picture: "../../img/columna/16.webp"
+picture: "/img/columna/16.webp"
 tags: "20 de mayo, Desaparecidos, Madres y Familiares"
 ---
 ## Ellos saben dónde están

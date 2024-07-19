@@ -2,7 +2,7 @@
 title: "Balance y perspectivas"
 edition: '6'
 publishDate: 2024-01-10
-picture: "../../img/columna/6.webp"
+picture: "/img/columna/6.webp"
 ---
 
 ## i. Lo que nos dejó 2023 (Primer trimestre)

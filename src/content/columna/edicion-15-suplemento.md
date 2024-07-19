@@ -2,7 +2,7 @@
 title: "El hambre se acerca"
 edition: 'Suplemento'
 publishDate: 2024-05-13
-picture: "../../img/columna/15s.webp"
+picture: "/img/columna/15s.webp"
 ---
 **Obras escogidas en tres tomos de V.I. Lenin del C.C. del Partido Comunista de la URSS**
 

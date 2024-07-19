@@ -2,7 +2,7 @@
 title: "El capital financiero pretende imponerse con la guerra y el fascismo."
 edition: 'Internacional'
 publishDate: 2024-07-04
-picture: "../../img/columna/ciudad-bombardeada-palestina.webp"
+picture: "/img/columna/ciudad-bombardeada-palestina.webp"
 tags: "Imperialismo, EEUU, Israel, Guerra, Genocidio"
 ---
 Jorge Dimitrov secretario general de la Internacional Comunista entre 1934 y 1943 ya había denunciado en el Informe ante en VII Congreso Mundial de la Internacional Comunista, el 2 de agosto de 1935 que “los imperialistas intentan descargar todo el peso de la crisis sobre las espaldas de los trabajadores. Para esto, necesitan el fascismo”.

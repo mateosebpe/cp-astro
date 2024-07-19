@@ -2,7 +2,7 @@
 title: "“Miente, miente”... y algo quedó"
 edition: 'Nacional'
 publishDate: 2024-05-06
-picture: "../../img/columna/15.webp"
+picture: "/img/columna/15.webp"
 ---
 
 

@@ -2,7 +2,7 @@
 title: "Por la Paz en Medio Oriente, contra los planes de EEUU y la OTAN"
 edition: '14'
 publishDate: 2024-04-23
-picture: "../../img/columna/14.webp"
+picture: "/img/columna/14.webp"
 ---
 
 ## El Programa frenteamplista

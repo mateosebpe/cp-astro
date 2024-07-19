@@ -2,7 +2,7 @@
 title: "Vamos a volver, pero... ¿cómo?"
 edition: '10'
 publishDate: 2024-02-26
-picture: "../../img/columna/10.webp"
+picture: "/img/columna/10.webp"
 ---
 
 ## El balance oficial, sin mucho optimismo

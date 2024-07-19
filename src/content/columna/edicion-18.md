@@ -2,7 +2,7 @@
 title: "Congreso del Pueblo respalda a Carolina Cosse en las Elecciones Internas: integra las listas 1205 y 1808"
 edition: 'Analisis'
 publishDate: 2024-06-17
-picture: "../../img/columna/18.webp"
+picture: "/img/columna/18.webp"
 tags: "Elecciones Internas, Carolina Cosse, Frente Amplio, Congreso del Pueblo"
 ---
 

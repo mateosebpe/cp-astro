@@ -2,7 +2,7 @@
 title: "La Nakba continúa"
 edition: 'Suplemento'
 publishDate: 2024-07-11
-picture: "../../img/columna/palestina-destruida.webp"
+picture: "/img/columna/palestina-destruida.webp"
 tags: "Palestina, Franja de Gaza, Israel, Genocidio"
 ---
 **Escrito por Jasem Yafa**

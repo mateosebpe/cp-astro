@@ -2,7 +2,7 @@
 title: "Daniel Jadue, un comunista que incomoda"
 edition: 'Suplemento'
 publishDate: 2024-06-28
-picture: "../../img/columna/daniel-jadue.webp"
+picture: "/img/columna/daniel-jadue.webp"
 tags: "Chile, Daniel Jadue, Persecusión política, Comunista"
 ---
 ## La lucha por la causa palestina es una motivación ideológica para buscar su encarcelamiento e inhabilitación
