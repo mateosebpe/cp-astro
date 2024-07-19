@@ -5,25 +5,40 @@ import Header from "../components/Header.astro";
 import PostBody from "../components/PostBody.astro";
 import Layout from "../layouts/Layout.astro";
 
+import team from "../content/1205.json"
 ---
 <Layout title="Lista 1205 - Congreso del Pueblo">
     <main>
         <Header header="Lista 1205" subheader="Con el pueblo al Frente" bgURL="../../img/columna/18.webp">
-            
+            Página en construcción
         </Header>
         <Container>
-            <div class="flex flex-row grow-0 gap-4 ">
-                <div class="basis-2/3">
-                    <p>La lista 1205 pretende expresar el sentir de muchos frenteamplistas que reivindicamos el Frente Amplio fundacional: su carácter antiimperialista y antioligárquico. Representamos la convicción de quienes defendemos el proyecto histórico del FA: nacionalización de la banca, reforma agriaria de caracter artiguista, etc.</p>
+            <p class="text-pretty">La lista 1205 pretende expresar el sentir de muchos frenteamplistas que reivindicamos el Frente Amplio fundacional: su carácter antiimperialista y antioligárquico. Representamos la convicción de quienes defendemos el proyecto histórico del FA: nacionalización de la banca, reforma agriaria de caracter artiguista, etc.</p>
+
+            <div class="flex flex-row gap-8 items-center mt-16">
+                <div class="basis-1/2">
+                    <img src="/img/lista1205/texto.png" alt="" class="w-full">
                 </div>
-                <div class="basis-1/3">
-                    <img src="../../img/1205.png" alt="Logo de la Lista 1205 en Uruguay" class="w-full">
+                <div class="basis-1/2"> <img src="../../img/1205.png" alt="Logo de la Lista 1205 en Uruguay" class="w-full">
                 </div>
             </div>
         </Container>
+
         <Container>
             <BigTitle>Propuestas</BigTitle>
             <BigTitle>Nuestro equipo</BigTitle>
+            <div class="grid grid-cols-4 ">
+                {team.map(teammate =>{
+                    return <section>
+                        <div class="bg-gray-100">
+                            <img src={teammate.picture} alt="" class="w-full">
+                        </div>
+                        <h3>{teammate.name}</h3>
+                        <h4>{teammate.location}</h4>
+                        <h4>{teammate.ocupation}</h4>
+                    </section>
+                })}
+            </div>
             <BigTitle>¡Te llevamos tu lista!</BigTitle>
             
         </Container>
