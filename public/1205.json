@@ -2,6 +2,7 @@
 [{
     "name": "Angie",
     "location": "Canelones",
-    "ocupation": "Trabajadora de Inau",
+    "ocupation": "Edila",
+    "job": "Trabajadora de Inau",
     "picture": "/img/header.webp"
 }]

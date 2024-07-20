@@ -5,12 +5,12 @@ import Header from "../components/Header.astro";
 import PostBody from "../components/PostBody.astro";
 import Layout from "../layouts/Layout.astro";
 
-import team from "../content/1205.json"
+import team from "../../public/1205.json"
 ---
 <Layout title="Lista 1205 - Congreso del Pueblo">
     <main>
         <Header header="Lista 1205" subheader="Con el pueblo al Frente" bgURL="../../img/columna/18.webp">
-            Página en construcción
+            <span class="text-primary">Página en construcción</span>
         </Header>
         <Container>
             <p class="text-pretty">La lista 1205 pretende expresar el sentir de muchos frenteamplistas que reivindicamos el Frente Amplio fundacional: su carácter antiimperialista y antioligárquico. Representamos la convicción de quienes defendemos el proyecto histórico del FA: nacionalización de la banca, reforma agriaria de caracter artiguista, etc.</p>
@@ -30,12 +30,50 @@ import team from "../content/1205.json"
             <div class="grid grid-cols-4 ">
                 {team.map(teammate =>{
                     return <section>
-                        <div class="bg-gray-100">
-                            <img src={teammate.picture} alt="" class="w-full">
+                        <div class="flex flex-col mt-12">
+                            <!-- Avatar -->
+                            <a href="#" class="mx-auto">
+                                <img class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+                                    src={teammate.picture}>
+                            </a>
+
+                            <!-- Details -->
+                            <div class="text-center mt-6">
+                                <!-- Name -->
+                                <h1 class="text-gray-900 text-xl font-bold mb-2">
+                                    {teammate.name}
+                                </h1>
+
+                                <div class="text-gray-800 font-semibold">
+                                    {teammate.ocupation}
+                                </div>
+
+                                <!-- Title -->
+                                <div class="text-gray-700 font-light mb-2">
+                                    {teammate.job}
+                                </div>
+
+                                <!-- Social Icons -->
+                                <div class="flex items-center justify-center
+                                transition-all duration-300">
+                                    <!-- Linkedin -->
+                                    <a href="#" class="flex rounded-full hover:bg-primary h-10 w-10 text-primary hover:text-white">
+                                        <i class="mdi mdi-linkedin  mx-auto mt-2"></i>
+                                    </a>
+
+                                    <!-- Twitter -->
+                                    <a href="#" class="flex rounded-full hover:bg-primary h-10 w-10 text-primary hover:text-white">
+                                        <i class="mdi mdi-twitter  mx-auto mt-2"></i>
+                                    </a>
+
+                                    <!-- Instagram -->
+                                    <a href="#" class="flex rounded-full hover:bg-primary h-10 w-10 text-primary hover:text-white">
+                                        <i class="mdi mdi-instagram  mx-auto mt-2"></i>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                        <h3>{teammate.name}</h3>
-                        <h4>{teammate.location}</h4>
-                        <h4>{teammate.ocupation}</h4>
+                        
                     </section>
                 })}
             </div>
