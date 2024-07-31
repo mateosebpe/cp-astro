@@ -35,7 +35,7 @@ const filteredPosts = allPosts.filter(post => post.data.edition.toLocaleLowerCas
 
 ---
 
-<Layout title={'La Columna del Pueblo: ' + category} img='../../../public/img/columna/columna-logo.webp' description="Todas las ediciones de La Columna del Pueblo">
+<Layout title={category + ' - La Columna del Pueblo'} img='../../../public/img/columna/columna-logo.webp' description="Todas las ediciones de La Columna del Pueblo">
  
     <Container withoutMarginTop>
         <a class="flex items-center justify-center p-4 my-16" href="/columna">
@@ -50,7 +50,7 @@ const filteredPosts = allPosts.filter(post => post.data.edition.toLocaleLowerCas
             {name: 'Suplemento', href: '/columna/categoria/suplemento'}]}>
         </ButtonGroup>
         </div>
-        <Title>{category}</Title>
+        <Title>{category.toLocaleUpperCase()}</Title>
        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4">
         {filteredPosts.map(post =>{
             let {title : postTitle, edition: postEdition, publishDate: postDate, picture: postPicture, tags} = post.data
