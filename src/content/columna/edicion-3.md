@@ -1,6 +1,6 @@
 ---
 title: "El fascismo avanza"
-edition: '3'
+category: '3'
 publishDate: 2023-11-20
 picture: "/img/columna/3.webp"
 ---

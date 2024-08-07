@@ -1,6 +1,7 @@
 ---
 title: "La Seguridad Social uruguaya históricamente en disputa"
-edition: 'Nacional'
+metatitle: "Hacia el Plebiscito en defensa de la Seguridad Social"
+category: 'Nacional'
 publishDate: 2024-07-15
 picture: "/img/columna/pensionista-sosteniendo-cartel.webp"
 tags: "Avances y retrocesos, BPS, Seguridad Social, Plebiscito, Uruguay"

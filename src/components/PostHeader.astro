@@ -10,13 +10,15 @@ interface Props {
     collection: string;
     slug: string;
     tags?: string;
+    metatitle?: string;
 }
 
-const {header, subheader, bgURL,date, collection, slug, tags} = Astro.props;
+const {header, subheader, bgURL,date, collection, slug, tags, metatitle} = Astro.props;
 ---
 <section class="lg:px-64 md:px-32 px-4 text-gray-700 mt-16">
+    <p>{metatitle? metatitle.toLocaleUpperCase() : ''}</p>
+    <h1 itemprop="headline" class="font-bold lg:leading-snug text-gray-800 text-3xl md:text-3xl lg:text-5xl  text-pretty text-left">{header}</h1>
     
-    <h1 itemprop="headline" class="font-bold lg:leading-snug text-gray-800 text-3xl md:text-3xl lg:text-4xl  text-pretty text-left">{header}</h1>
     
     <div class="flex gap-4 justify-center mt-10 text-gray-500 flex-wrap">
         <a href=`/${collection}`>
@@ -32,8 +34,8 @@ const {header, subheader, bgURL,date, collection, slug, tags} = Astro.props;
             {tags? tags.split(",").map(tag => <span class="inline-block bg-gray-100  px-2 py-1/2 text-sm  text-gray-600 mr-2">{tag}</span>) : ''}
            </div>
     </div>
+        {bgURL? <img itemprop="image" src={bgURL} alt={"Imagen destacada del artículo" + header} class="w-full aspect-video object-cover mt-12"> : ''}
     
-    {bgURL? <img itemprop="image" src={bgURL} alt={"Imagen destacada del artículo" + header} class="w-full aspect-video object-cover mt-12"> : ''}
     
     
     <Share collection={collection} slug={slug}></Share> 

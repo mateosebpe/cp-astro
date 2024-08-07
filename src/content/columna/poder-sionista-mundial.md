@@ -1,6 +1,6 @@
 ---
 title: "El Poder Sionista Mundial corrobora el marco teórico marxista de expansión y concentración del capital"
-edition: 'Internacional'
+category: 'Internacional'
 publishDate: 2024-07-31
 picture: "/img/columna/planeta-tierra-sostenido-dolares.avif"
 tags: "Sionismo, Imperialismo, Capital, "

@@ -1,6 +1,6 @@
 ---
 title: "Recomponer la esperanza"
-edition: '4'
+category: '4'
 publishDate: 2023-12-03
 picture: "/img/columna/4.webp"
 ---

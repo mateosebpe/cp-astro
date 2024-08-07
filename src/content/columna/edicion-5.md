@@ -1,6 +1,6 @@
 ---
 title: "Como en el Pachecato"
-edition: '5'
+category: '5'
 publishDate: 2024-01-03
 picture: "/img/columna/5.webp"
 ---

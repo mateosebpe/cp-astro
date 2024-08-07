@@ -1,6 +1,6 @@
 ---
 title: "Balance y perspectivas"
-edition: '6'
+category: '6'
 publishDate: 2024-01-10
 picture: "/img/columna/6.webp"
 ---

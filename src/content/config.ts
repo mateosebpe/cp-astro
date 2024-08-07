@@ -4,10 +4,11 @@ const columna = defineCollection({
     type: 'content',
     schema: z.object({
       title: z.string(),
-      edition: z.string(),
+      category: z.string(),
       picture: z.string(),
       tags: z.string().optional(),
-      publishDate: z.date()
+      publishDate: z.date(),
+      metatitle: z.string().optional(),
     })
   });
 

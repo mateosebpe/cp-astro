@@ -1,6 +1,6 @@
 ---
 title: "Carolina Cosse y su compromiso con la clase obrera"
-edition: 'Nacional'
+category: 'Nacional'
 publishDate: 2024-06-21
 picture: "/img/columna/18s.webp"
 tags: "Carolina Cosse, Plan País, Frente Amplio, Trabajadores"

@@ -1,6 +1,7 @@
 ---
 title: "La Nakba continúa"
-edition: 'Suplemento'
+metatitle: "Israel asesinó a más de 50 mil palestinos desde el 7 de octubre"
+category: 'Suplemento'
 publishDate: 2024-07-11
 picture: "/img/columna/palestina-destruida.webp"
 tags: "Palestina, Franja de Gaza, Israel, Genocidio"

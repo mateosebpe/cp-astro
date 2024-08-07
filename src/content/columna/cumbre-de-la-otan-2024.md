@@ -1,6 +1,6 @@
 ---
 title: "Cumbre de la OTAN cambia el rol de alianza para la defensa en Europa para una organización militar y política para cercar a China."
-edition: 'Suplemento'
+category: 'Suplemento'
 publishDate: 2024-07-18
 picture: "/img/columna/otan-2024.webp"
 tags: "Unipolaridad, OTAN, Cumbre, EEUU"

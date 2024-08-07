@@ -1,6 +1,6 @@
 ---
 title: "El hambre se acerca"
-edition: 'Suplemento'
+category: 'Suplemento'
 publishDate: 2024-05-13
 picture: "/img/columna/15s.webp"
 ---

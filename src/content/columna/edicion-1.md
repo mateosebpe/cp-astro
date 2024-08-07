@@ -1,6 +1,6 @@
 ---
 title: "El capitalismo es barbarie"
-edition: '1'
+category: '1'
 publishDate: 2023-10-23
 picture: "/img/columna/1.webp"
 ---

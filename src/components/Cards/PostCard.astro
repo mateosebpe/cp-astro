@@ -3,7 +3,8 @@ import TitleCard from './TitleCard.astro';
 
 interface Props {
     title: string;
-    edition: string;
+    metatitle?: string;
+    category: string;
     picture: string;
     date: string;
     slug: string;
@@ -11,7 +12,7 @@ interface Props {
     tags?: string;
     horizontal?: boolean;
 }
-const { title, edition, picture, date, slug, collection, tags,  horizontal = false} = Astro.props;
+const { title, category, picture, date, slug, collection, metatitle,  horizontal = false} = Astro.props;
 ---
 
 <section class="rounded-lg  bg-clip-border basis-1/3 box-border hover:shadow-lg shadow">
@@ -35,9 +36,9 @@ const { title, edition, picture, date, slug, collection, tags,  horizontal = fal
             'absolute -top-3 md:relative md:top-0': horizontal
         }
         ]}>
-            {tags? tags.split(",", 1).map(tag => <span class="inline-block bg-primary rounded-full px-2  text-sm text-white mr-2 mb-2">{tag}</span>) : ''}
-            </div>
-        <h4 class="text-sm mt-2  font-bold  text-primary">{edition}</h4>
+        </div>
+        <h4 class="text-sm mt-2  font-bold  text-primary">{category}</h4>
+        <p class="mt-2">{metatitle? metatitle.toLocaleUpperCase() : ''}</p>
         <TitleCard>{title}</TitleCard>
         <h5 class="text-xs text-gray-500">{date}</h5>
     </div>

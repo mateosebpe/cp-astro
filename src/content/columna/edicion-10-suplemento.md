@@ -1,6 +1,6 @@
 ---
 title: "Mujeres comprometidas con su tiempo y con su historia"
-edition: '10 (SUPLEMENTO)'
+category: '10 (SUPLEMENTO)'
 publishDate: 2024-03-04
 picture: "/img/columna/10s.webp"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "La corrupción de los blancos pillos continúa, ¿quién sale beneficiado?"
-edition: 'Nacional'
+category: 'Nacional'
 publishDate: 2024-05-28
 picture: "/img/columna/17.webp"
 tags: "Corrupción, Coalición, Palestina, Estudiantes"

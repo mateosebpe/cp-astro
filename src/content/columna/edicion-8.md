@@ -1,6 +1,6 @@
 ---
 title: "¿Qué se define en Washington?"
-edition: '8'
+category: '8'
 publishDate: 2024-01-29
 picture: "/img/columna/8.webp"
 ---

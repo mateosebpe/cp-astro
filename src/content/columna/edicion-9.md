@@ -1,6 +1,6 @@
 ---
 title: "Contrastando el discurso yanqui"
-edition: '9'
+category: '9'
 publishDate: 2024-02-12
 picture: "/img/columna/9.webp"
 ---

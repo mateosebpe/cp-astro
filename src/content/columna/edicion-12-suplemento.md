@@ -1,6 +1,6 @@
 ---
 title: "A las juventudes"
-edition: '12 (SUPLEMENTO)'
+category: '12 (SUPLEMENTO)'
 publishDate: 2024-04-01
 picture: "/img/columna/12s.webp"
 ---

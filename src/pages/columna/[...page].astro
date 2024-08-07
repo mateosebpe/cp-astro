@@ -44,7 +44,7 @@ const firstPost = pagination.currentPage == 1? pagination.data.shift() : null;
     </div>
 
       {firstPost !== null? <PostCard title={firstPost.data.title}
-      edition={firstPost.data.edition}
+      category={firstPost.data.category}
       picture={firstPost.data.picture}
       date={ new Date(firstPost.data.publishDate).toLocaleDateString()}
       slug={firstPost.slug}
@@ -54,9 +54,10 @@ const firstPost = pagination.currentPage == 1? pagination.data.shift() : null;
 ></PostCard> : ''}
        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
         {pagination.data.map(post =>{
-            let {title : postTitle, edition: postEdition, publishDate: postDate, picture: postPicture, tags} = post.data
+            let {title : postTitle, metatitle, category: postcategory, publishDate: postDate, picture: postPicture, tags} = post.data
             return <PostCard title={postTitle}
-                             edition={postEdition}
+                      metatitle={metatitle? metatitle : ''}
+                             category={postcategory}
                              picture={postPicture}
                              date={new Date(postDate).toLocaleDateString()}
                              slug={post.slug}

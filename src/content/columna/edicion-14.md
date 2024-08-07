@@ -1,6 +1,6 @@
 ---
 title: "Por la Paz en Medio Oriente, contra los planes de EEUU y la OTAN"
-edition: '14'
+category: '14'
 publishDate: 2024-04-23
 picture: "/img/columna/14.webp"
 ---
