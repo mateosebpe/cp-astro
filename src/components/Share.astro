@@ -6,7 +6,7 @@ interface Props {
 
 const {slug, collection} = Astro.props;
 ---
-<span class="mt-6 flex justify-center mb-2">¡Comparte esta página!</span>
+<span class="mt-6 flex justify-center mb-2">¡Comparte este contenido!</span>
 <div class="sharing-buttons flex flex-wrap justify-center">
   <a class="border-2 duration-200 ease inline-flex items-center mb-1 mr-1 transition p-3 text-gray-700 hover:text-white hover:border-red-600 hover:bg-red-600" target="_blank" rel="noopener" href=`https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcongresodelpueblo.uy%2F${collection}%2F${slug}%2F` aria-label="Share on Facebook">
     <svg aria-hidden="true" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-6 h-6">
