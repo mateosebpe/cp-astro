@@ -25,7 +25,7 @@ function buildToc(headings) {
 
 ---
 
-<nav class="toc mb-4 inline-block bg-gray-100 text-gray-700 p-6" itemprop="hasPart" itemscope itemtype="https://schema.org/TableOfContents">
+<nav class="w-full toc mb-4 inline-block bg-gray-100 text-gray-700 p-6" itemprop="hasPart" itemscope itemtype="https://schema.org/TableOfContents">
     {toc.length > 1? <h2 itemprop="name" class="text-2xl font-bold">Tabla de contenidos</h2> : ''}
   <ul >
     {toc.map((heading) => <TableOfContentsHeading heading={heading} />)}
