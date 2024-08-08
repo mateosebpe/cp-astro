@@ -6,9 +6,9 @@ const { heading } = Astro.props;
 ---
 
 <li itemprop="tocEntry" itemscope itemtype="https://schema.org/TableOfContents">
-  <Link  href={'#' + heading.slug}>
+  <a  href={'#' + heading.slug}>
     <span itemprop="name">{heading.text}</span>
-  </Link> 
+  </a> 
   {
     heading.subheadings.length > 0 && (
       <ul>
