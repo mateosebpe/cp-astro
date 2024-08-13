@@ -18,7 +18,7 @@ const sortedPosts = lastPost.sort((a: any, b: any) =>{
   return b.data.publishDate.getTime() - a.data.publishDate.getTime(); // Ascending order
 }).slice(0,count);
 ---
-<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 ">
 {sortedPosts.map((p: any) => {
   
   if (entries == 'columna'){
