@@ -4,5 +4,10 @@
     "location": "Canelones",
     "ocupation": "Edila",
     "job": "Trabajadora de Inau",
-    "picture": "/img/header.webp"
+    "picture": "/img/header.webp",
+    "social": {
+        "fb": "/",
+        "tw": "/",
+        "ig": "/"
+    }
 }]

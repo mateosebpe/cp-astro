@@ -6,71 +6,37 @@ import PostBody from "../components/PostBody.astro";
 import Layout from "../layouts/Layout.astro";
 
 import team from "../../public/1205.json"
+import PersonCard from "../components/Cards/PersonCard.astro";
+import Article from "../components/Article.astro";
 ---
 <Layout title="Lista 1205 - Congreso del Pueblo">
     <main>
         <Header header="SÍ, VOTÁ PUEBLO" subheader="Lista 1205 en Montevideo y Canelones" bgURL="../../img/columna/18.webp">
-                    <img src="/img/1205.png" alt="Logo de la Lista 1205, expresión electoral de Congreso del Pueblo" class="w-1/4" slot="after-header">
+                    <img src="/img/1205.png" alt="Logo de la Lista 1205, expresión electoral de Congreso del Pueblo" class="w-1/2 md:w-1/6" slot="after-header">
         </Header>
         <Container>
             <p class="text-pretty">La lista 1205 pretende expresar el sentir de muchos frenteamplistas que reivindicamos el Frente Amplio fundacional: su carácter antiimperialista y antioligárquico. Representamos la convicción de quienes defendemos el proyecto histórico del FA: nacionalización de la banca, reforma agriaria de caracter artiguista, etc.</p>
-
-            
         </Container>
-
         <Container>
-            <BigTitle>Programa</BigTitle>
+                <div class="flex flex-col md:flex-row">
+                    
+                        <img class="rounded-full shadow-lg" src="https://pbs.twimg.com/profile_images/1823118960725794816/Tu9JC-tQ_400x400.jpg" alt="Logo de Afirma tus derechos">
+                    
+                    <div >
+                        <BigTitle>Votamos SÍ al Plebiscito en defensa de la Seguridad Social</BigTitle>
+                        <p>Congreso del Pueblo va con la lista 1205 en Montevideo y Canelones, y dentro traerá la papeleta del sí por el Plebiscito en defensa de la Seguridad Social.</p>    
+                    </div>
+                </div>
+            </Container>
+            <Container>
             <BigTitle>Nuestro equipo</BigTitle>
-            <div class="grid grid-cols-4 ">
+            <div class="grid sm:1 md:grid-cols-2 lg:grid-cols-4 ">
                 {team.map(teammate =>{
-                    return <section>
-                        <div class="flex flex-col mt-12">
-                            <!-- Avatar -->
-                            <a href="#" class="mx-auto">
-                                <img class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
-                                    src={teammate.picture}>
-                            </a>
-
-                            <!-- Details -->
-                            <div class="text-center mt-6">
-                                <!-- Name -->
-                                <h1 class="text-gray-900 text-xl font-bold mb-2">
-                                    {teammate.name}
-                                </h1>
-
-                                <div class="text-gray-800 font-semibold">
-                                    {teammate.ocupation}
-                                </div>
-
-                                <!-- Title -->
-                                <div class="text-gray-700 font-light mb-2">
-                                    {teammate.job}
-                                </div>
-
-                                <!-- Social Icons -->
-                                <div class="flex items-center justify-center
-                                transition-all duration-300">
-                                    <!-- Linkedin -->
-                                    <a href="#" class="flex rounded-full hover:bg-primary h-10 w-10 text-primary hover:text-white">
-                                        <i class="mdi mdi-linkedin  mx-auto mt-2"></i>
-                                    </a>
-
-                                    <!-- Twitter -->
-                                    <a href="#" class="flex rounded-full hover:bg-primary h-10 w-10 text-primary hover:text-white">
-                                        <i class="mdi mdi-twitter  mx-auto mt-2"></i>
-                                    </a>
-
-                                    <!-- Instagram -->
-                                    <a href="#" class="flex rounded-full hover:bg-primary h-10 w-10 text-primary hover:text-white">
-                                        <i class="mdi mdi-instagram  mx-auto mt-2"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </section>
+                    return <PersonCard name={teammate.name} ocupation={teammate.ocupation} job={teammate.job} social={teammate.social} picture={teammate.picture}></PersonCard>
                 })}
             </div>
+        </Container>
+            <Container>
             <BigTitle>¡Te llevamos tu lista!</BigTitle>
             
         </Container>

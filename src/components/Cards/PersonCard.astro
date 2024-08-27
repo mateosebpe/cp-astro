@@ -1,0 +1,59 @@
+---
+import Social from '../Social.astro';
+
+    interface Props {
+        name: string;
+        ocupation: string;
+        job: string;
+        picture: string;
+        social: any;
+    }
+    const {name, ocupation, job, picture, social} = Astro.props;
+---
+
+<section>
+    <div class="flex flex-col mt-12">
+        <!-- Avatar -->
+        <a href="#" class="mx-auto">
+            <img class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+                src={picture}>
+        </a>
+
+        <!-- Details -->
+        <div class="text-center mt-6">
+            <!-- Name -->
+            <h1 class="text-gray-900 text-xl font-bold mb-2">
+                {name}
+            </h1>
+
+            <div class="text-gray-800 font-semibold">
+                {ocupation}
+            </div>
+
+            <!-- Title -->
+            <div class="text-gray-700 font-light mb-2">
+                {job}
+            </div>
+
+            <!-- Social Icons -->
+            <div class="flex items-center justify-center
+            transition-all duration-300">
+                <!-- Linkedin -->
+                <a href={social.ig} class="flex rounded-full hover:bg-primary h-10 w-10 text-primary hover:text-white">
+                    <i class="mdi mdi-linkedin  mx-auto mt-2"></i>
+                </a>
+
+                <!-- Twitter -->
+                <a href={social.tw} class="flex rounded-full hover:bg-primary h-10 w-10 text-primary hover:text-white">
+                    <i class="mdi mdi-twitter  mx-auto mt-2"></i>
+                </a>
+
+                <!-- Instagram -->
+                <a href={social.fb} class="flex rounded-full hover:bg-primary h-10 w-10 text-primary hover:text-white">
+                    <i class="mdi mdi-instagram  mx-auto mt-2"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+</section>
