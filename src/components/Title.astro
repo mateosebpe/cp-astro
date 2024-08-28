@@ -1,14 +1,16 @@
 ---
 interface Props {
     white? : boolean;
-    mt? : boolean
+    mt? : boolean;
+    left?: boolean;
 }
 
-const {white = false, mt = false} = Astro.props;
+const {white = false, mt = false, left = false} = Astro.props;
 ---
 
-<h3 class="relative text-4xl font-semibold pt-4 pb-6 text-pretty text-gray-800 hyphens-auto text-center"
+<h3 class="relative text-4xl font-semibold pt-4 pb-6 text-pretty text-gray-800 "
 class:list={[{
     "text-white": white,
-    'mt-16': mt
+    'mt-16': mt,
+    'text-center': !left
 }]}></div><slot/></h3>

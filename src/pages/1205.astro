@@ -8,22 +8,36 @@ import Layout from "../layouts/Layout.astro";
 import team from "../../public/1205.json"
 import PersonCard from "../components/Cards/PersonCard.astro";
 import Article from "../components/Article.astro";
+import Title from "../components/Title.astro";
 ---
 <Layout title="Lista 1205 - Congreso del Pueblo">
     <main>
         <Header header="SÍ, VOTÁ PUEBLO" subheader="Lista 1205 en Montevideo y Canelones" bgURL="../../img/columna/18.webp">
                     <img src="/img/1205.png" alt="Logo de la Lista 1205, expresión electoral de Congreso del Pueblo" class="w-1/2 md:w-1/6" slot="after-header">
         </Header>
+
         <Container>
-            <p class="text-pretty">La lista 1205 pretende expresar el sentir de muchos frenteamplistas que reivindicamos el Frente Amplio fundacional: su carácter antiimperialista y antioligárquico. Representamos la convicción de quienes defendemos el proyecto histórico del FA: nacionalización de la banca, reforma agriaria de caracter artiguista, etc.</p>
+            <div class="flex flex-col-reverse lg:flex-row gap-8 items-start">
+                <div class="basis-1/2">
+                    <Title left>Levantar lo mejor de nuestra historia</Title>
+                    <p class="text-pretty">La lista 1205 pretende expresar el sentir de muchos frenteamplistas que reivindicamos el Frente Amplio fundacional: su carácter antiimperialista y antioligárquico. Representamos la convicción de quienes defendemos el proyecto histórico del FA: nacionalización de la banca, reforma agriaria de caracter artiguista, etc.</p>
+                </div>
+                <div class="basis-1/2 flex justify-center">
+                    <img src="/img/lista1205/bandera.png" class="w-1/2 md:w-full" alt="Bandera de la 1205 adaptada">
+                </div>
+            </div>
         </Container>
         <Container>
-                <div class="flex flex-col md:flex-row">
+                <div class="flex flex-col lg:flex-row gap-8 items-start">
                     
-                        <img class="rounded-full shadow-lg" src="https://pbs.twimg.com/profile_images/1823118960725794816/Tu9JC-tQ_400x400.jpg" alt="Logo de Afirma tus derechos">
-                    
-                    <div >
-                        <BigTitle>Votamos SÍ al Plebiscito en defensa de la Seguridad Social</BigTitle>
+                <div class="basis-1/2 flex justify-center">
+                    <img class="rounded-full shadow-lg w-1/2 md:w-full" src="https://pbs.twimg.com/profile_images/1823118960725794816/Tu9JC-tQ_400x400.jpg" alt="Logo de Afirma tus derechos">
+                </div>                    
+                    <div class="basis-1/2">
+                        <Title left>Votamos SÍ al Plebiscito en defensa de la Seguridad Social</Title>
+                        <p class="mb-3">
+                            El Plebiscito en defensa de la Seguridad Social es la respuesta, la defensa, de la Clase Obrera y nuestro pueblo al ajuste de la oligarquía y el imperialismo.
+                            </p>
                         <p>Congreso del Pueblo va con la lista 1205 en Montevideo y Canelones, y dentro traerá la papeleta del sí por el Plebiscito en defensa de la Seguridad Social.</p>    
                     </div>
                 </div>

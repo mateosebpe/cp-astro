@@ -22,9 +22,9 @@ import Social from '../Social.astro';
         <!-- Details -->
         <div class="text-center mt-6">
             <!-- Name -->
-            <h1 class="text-gray-900 text-xl font-bold mb-2">
+            <h3 class="text-gray-900 text-3xl font-bold mb-2">
                 {name}
-            </h1>
+            </h3>
 
             <div class="text-gray-800 font-semibold">
                 {ocupation}
@@ -38,9 +38,9 @@ import Social from '../Social.astro';
             <!-- Social Icons -->
             <div class="flex items-center justify-center
             transition-all duration-300">
-                <!-- Linkedin -->
-                <a href={social.ig} class="flex rounded-full hover:bg-primary h-10 w-10 text-primary hover:text-white">
-                    <i class="mdi mdi-linkedin  mx-auto mt-2"></i>
+                <!-- Facebook -->
+                <a href={social.fb} class="flex rounded-full hover:bg-primary h-10 w-10 text-primary hover:text-white">
+                    <i class="mdi mdi-facebook  mx-auto mt-2"></i>
                 </a>
 
                 <!-- Twitter -->
@@ -49,7 +49,7 @@ import Social from '../Social.astro';
                 </a>
 
                 <!-- Instagram -->
-                <a href={social.fb} class="flex rounded-full hover:bg-primary h-10 w-10 text-primary hover:text-white">
+                <a href={social.ig} class="flex rounded-full hover:bg-primary h-10 w-10 text-primary hover:text-white">
                     <i class="mdi mdi-instagram  mx-auto mt-2"></i>
                 </a>
             </div>
