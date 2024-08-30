@@ -44,7 +44,7 @@ const firstPost = pagination.currentPage == 1? pagination.data.shift() : null;
     </div>
 
       {firstPost !== null? <PostCard title={firstPost.data.title}
-      category={firstPost.data.category}
+      metatitle={firstPost.data.metatitle}
       picture={firstPost.data.picture}
       date={ new Date(firstPost.data.publishDate).toLocaleDateString()}
       slug={firstPost.slug}
