@@ -24,7 +24,7 @@ const sortedPosts = lastPost.sort((a: any, b: any) =>{
   if (entries == 'columna'){
   return (
 
- <PostCard title={p.data.title} metatitle={p.data.metatitle? p.data.metatitle : ''} category={p.data.category} date={p.data.publishDate.toLocaleDateString()} picture={p.data.picture} slug={p.slug} collection={p.collection} tags={p.data.tags? p.data.tags : ""} ></PostCard> 
+ <PostCard title={p.data.title} metatitle={p.data.metatitle? p.data.metatitle : ''} category={p.data.category} date={p.data.publishDate.toLocaleDateString('es-LA')} picture={p.data.picture} slug={p.slug} collection={p.collection} tags={p.data.tags? p.data.tags : ""} ></PostCard> 
  )}
   if (entries == 'documentos'){
     return (<DocCard post={p}></DocCard>)

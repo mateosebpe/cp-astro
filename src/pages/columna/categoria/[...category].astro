@@ -57,7 +57,7 @@ const filteredPosts = allPosts.filter(post => post.data.category.toLocaleLowerCa
             return <PostCard title={postTitle}
                              category={postcategory}
                              picture={postPicture}
-                             date={new Date(postDate).toLocaleDateString()}
+                             date={new Date(postDate).toLocaleDateString('es-LA')}
                              slug={post.slug}
                              collection={post.collection}
                              tags={tags? tags : undefined}

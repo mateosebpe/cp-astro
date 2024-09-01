@@ -47,7 +47,7 @@ const firstPost = pagination.currentPage == 1? pagination.data.shift() : null;
       category={firstPost.data.category}
       metatitle={firstPost.data.metatitle? firstPost.data.metatitle : ''}
       picture={firstPost.data.picture}
-      date={ new Date(firstPost.data.publishDate).toLocaleDateString()}
+      date={ new Date(firstPost.data.publishDate).toLocaleDateString('es-LA')}
       slug={firstPost.slug}
       collection={firstPost.collection}
       tags={firstPost.data.tags? firstPost.data.tags : null}
@@ -60,7 +60,7 @@ const firstPost = pagination.currentPage == 1? pagination.data.shift() : null;
                       metatitle={metatitle? metatitle : ''}
                              category={postcategory}
                              picture={postPicture}
-                             date={new Date(postDate).toLocaleDateString()}
+                             date={new Date(postDate).toLocaleDateString('es-LA')}
                              slug={post.slug}
                              collection={post.collection}
                              tags={tags? tags : null}

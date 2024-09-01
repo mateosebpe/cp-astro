@@ -21,7 +21,7 @@ const {title, category, publishDate} = post.data
         <TitleCard>{title}</TitleCard>
       </a>
       <span class="inline-block font-sans text-base  font-light leading-relaxed">
-        {new Date(publishDate).toLocaleDateString()}
+        {new Date(publishDate).toLocaleDateString('es-LA')}
       </span>
       <span class="inline-block font-sans text-base text-red-600 leading-relaxed ms-2" class:list={[{
         'text-primary': category == 'Declaración',
