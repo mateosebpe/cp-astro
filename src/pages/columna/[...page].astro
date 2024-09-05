@@ -73,6 +73,6 @@ const firstPost = pagination.currentPage == 1? pagination.data.shift() : null;
           <Social></Social>
           </div>: ''}
        </div> 
-            <Pagination currentPage={pagination.currentPage} nextPage={pagination.url.next} prevPage={pagination.url.prev} lastPage={pagination.lastPage}></Pagination>
+            <Pagination currentPage={pagination.currentPage} nextPage={pagination.url.next} prevPage={pagination.url.prev} lastPage={pagination.lastPage} collection="columna"></Pagination>
     </Container>
 </Layout>

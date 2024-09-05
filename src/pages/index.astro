@@ -15,21 +15,47 @@ import Title from "../components/Title.astro";
 <Layout title="Congreso del Pueblo - Organización política de Uruguay" img="../../img/logo.png" description="Sitio web de Congreso del Pueblo, organización marxista-leninista uruguaya.">
 	<main>
 		<Header
-			header="Congreso del Pueblo"
-			subheader="Organización marxista-leninista uruguaya, sector integrante del Frente Amplio, en la brega por recomponer el movimiento revolucionario."
+			header="Por un Frente más Amplio, más profundo"
+			subheader="Somos una organización marxista-leninista uruguaya, sector integrante del Frente Amplio, en la brega por recomponer el movimiento revolucionario."
 			bgURL="/img/header.webp"
 			anchor="center"
 		>
-			<div class="flex flex-col space-y-4">
-				<div class="flex flex-col md:flex-row space-x-0 space-y-1 md:space-y-0 md:space-x-2">
-					<Button href="/afiliarse">Sumate a CP</Button>
-					<a href="/quienes-somos" class="text-gray-300 flex items-center"><span class="mdi mdi-information-variant-circle-outline mr-1"></span>Sobre nosotros</a>
+		<div class="flex flex-col space-y-4">
+				<div class="flex flex-col gap-2 items-center my-4">
+					<a href="/afiliarse" class="transition-all hover:bg-white text-white hover:text-primary text-white bg-primary text-3xl py-1 px-3 rounded font-semibold">AFILIATE</a>
+					<a href="/quienes-somos" class="text-gray-300 flex items-center">Sobre nosotros</a>
 				</div>
+
 			
 				<Social small white></Social>
 			</div>
 			
 		</Header>
+			
+
+		
+		<Container>
+			<a href="/1205">
+				<img src="/img/banners/banner_1205.webp" class="w-full shadow-md invisible md:invisible lg:visible h-0 lg:h-auto" alt="">
+				<img src="/img/banners/banner_1205_mobile.webp" class="w-full shadow-md visible lg:hidden" alt="">
+			</a>
+		</Container>
+		
+ 
+				
+
+	
+		<Container>
+			
+			<a href="/columna"><BigTitle>La Columna del Pueblo</BigTitle></a>
+			<LastPost entries={'columna'} count={3}></LastPost>
+		</Container>
+			<Container>
+			<a href="/documentos"></a><BigTitle>Declaraciones</BigTitle></a>
+			<LastPost entries={'documentos'} count={6}></LastPost>
+		</Container>
+
+		<Container>
 			<div class="flex space-x-0 md:space-x-0  md:px-0 flex-col sm:flex-col md:flex-row">
 				<a
 				href="/afiliarse"
@@ -52,42 +78,6 @@ import Title from "../components/Title.astro";
 				/>
 			</a>
 		</div>
-
-		<Container>
-			<a href="/1205">
-				<img src="/img/banners/banner_1205.webp" class="w-full shadow-md invisible md:invisible lg:visible md:h-0 lg:h-auto" alt="">
-				<img src="/img/banners/banner_1205_mobile.webp" class="w-full shadow-md visible lg:hidden" alt="">
-			</a>
-		</Container>
-		
- 
-				
-
-	
-		<Container>
-			<BigTitle>Nuestra prensa</BigTitle>
-			<a href="/columna"><Title>La Columna del Pueblo</Title></a>
-			<LastPost entries={'columna'} count={3}></LastPost>
-
-			<Title mt>Otras publicaciones</Title>
-			<div class="flex space-x-0 md:space-x-4  md:px-0 flex-col sm:flex-col md:flex-row">
-				<div class="basis-1/2">
-					<Card
-						title="En Marcha"
-						body="Periódico"
-						href="https://prensa.congresodelpueblo.uy/"
-						class:list={"px-2"}
-					/></div>
-					
-					<div class="basis-1/2">
-						<Card
-							title="Revista"
-							body="Revista teórica"
-							href="https://revista.congresodelpueblo.uy/"
-						/>
-					</div>
-				</div>
-			</div>
 		</Container>
 
 
@@ -111,8 +101,6 @@ import Title from "../components/Title.astro";
 					
 				</div>
 			  </section>
-			  <Title mt>Documentos</Title>
-			  <LastPost entries={'documentos'} count={3}></LastPost>
 
 		</Container>
 
