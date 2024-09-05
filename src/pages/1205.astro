@@ -62,7 +62,7 @@ import Title from "../components/Title.astro";
             </Container>
             <Container>
             <BigTitle>Nuestro equipo</BigTitle>
-            <div class="grid sm:1 md:grid-cols-2 lg:grid-cols-4 ">
+            <div class="grid sm:1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                 {team.map(teammate =>{
                     return <PersonCard name={teammate.name} ocupation={teammate.ocupation} job={teammate.job} social={teammate.social} picture={teammate.picture}></PersonCard>
                 })}
