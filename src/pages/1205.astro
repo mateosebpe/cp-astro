@@ -10,11 +10,13 @@ import PersonCard from "../components/Cards/PersonCard.astro";
 import Article from "../components/Article.astro";
 import Title from "../components/Title.astro";
 ---
-<Layout title="Lista 1205 - Congreso del Pueblo" img="/img/1205.png" description="La Lista 1205 es la expresión electoral de Congreso del Pueblo Uruguay" keywords="Lista, 1205, Elecciones, Congreso del Pueblo, Política, Uruguay">
+<Layout title="Lista 1205 - Congreso del Pueblo" img="/img/banners/banner_1205_mobile.webp" description="La Lista 1205 es la expresión electoral de Congreso del Pueblo Uruguay" keywords="Lista, 1205, Elecciones, Congreso del Pueblo, Política, Uruguay">
     <main>
-        <Header header="EL PUEBLO AL FRENTE" subheader="Lista 1205 en Montevideo y Canelones" bgURL="../../img/columna/18.webp">
-                    <img src="/img/1205.png" alt="Logo de la Lista 1205, expresión electoral de Congreso del Pueblo" class="w-1/2 md:w-1/6" slot="after-header">
+        <Header horizontal header="<span class='leading-[1.15]'><span class='bg-primary'>EL PUEBLO</span> <br/><span class='bg-secondary'>AL FRENTE</span></span>" subheader="Lista 1205 en Montevideo y Canelones" bgURL="/img/columna/18.webp">
+                    <img src="/img/1205.png" alt="Logo de la Lista 1205, expresión electoral de Congreso del Pueblo" class="w-1/2 md:w-9/12" slot="before-header">
         </Header>
+
+
         <Container>
             <div class="flex flex-col-reverse lg:flex-row gap-16 lg:items-start">
                 <div class="basis-1/2">

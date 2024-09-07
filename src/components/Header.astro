@@ -1,32 +1,37 @@
 ---
 interface Props {
-    header: string,
-    subheader: string,
-    bgURL: string;
-    anchor?: string;
+  header: string;
+  subheader: string;
+  bgURL: string;
+  anchor?: string;
+  horizontal?: boolean;
 }
 
-const {header, subheader, bgURL, anchor} = Astro.props;
+const { header, subheader, bgURL, anchor = 'center', horizontal = false } = Astro.props;
 ---
 
-
-
-<section style={`background-image: url(${bgURL});`} class:list={[{
-    'bg-top': anchor == 'top',
-    'bg-center': anchor == 'center',
-    'bg-bottom': anchor == 'bottom',
-}]} class="bg-center bg-no-repeat bg-cover bg-gray-600 bg-blend-multiply ">
-    <div class="mx-auto max-w-6xl text-center py-24 lg:py-40">
-        <div class="flex flex-col space-y-4 sm:flex-row justify-center items-center sm:space-y-0 mb-12">
-          <slot name="after-header"/>
-        </div>
-        <div>
-          <h1 class="mb-4 font-black tracking-tight leading-none text-white text-5xl md:text-6xl lg:text-6xl text-balance uppercase">{header}</h1>
-        <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48 text-pretty">{subheader}</p>
-        </div>
-        <div class="flex flex-col space-y-4 sm:flex-row justify-center items-center sm:space-y-0">
-          <slot/>
-        </div>
+<section style={`background-image: url(${bgURL});`} class:list={[
+  { 'bg-top': anchor === 'top' },
+  { 'bg-center': anchor === 'center' },
+  { 'bg-bottom': anchor === 'bottom' }
+]} class="bg-no-repeat bg-cover bg-gray-600 bg-blend-multiply">
+  <div class={`mx-auto max-w-6xl py-24 lg:py-40 flex ${horizontal ? 'flex-col md:flex-row' : 'flex-col'} gap-12 items-center justify-center text-center md:text-start`}>
+    
+    <!-- Slot antes del header, condicional -->
+    <div class={`${Astro.slots['before-header'] ? 'flex-1 flex justify-center items-center' : 'hidden'} mb-4`}>
+      <slot name="before-header" />
     </div>
-</section>
 
+    <!-- Header principal y subheader -->
+    <div class="flex-1 text-white">
+      <h1 class="text-5xl md:text-6xl lg:text-7xl font-black uppercase mb-4" set:html={header}></h1>
+      <p class="text-lg lg:text-xl mb-8">{subheader}</p>
+    </div>
+
+    <!-- Slot después del header, condicional -->
+    <div class={`${Astro.slots.default ? 'flex-1 flex justify-center items-center mt-4' : 'hidden'}`}>
+      <slot />
+    </div>
+
+  </div>
+</section>
