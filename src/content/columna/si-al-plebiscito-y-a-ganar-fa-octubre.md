@@ -1,6 +1,6 @@
 ---
-title: "La postura de Congreso del Pueblo"
-metatitle: "Estamos a favor del SÍ al Plebiscito en defensa de la Seguridad Social, junto al voto por reconquistar un nuevo gobierno del Frente Amplio, por una sociedad más justa, igualitaria, libre y soberana."
+metatitle: "La postura de Congreso del Pueblo"
+title: "Estamos a favor del SÍ al Plebiscito en defensa de la Seguridad Social, junto al voto por reconquistar un nuevo gobierno del Frente Amplio, por una sociedad más justa, igualitaria, libre y soberana."
 category: 'Analisis'
 publishDate: 2024-09-10
 picture: "/img/columna/angie-vota-si.webp"
