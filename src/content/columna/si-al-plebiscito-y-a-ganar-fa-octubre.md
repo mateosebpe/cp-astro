@@ -1,11 +1,13 @@
 ---
-metatitle: "La postura de Congreso del Pueblo"
-title: "Estamos a favor del SÍ al Plebiscito en defensa de la Seguridad Social, junto al voto por reconquistar un nuevo gobierno del Frente Amplio, por una sociedad más justa, igualitaria, libre y soberana."
+title: "Sí se puede"
+metatitle: "Congreso del Pueblo dice SÍ al Plebiscito y el triunfo del Frente Amplio"
 category: 'Analisis'
 publishDate: 2024-09-10
 picture: "/img/columna/angie-vota-si.webp"
 tags: "Frente Amplio, Plebiscito, Congreso del Pueblo, AFAPS"
 ---
+**Estamos a favor del SÍ al Plebiscito en defensa de la Seguridad Social, junto al voto por reconquistar un nuevo gobierno del Frente Amplio, por una sociedad más justa, igualitaria, libre y soberana.**
+
 Faltando casi 50 días para las Elecciones Nacionales y para votar SÍ en defensa de la Seguridad Social, estamos preocupados por las vacilaciones de frenteamplistas que se oponen al Plebiscito, olvidándose de que el Frente Amplio resolvió históricamente que pague más quien gane más, que pague menos quien gane menos.
 
 Estamos viendo la fotografía de la actual correlación de fuerzas predominante en el FA, que en el marco del retroceso revolucionario de los 90 se fue consolidando, desde el punto de vista de clase, es la unidad de la burguesía para ajustar a los trabajadores, desdibujando la alianza histórica del pueblo, de carácter antiimperialista y antioligárquico.  En éste marco lo nuevo es la iniciativa política de los trabajadores y trabajadoras, llevando adelante el plebiscito contra el lucro, por una mejor jubilación, en defensa propia, poniendo al conjunto de los trabajadores y el pueblo a la ofensiva política.
