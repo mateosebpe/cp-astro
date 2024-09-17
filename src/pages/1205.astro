@@ -9,11 +9,13 @@ import team from "../../public/1205.json"
 import PersonCard from "../components/Cards/PersonCard.astro";
 import Article from "../components/Article.astro";
 import Title from "../components/Title.astro";
+
 ---
+<script type="module" src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"></script>
 <Layout title="Lista 1205 - Congreso del Pueblo" img="/img/banners/banner_1205_mobile.webp" description="La Lista 1205 es la expresión electoral de Congreso del Pueblo Uruguay" keywords="Lista, 1205, Elecciones, Congreso del Pueblo, Política, Uruguay">
     <main>
         <Header horizontal header="<span class='leading-[1.15]'><span class='bg-primary'>EL PUEBLO</span> <br/><span class='bg-secondary'>AL FRENTE</span></span>" subheader="Lista 1205 en Montevideo y Canelones" bgURL="/img/columna/18.webp">
-                    <img src="/img/1205.png" alt="Logo de la Lista 1205, expresión electoral de Congreso del Pueblo" class="w-1/2 md:w-9/12" slot="before-header">
+                <lite-youtube class="w-full min-w-96 aspect-square border border-gray-500 shadow-lg" videoid="ZTqNeQWrFLs" slot="before-header"></lite-youtube >
         </Header>
 
 
