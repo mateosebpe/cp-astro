@@ -21,9 +21,9 @@ const {header, subheader, bgURL, anchor} = Astro.props;
           <slot name="after-header"/>
         </div>
         <div>
-          <h1 class="text-gray-200 relative bottom-10">Congreso del Pueblo | Frente Amplio | Uruguay</h1>
-          <h2 class="mb-4 font-black tracking-tight leading-none text-white text-5xl md:text-6xl lg:text-6xl text-balance uppercase shadow-lg"  set:html={header}></h2>
-        <h3 class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48 text-pretty shadow-lg">{subheader}</h3>
+          <h1 class="text-gray-200 relative bottom-10 drop-shadow-md  p-2">Congreso del Pueblo | Frente Amplio | Uruguay</h1>
+          <h2 class="mb-4 font-black tracking-tight leading-none text-white text-5xl md:text-6xl lg:text-6xl text-balance uppercase drop-shadow-md"  set:html={header}></h2>
+        <h3 class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48 text-pretty drop-shadow-md">{subheader}</h3>
         </div>
         <div class="flex flex-col space-y-4 sm:flex-row justify-center items-center sm:space-y-0">
           <slot/>
