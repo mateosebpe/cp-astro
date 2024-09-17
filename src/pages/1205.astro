@@ -9,6 +9,7 @@ import team from "../../public/1205.json"
 import PersonCard from "../components/Cards/PersonCard.astro";
 import Article from "../components/Article.astro";
 import Title from "../components/Title.astro";
+import Card from "../components/Cards/Card.astro";
 
 ---
 <script type="module" src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"></script>
@@ -75,7 +76,11 @@ import Title from "../components/Title.astro";
         </Container>
             <Container>
             <BigTitle>¡Te llevamos tu lista!</BigTitle>
-                
+            <Title>Contactate</Title>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <Card title="Montevideo" body="091 846 317 (Mateo)" href="tel:+59891846317" img="/img/lista1205/mvd.svg"></Card>
+                    <Card title="Canelones" body="099 497 688 (Diego)" href="tel:+59899497688" img="/img/lista1205/cnl.svg"></Card>
+                </div>
         </Container>
     </main>
 </Layout>

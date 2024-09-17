@@ -4,7 +4,7 @@ import TitleCard from './TitleCard.astro';
 
 interface Props {
 	title: string;
-	body: string;
+	body?: string;
 	href: string;
   img?: string;
 }
@@ -13,14 +13,14 @@ const { href, title, body, img} = Astro.props;
 ---
 
 <section class="relative flex flex-col mt-6 text-gray-700 bg-white shadow hover:shadow-lg bg-clip-border rounded-xl w-100">
-  {img? <img src={img} alt="Miniatura de la tarjeta" class="w-full"> : ''}
   <a href={href}>
+    {img? <img src={img} alt="Miniatura de la tarjeta" class="w-full"> : ''}
   <div class="p-6">
         <slot/>
         <TitleCard>{title}</TitleCard>
       
       <p class="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
-        {body}
+        {body? body : ''}
       </p>
     </div>
   </a>
