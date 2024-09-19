@@ -34,24 +34,25 @@ import Social from '../Social.astro';
             <div class="text-gray-700 font-light mb-2">
                 {job}
             </div>
-
+            
+            
             <!-- Social Icons -->
             <div class="flex items-center justify-center
             transition-all duration-300">
                 <!-- Facebook -->
-                <a href={social.fb} class="flex rounded-full hover:bg-primary h-10 w-10 text-primary hover:text-white" rel="nofollow">
+                {social.fb? <a href={social.fb} class="flex rounded-full hover:bg-primary h-10 w-10 text-primary hover:text-white" rel="nofollow">
                     <i class="mdi mdi-facebook  mx-auto mt-2"></i>
-                </a>
+                </a> : ''}
 
                 <!-- Twitter -->
-                <a href={social.tw} class="flex rounded-full hover:bg-primary h-10 w-10 text-primary hover:text-white" rel="nofollow">
+                {social.tw? <a href={social.tw} class="flex rounded-full hover:bg-primary h-10 w-10 text-primary hover:text-white" rel="nofollow">
                     <i class="mdi mdi-twitter  mx-auto mt-2"></i>
-                </a>
+                </a> : ''}
 
                 <!-- Instagram -->
-                <a href={social.ig} class="flex rounded-full hover:bg-primary h-10 w-10 text-primary hover:text-white" rel="nofollow">
+                {social.ig? <a href={social.ig} class="flex rounded-full hover:bg-primary h-10 w-10 text-primary hover:text-white" rel="nofollow">
                     <i class="mdi mdi-instagram  mx-auto mt-2"></i>
-                </a>
+                </a> : ''}
             </div>
         </div>
     </div>
