@@ -17,19 +17,6 @@ import Card from "../components/Cards/Card.astro";
         <Header horizontal header="<span class='leading-[1.15]'><span class='bg-primary'>EL PUEBLO</span> <br/><span class='bg-secondary'>AL FRENTE</span></span>" subheader="Lista 1205 en Montevideo y Canelones" bgURL="/img/columna/18.webp">
                 <lite-youtube class="w-full min-w-96 aspect-square border border-gray-500 shadow-lg" posterquality="maxresdefault" videoid="ZTqNeQWrFLs" slot="before-header"></lite-youtube >
         </Header>
-
-
-        <Container>
-            <div class="flex flex-col-reverse lg:flex-row gap-16 lg:items-start">
-                <div class="basis-1/2">
-                    <Title left>Levantar lo mejor de nuestra historia</Title>
-                    <p class="text-pretty">La lista 1205 pretende expresar el sentir de muchos frenteamplistas que reivindicamos el Frente Amplio fundacional: su carácter antiimperialista y antioligárquico. Representamos la convicción de quienes defendemos el proyecto histórico del FA: nacionalización de la banca, reforma agriaria de caracter artiguista, etc.</p>
-                </div>
-                <div class="basis-1/2 flex justify-center">
-                    <img src="/img/1205.png" class="w-1/2 lg:w-full" alt="Bandera de la 1205 adaptada">
-                </div>
-            </div>
-        </Container>
         <Container>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <div class="p-6 bg-gray-100 shadow">
@@ -51,6 +38,18 @@ import Card from "../components/Cards/Card.astro";
             </div>
         </Container>
         <Container>
+            <div class="flex flex-col-reverse lg:flex-row gap-16 lg:items-start">
+                <div class="basis-1/2">
+                    <Title left>Levantar lo mejor de nuestra historia</Title>
+                    <p class="text-pretty">La lista 1205 pretende expresar el sentir de muchos frenteamplistas que reivindicamos el Frente Amplio fundacional: su carácter antiimperialista y antioligárquico. Representamos la convicción de quienes defendemos el proyecto histórico del FA: nacionalización de la banca, reforma agriaria de caracter artiguista, etc.</p>
+                </div>
+                <div class="basis-1/2 flex justify-center">
+                    <img src="/img/1205.png" class="w-1/2 lg:w-full" alt="Bandera de la 1205 adaptada">
+                </div>
+            </div>
+        </Container>
+
+        <Container>
                 <div class="flex flex-col lg:flex-row gap-16 lg:items-start">
                     
                 <div class="basis-1/2 flex justify-center">
@@ -66,7 +65,7 @@ import Card from "../components/Cards/Card.astro";
                 </div>
             </Container>
             <Container>
-            <BigTitle>Nuestro equipo</BigTitle>
+            <BigTitle>Nuestros candidatos/as</BigTitle>
             <div class="grid sm:1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                 {team.map(teammate =>{
                     return <PersonCard name={teammate.name} ocupation={teammate.ocupation} job={teammate.job} social={teammate.social} picture={teammate.picture}></PersonCard>
