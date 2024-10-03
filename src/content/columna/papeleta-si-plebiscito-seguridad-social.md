@@ -6,7 +6,7 @@ publishDate: 2024-10-02
 picture: "/img/columna/papeleta-si.plebiscito.webp"
 tags: "Seguridad Social, Plebiscito, Seguridad Social, BPS, AFAPS"
 ---
-
+## Contenido sujeto a consulta popular
 **VOTO POR SI** al proyecto de Reforma Constitucional que sustituye el artículo 67 de la Constitución de la República por el siguiente:
 Artículo 67
 
