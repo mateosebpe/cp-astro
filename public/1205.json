@@ -4,7 +4,7 @@
     "location": "Canelones",
     "ocupation": "Candidata a diputada",
     "job": "Edila y trabajadora de Inau",
-    "picture": "https://i.ytimg.com/vi/AOA7Hw3z3Vk/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARh_ICQoMjAP&rs=AOn4CLB2_8akmZhHIYRsS4e6UFMMhdTgag",
+    "picture" :"/img/lista1205/candidatas/1.webp",
     "social": {
         "fb": "",
         "tw": "",
@@ -16,7 +16,18 @@
     "location": "Montevideo",
     "ocupation": "Candidata a diputada",
     "job": "Dirigente sindical y trabajadora del Hospital de Clínicas",
-    "picture": "https://i.ytimg.com/vi/h8c0Izu0S5k/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCUnKutK9rQCKO8qo9pxVCuml0qDA",
+    "picture": "/img/lista1205/candidatas/2.webp",
+    "social": {
+        "fb": "",
+        "tw": "",
+        "ig": ""
+    },
+{
+    "name": "Esther Olivera",
+    "location": "San José",
+    "ocupation": "Candidata a diputada",
+    "job": "Dirigente sindical y trabajadora de los peajes",
+    "picture": "/img/lista1205/candidatas/3.webp",
     "social": {
         "fb": "",
         "tw": "",
