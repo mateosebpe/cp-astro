@@ -14,9 +14,25 @@ import Card from "../components/Cards/Card.astro";
 <script type="module" src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"></script>
 <Layout title="Lista 1205 - Congreso del Pueblo" img="/img/banners/banner_1205_mobile.webp" description="La Lista 1205 es la expresión electoral de Congreso del Pueblo Uruguay" keywords="Lista, 1205, Elecciones, Congreso del Pueblo, Política, Uruguay">
     <main>
-        <Header horizontal header="<span class='leading-[1.15]'><span class='bg-primary'>EL PUEBLO</span> <br/><span class='bg-secondary'>AL FRENTE</span></span>" subheader="Lista 1205 en Montevideo y Canelones" bgURL="/img/columna/18.webp">
-                <lite-youtube class="w-full min-w-96 aspect-square border border-gray-500 shadow-lg" posterquality="maxresdefault" videoid="ZTqNeQWrFLs" slot="before-header"></lite-youtube >
-        </Header>
+        <section class="pt-20 md:pt-40 bg-[url('/img/lista1205/fondo.webp')]">
+            <div class="container mx-auto px-8 lg:flex max-w-screen-xl">
+                <div class="text-center lg:text-left lg:w-1/2">
+                    <h2 class="text-6xl lg:text-8xl xl:text-8xl font-black text-white leading-none uppercase">El pueblo al frente</h2>
+                    <h1 class="text-xl lg:text-2xl mt-6 font-light text-white">La lista 1205 en Montevideo, Canelones y San José
+                    </h1>
+                    <p class="mt-8 md:mt-12">
+                        <a href="#llevamos-tu-lista"
+                            class=" py-4 px-12 bg-white shadow-lg font-bold text-xl rounded text-primary uppercase">Pedí tu lista!</a>
+                    </p>
+                    
+                </div>
+
+                <div class="lg:w-1/2 mt-12 md:mt-12">
+                    <img src="/img/lista1205/portada.webp" style="filter: drop-shadow(0px -2px 0px white);">
+                </div>
+            </div>
+        </section>
+
         <Container>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <div class="p-6 bg-gray-100 shadow">
@@ -72,6 +88,7 @@ import Card from "../components/Cards/Card.astro";
                 })}
             </div>
         </Container>
+            <div id="llevamos-tu-lista"></div>
             <Container>
             <BigTitle>¡Te llevamos tu lista!</BigTitle>
             <Title>Contactate</Title>
