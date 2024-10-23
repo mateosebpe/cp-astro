@@ -1,11 +1,14 @@
 ---
 interface Props {
     white? : boolean;
+    noMarginTop?: boolean;
 }
 
-const {white = false} = Astro.props;
+const {white = false, noMarginTop = false} = Astro.props;
 ---
 <h2 class:list={[{
     'text-white': white,
-    'text-gray-800': !white
-}]} class="text-pretty mb-6 font-extrabold tracking-tight leading-none  text-5xl md:text-5xl lg:text-6xl text-balance text-center mt-16"><slot/></h2>
+    'text-gray-800': !white,
+    'mt-16' : !noMarginTop,
+    'mt-2': noMarginTop  
+}]} class="text-pretty mb-6 font-extrabold tracking-tight leading-none  text-5xl md:text-5xl lg:text-6xl text-balance text-center"><slot/></h2>
