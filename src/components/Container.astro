@@ -1,13 +1,16 @@
 ---
 interface Props {
     withoutMarginTop?: boolean;
+    flexible?: boolean;
 }
-const {withoutMarginTop = false} = Astro.props;
+const {withoutMarginTop = false, flexible = false} = Astro.props;
 ---
-<section class="max-w-6xl md:px-32 px-4 m-auto"
+<section class="max-w-screen-xl m-auto"
 class:list={[{
     'mt-0 mb-32': withoutMarginTop,
-    'my-32 md:my-44': !withoutMarginTop
+    'my-32 md:my-44': !withoutMarginTop,
+    'md:px-32 px-4': !flexible,
+    'px-4': flexible
 }]}>
 <slot/>
 </section>

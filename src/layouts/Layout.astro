@@ -1,6 +1,7 @@
 ---
 import Navbar from "../components/Navbar.astro";
 import Footer from "../components/Footer.astro";
+import Pressnavbar from "../components/Pressnavbar.astro";
 
 	interface Props {
 	title: string;
@@ -134,7 +135,7 @@ import Footer from "../components/Footer.astro";
 </script>
 	</head>
 	<body>
-		<Navbar />
+		{!article? <Navbar />: <Pressnavbar/>}
 		<slot />
 		<Footer />
 	</body>

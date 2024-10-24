@@ -1,7 +1,7 @@
 ---
 title: "Sí se puede"
 metatitle: "Congreso del Pueblo dice SÍ al Plebiscito y al triunfo del Frente Amplio"
-category: 'Analisis'
+category: 'Editorial'
 publishDate: 2024-09-10
 picture: "/img/columna/angie-vota-si.webp"
 tags: "Frente Amplio, Plebiscito, Congreso del Pueblo, AFAPS"

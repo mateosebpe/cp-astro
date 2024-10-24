@@ -1,7 +1,7 @@
 ---
 title: "El despertar del Pueblo"
 metatitle: "Editorial del Periódico En Marcha"
-category: 'Analisis'
+category: 'Editorial'
 publishDate: 2024-10-12
 picture: "/img/columna/enmarcha-2024.webp"
 tags: "Editorial, Clase Obrera, Congreso del Pueblo"

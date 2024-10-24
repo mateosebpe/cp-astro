@@ -7,6 +7,7 @@ import LastPost from '../../components/LastPost.astro'
 import Container from '../../components/Container.astro';
 import Title from '../../components/Title.astro';
 import TableOfContents from '../../components/TOC/TableOfContents.astro';
+import Share from '../../components/Share.astro';
 
 
 
@@ -21,20 +22,17 @@ const { entry } = Astro.props;
 const { Content, headings} = await entry.render();
 ---
 <Layout article title={entry.data.metatitle? entry.data.metatitle +": "+  entry.data.title: entry.data.title} img={entry.data.picture} description={'Columna ' + entry.data.category + ': ' + entry.data.title} keywords={entry.data.tags? entry.data.tags : ""} pubDate={new Date(entry.data.publishDate)}>
-  <article itemscope itemtype="https://schema.org/NewsArticle">
-  <a class="w-4xl max-w-full my-16 flex items-center" href="/columna">
-    <img src="../../../img/columna/logo-negro.webp" class="mx-auto h-auto md:h-12 lg:h-16 px-4 lg:p-0" alt="Logo de La Columna del Pueblo, órgano de prensa de la Dirección Política de Congreso del Pueblo">
-  </a>
-    <PostHeader header={entry.data.title} subheader={entry.data.category} bgURL={entry.data.picture} date={entry.data.publishDate.toLocaleDateString('es-LA')} collection={entry.collection} slug={entry.slug} tags={entry.data.tags? entry.data.tags : ""} metatitle={entry.data.metatitle? entry.data.metatitle : ''}>
-    </PostHeader>
+  <PostHeader header={entry.data.title} subheader={entry.data.category} bgURL={entry.data.picture} date={entry.data.publishDate.toLocaleDateString('es-LA')} collection={entry.collection} slug={entry.slug} tags={entry.data.tags? entry.data.tags : ""} metatitle={entry.data.metatitle? entry.data.metatitle : ''}>
+  </PostHeader>
+  <article itemscope itemtype="https://schema.org/NewsArticle" class="mt-8">
     
     <PostBody title={entry.data.title}>
       <TableOfContents headings={headings} />
         <Content />
     </PostBody>
-
+    <div class="my-16"><Share collection={entry.collection} slug={entry.slug}></Share> </div>
     <section>
-    <Container>
+    <Container withoutMarginTop>
       <Title>Comentarios</Titulo>
         <div id="fb-root"></div>
         <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v19.0&appId=771812687817011" nonce="ESeSDpG3"></script>

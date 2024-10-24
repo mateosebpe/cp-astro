@@ -35,21 +35,10 @@ const filteredPosts = allPosts.filter(post => post.data.category.toLocaleLowerCa
 
 ---
 
-<Layout title={category + ' - La Columna del Pueblo'} img='../../../public/img/columna/columna-logo.webp' description="Todas las ediciones de La Columna del Pueblo">
+<Layout title={category + ' - En Marcha - La Columna del Pueblo'} img='../../../public/img/columna/columna-logo.webp' description="Todas las ediciones de La Columna del Pueblo" article>
  
     <Container withoutMarginTop>
-        <a class="flex items-center justify-center p-4 my-16" href="/columna">
-          <img src="../../../img/columna/logo-negro.webp" class="w-full max-w-[800px]" alt="Logo de La Columna del Pueblo, órgano de prensa de la Dirección Política de Congreso del Pueblo">
-        </a>
-        <div class="flex justify-center">
-          <ButtonGroup buttons={[
-            {name: 'Inicio', href: '/columna'},
-            {name: 'Nacional', href: '/columna/categoria/nacional'},
-            {name: 'Internacional', href: '/columna/categoria/internacional'},
-            {name: 'Análisis', href: '/columna/categoria/analisis'},
-            {name: 'Suplemento', href: '/columna/categoria/suplemento'}]}>
-        </ButtonGroup>
-        </div>
+      <div class="mt-16"></div>
         <Title>{category.toLocaleUpperCase()}</Title>
        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4">
         {filteredPosts.map(post =>{

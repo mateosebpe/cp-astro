@@ -16,7 +16,7 @@ const allColumnPosts = await getCollection('columna');
 allColumnPosts.sort((a, b) =>{ 
   return b.data.publishDate.getTime() - a.data.publishDate.getTime(); // Ascending order
 });
-return paginate(allColumnPosts, { pageSize: 6 });
+return paginate(allColumnPosts, { pageSize: 8 });
 }) satisfies GetStaticPaths;
 
 const { page } = Astro.props;
@@ -25,24 +25,9 @@ let pagination = JSON.parse(JSON.stringify(page));
 const firstPost = pagination.currentPage == 1? pagination.data.shift() : null;
 ---
 
-<Layout title='La Columna del Pueblo' img='../../../public/img/columna/columna-logo.webp' description="Todas las ediciones de La Columna del Pueblo">
- 
- 
-  
-  <Container withoutMarginTop>
-    <a class="flex items-center justify-center p-4 my-16" href="/columna">
-      <img src="../../../img/columna/logo-negro.webp" class="w-full max-w-[800px]" alt="Logo de La Columna del Pueblo, órgano de prensa de la Dirección Política de Congreso del Pueblo">
-    </a>
-    <div class="flex justify-center">
-      <ButtonGroup buttons={[
-        {name: 'Inicio', href: '/columna'},
-        {name: 'Nacional', href: '/columna/categoria/nacional'},
-        {name: 'Internacional', href: '/columna/categoria/internacional'},
-        {name: 'Análisis', href: '/columna/categoria/analisis'},
-        {name: 'Suplemento', href: '/columna/categoria/suplemento'}]}>
-    </ButtonGroup>
-    </div>
-
+<Layout title='En Marcha - La Columna del Pueblo' img='../../../public/img/columna/columna-logo.webp' description="Todas las ediciones de La Columna del Pueblo" article>
+  <Container withoutMarginTop flexible>
+    <div class="mt-16"></div>
       {firstPost !== null? <PostCard title={firstPost.data.title}
       category={firstPost.data.category}
       metatitle={firstPost.data.metatitle? firstPost.data.metatitle : ''}
@@ -53,7 +38,7 @@ const firstPost = pagination.currentPage == 1? pagination.data.shift() : null;
       tags={firstPost.data.tags? firstPost.data.tags : null}
       horizontal
 ></PostCard> : ''}
-       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
+       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-4">
         {pagination.data.map(post =>{
             let {title : postTitle, metatitle, category: postcategory, publishDate: postDate, picture: postPicture, tags} = post.data
             return <PostCard title={postTitle}
@@ -68,10 +53,7 @@ const firstPost = pagination.currentPage == 1? pagination.data.shift() : null;
                 </PostCard>
         })       
         }
-        {firstPost !== null? <div class="shadow bg-gray-300 basis-1/3 flex flex-col justify-center items-center p-4">
-          <Title>Nuestras redes</Title>
-          <Social></Social>
-          </div>: ''}
+        
        </div> 
             <Pagination currentPage={pagination.currentPage} nextPage={pagination.url.next} prevPage={pagination.url.prev} lastPage={pagination.lastPage} collection="columna"></Pagination>
     </Container>
